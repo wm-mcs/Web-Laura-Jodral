@@ -67,12 +67,6 @@
   padding:10px;
 }
 
-.img-previa-boton{
-  height: 60px;
-  width: auto;
-  margin:0 10px;
-   border-radius:100%;
-}
 
 
 
@@ -80,70 +74,8 @@
 
 
 
-/* CLASES DE TEXTO */
-
-.text-bold{
-  font-weight: bold;
-}
-.text-color-primary{
-  color: $color-3;
-}
-
-.text-color-black{
-  color: $color-negro-para-textos;
-}
-
-.helper-aumenta-texto{
-  font-size:1.2em;
-}
-
-.helper-reduce-texto{
-  font-size:0.7em;
-}
-
-.espacio-letras{
-  letter-spacing: 2px;
-  font-family: arial;
-  margin-bottom: 8px;
-}
-
-.espacio-letras-chico{
-  letter-spacing: 1px;
-  font-family: arial;
-  margin-bottom: 8px;
-}
-
-/* colores personalizados */
-.color-text-gris{
-  color: $color-gris-text;
-}
-
-/* colores personalizados */
-.color-text-white{
-  color: white;
-}
-
-/*color-texto-verde-success*/
-.color-text-success{
-  color:$color-verde-texto-success;
-}
-
-.font-primary{
-  font-family:$font-primary;
-}
-
-.font-secondary{
-  font-family:$font-secondary;
-}
 
 
-.font-size-h1{
-
-}
-
-.font-size-h2{
-
-}
 
 
 

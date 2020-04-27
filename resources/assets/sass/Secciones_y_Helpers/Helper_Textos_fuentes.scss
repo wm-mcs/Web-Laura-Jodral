@@ -1,0 +1,111 @@
+
+$font-primary:'Raleway', sans-serif ;
+$font-secondary: 'Raleway', sans-serif;
+
+
+
+
+
+
+
+
+/* CLASES DE TEXTO */
+
+.text-bold{
+  font-weight: bold;
+}
+.text-color-primary{
+  color: $color-3;
+}
+
+.text-color-black{
+  color: $color-negro-para-textos;
+}
+
+.helper-aumenta-texto{
+  font-size:1.2em;
+}
+
+.helper-reduce-texto{
+  font-size:0.7em;
+}
+
+.espacio-letras{
+  letter-spacing: 2px;
+  font-family: arial;
+  margin-bottom: 8px;
+}
+
+.espacio-letras-chico{
+  letter-spacing: 1px;
+  font-family: arial;
+  margin-bottom: 8px;
+}
+
+/* colores personalizados */
+.color-text-gris{
+  color: $color-gris-text;
+}
+
+/* colores personalizados */
+.color-text-white{
+  color: white;
+}
+
+/*color-texto-verde-success*/
+.color-text-success{
+  color:$color-verde-texto-success;
+}
+
+.font-primary{
+  font-family:$font-primary;
+}
+
+.font-secondary{
+  font-family:$font-secondary;
+}
+
+
+
+/*  S e r á n   l o s   t í t u l o s  */
+.titulos-class{
+  font-size:36px;
+  letter-spacing:-1px;
+  font-weight:bold;
+  line-height: 1;
+  font-family:$font-primary;
+}
+
+/*  S e r á n   l o s   s u b   t í t u l o s  */
+.sub-titulos-class{
+  font-size:24px;
+  letter-spacing:0.6px;
+  font-weight:bold;
+  line-height: 1;
+  font-family:$font-secondary;
+}
+
+
+/*  S e r á n   l o s   p á r r a f o s  */
+.parrafo-class{
+  font-size:16px;
+  letter-spacing:0.6px;
+  font-weight:bold;
+  line-height: 1;
+  font-family:$font-primary;
+  text-align: justify;
+}
+
+
+
+
+
+
+/* fuente sociales */
+
+@font-face {
+font-family: 'Social-Media-Circled'; /* Nombre que va a tener esa font*/
+font-style: normal;
+font-weight: normal;
+src: local('../fonts/Social-Media-Circled'), url('../fonts/Social-Media-Circled.otf') format('truetype');
+}
