@@ -5,10 +5,10 @@
 
 {{--*/ $ImagenPortada         = url() . '/imagenes/PaginasPersonalizadas/Socios/EasySocio-software-para-administrar-gimnasios-y-academias-de-bale.jpg'/*--}}
 {{--*/ $ImagenParaTaG         = url() . '/imagenes/PaginasPersonalizadas/Socios/easy-socio-el-software-para-administrar-gimnasios-academias-de-baile-institutos-de-ingles-y-mucho-más.jpg'/*--}}
-{{--*/ $Titulo                = 'EasySocio '. $Pais['Pais'] .' software para adminsitrar gimnsasios y academias de baile. ' /*--}}
+{{--*/ $Titulo                = 'Laura Jodral' /*--}}
 {{--*/ $DescriptionEtiqueta   = '' /*--}}
 {{--*/ $PalabrasClaves        = '' /*--}}
-{{--*/ $UrlDeLaPagina         = route('get_pagina_de_web_profesionales') /*--}}
+{{--*/ $UrlDeLaPagina         = route('get_home') /*--}}
 
 
 @section('favicon')
