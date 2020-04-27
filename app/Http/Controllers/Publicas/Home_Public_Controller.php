@@ -41,7 +41,7 @@ class Home_Public_Controller extends Controller
         $Trayectorias   = $this->TrayectoriaRepo->getTrayectoriaSegunTipoOrdenadas('experiencia');
         $Educacion      = $this->TrayectoriaRepo->getTrayectoriaSegunTipoOrdenadas('educacion');
 
-        return view('paginas.home.home', compact('Empresa','blogs','Trayectorias','Educacion'));
+        return view('paginas.paginas_personalizadas.laura_home', compact('Empresa','blogs','Trayectorias','Educacion'));
     }
 
 

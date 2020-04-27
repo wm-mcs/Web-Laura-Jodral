@@ -94,78 +94,25 @@
 @section('vue')
 
 
-  @include('paginas.home.vue.pais-component')
+  
   @include('paginas.home.vue.contacto-component')
   @include('paginas.home.vue.blog-list-component')
   @include('paginas.home.vue.vue-instance')
 @stop
 
 @section('header')
-<header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+	@include('paginas.paginas_personalizadas.Header.Header_principal')
+@stop
 
-      <div class="container-fluid">
-        <div class="row align-items-center justify-content-between get_width_100">
-          
-          <div class="">
-            <nav class="site-navigation position-relative text-right" role="navigation">
-              <ul class="site-menu main-menu js-clone-nav mr-auto ">
-                <li>
-                  <a  href="{{url()}}" class="nav-img">
-                    <img  v-if="scrolled > 0" :src="empresa.logo_easy_color" style="height:65px;">
-                    <img  v-else :src="empresa.logo_easy_blanco" style="height:65px;">
-                  </a>
-                </li>
-                
-                
-              </ul>
-            </nav>
-          </div>
-
-        
-
-          <div class="row align-items-center text-left">
-
-            <nav class="site-navigation position-relative" role="navigation">
-              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">               
-                <li><a href="#precios-section" class="nav-link">Precios</a></li>
-                <li><a href="#contact-section" class="nav-link">Contacto</a></li>
-                @if(!Auth::guest())
-                  <li><a href="{{route('get_datos_corporativos')}}" class="nav-link">Administrar</a></li>
-                  <li><a href="{{route('logout')}}" class="nav-link">Salir</a></li>
-                @endif
-              </ul>
-            </nav>
-
-
-            <div class="d-inline-block d-lg-none" style="position: relative; top: 3px;">
-              <a href="#" class="site-menu-toggle js-menu-toggle float-right">
-                <span class="icon-menu h3"></span>
-              </a>
-            </div>
-            <div class="row align-items-center contiene-pais-nav">
-              <paises></paises>
-            </div>
-            
-            
-              
-            
-              
-            
-
-          </div>
-
-        </div>
-      </div>
-      
-    </header>
-
+@section('footer')
+	@include('paginas.paginas_personalizadas.Footer.Footer_principal')
 @stop
 
 
-@section('contenido')
-   
 
-     <div class="site-blocks-cover overlay bg-light" id="home-section">
+@section('portada')
+
+    <div class="site-blocks-cover overlay bg-light" id="home-section">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
@@ -189,8 +136,9 @@
 
 
 
+@stop
 
-
+@section('contenido')
 
   <div  class="site-section" id="about-section">
       <div class="container">
@@ -219,7 +167,7 @@
     </div>
 
 
-     @include('paginas.paginas_personalizadas.partial_caracteristicas_paginas_web')
+    
 
      {{-- Imagen con logo para mostrar por el medio --}}
       <div class="contiene-todo-image-centrada">
@@ -233,35 +181,7 @@
 
 
 
-     <section class="site-section bg-light" id="precios-section">
-      <div class="container">
-        <div class="row">
-          
-          <div class="col-12 mb-5 position-relative">
-            <h2 class="section-title text-center mb-5">Precio</h2>
-            
-          </div>
-
-           <div class=" mb-5 mb-lg-0 get_width_100 flex-row-center flex-justifice-space-around  flex-wrap">
-            @include('paginas.home.home_precios')
-           </div>
-
-
-
-          <div class="get_width_100 flex-row-center flex-justifice-space-around">
-             <div class="Seccion_precio_aclaracion">
-                * El primer año el Hosting y mantenimiento son gratis y si tu dominio es ".com" también. A partir del segundo año deberás abonar U$S 150 (cada año) por dichos conceptos. <br>* Si quieres un dominio por ejemplo "tudominio.com.ar o tudominio.com.uy" deberás comprarlo con el respectivo proveedor, te voy a ayduar con eso. <br>* En Uruguay sería con ANTEL y ellos te van a cobrar algo así como $500 por año. 
-                <br>* Los precios no incluyen inpuestos.     
-
-                     
-             </div>
-          </div>
-           
-           
-
-        </div>
-      </div>
-    </section>
+    
 
 
 
@@ -277,20 +197,6 @@
 
     
 
-    <section v-if="blogs.length" class="site-section bg-light" id="blog-section">
-      <div class="container">
-        <div class="row">
-          
-          <div class="col-12 mb-5 position-relative">
-            <h2 class="section-title text-center mb-5">Blog</h2>
-          </div>
-
-           <blog-list-component v-for="blog in blogs" :empresa="empresa" :blog="blog" :key="blog.id" ></blog-list-component>
-
-           
-
-        </div>
-      </div>
-    </section>
+   
 
 @stop
