@@ -24,11 +24,11 @@
 
             <nav class="site-navigation position-relative" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">               
-                <li><a href="#precios-section" class="nav-link">Precios</a></li>
-                <li><a href="#contact-section" class="nav-link">Contacto</a></li>
+                <li><a href="#precios-section" class="text-uppercase">Precios</a></li>
+                <li><a href="#contact-section" class="text-uppercase">Contacto</a></li>
                 @if(!Auth::guest())
-                  <li><a href="{{route('get_datos_corporativos')}}" class="nav-link">Administrar</a></li>
-                  <li><a href="{{route('logout')}}" class="nav-link">Salir</a></li>
+                  <li><a href="{{route('get_datos_corporativos')}}" class="text-uppercase">Administrar</a></li>
+                  <li><a href="{{route('logout')}}" class="text-uppercase">Salir</a></li>
                 @endif
               </ul>
             </nav>
@@ -39,9 +39,7 @@
                 <span class="icon-menu h3"></span>
               </a>
             </div>
-            <div class="row align-items-center contiene-pais-nav">
-              <paises></paises>
-            </div>
+            
             
             
               

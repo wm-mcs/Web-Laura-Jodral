@@ -118,7 +118,7 @@
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row">
               <div class="col-lg-8">
-                <h1 v-if="se_muestra(empresa.home_titulo)" class="text-white">{{$Titulo}}</h1>
+                <h1  class="text-white">{{$Titulo}}</h1>
                
                 
                 <p><a href="#about-section" class="btn smoothscroll btn-primary"> Más información </a></p>
