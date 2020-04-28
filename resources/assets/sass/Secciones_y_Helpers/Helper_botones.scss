@@ -1,5 +1,31 @@
 
 /*---  B o t o n   b a s e  ---*/
+
+
+@mixin Boton-Normal($bk: $color-3, $color:white )
+{
+  padding: 10px 14px;  
+  border: solid 2px transparent;
+  border-radius: 4px;
+  font-size: 28px;
+  cursor:pointer;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color:$color;
+  background-color:$bk ;
+}
+@mixin Boton-Chico($bk: $color-3, $color:white )
+{
+  padding: 10px 14px;  
+  border: solid 2px transparent;
+  border-radius: 4px;
+  font-size: 28px;
+  cursor:pointer;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color:$color;
+  background-color:$bk ;
+}
 @mixin Boton-base()
 {
   padding: 10px 14px;
