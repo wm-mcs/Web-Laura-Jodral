@@ -81,6 +81,10 @@
   display:none;
 }
 
+.no-mostrar-en-mobil{
+  display:none;
+}
+
 .mostrar-solo-mobil{
 
 }
@@ -120,6 +124,10 @@
 @media (min-width: $BrackPoint-Secundario){
 .mostrar-solo-mobil{
   display: none;
+}
+
+.no-mostrar-en-mobil{
+  display:block;
 }
 
 
