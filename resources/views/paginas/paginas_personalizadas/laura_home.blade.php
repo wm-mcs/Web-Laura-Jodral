@@ -119,13 +119,14 @@
             <div class="row">
               <div class="col-lg-8">
                 <h1  class="titulos-class text-white">{{$Titulo}}</h1>
-                <h2 class="sub-titulos-class text-white"></h2>
+                <h2 class="sub-titulos-class text-white">Esto es un subtítulo para la página web</h2>
+                <p class="parrafo-class text-white"> Aquí estoy escribiendo texto de párrafo para la página web</p>
                
                 
                 <p><a href="#about-section" class="Boton-Fuente-Grande Boton-Primario-Relleno"> Más información </a></p>
                 <p><a href="#about-section" class="Boton-Fuente-Grande Boton-Primario-Sin-Relleno"> Más información </a></p>
                 <p><a href="#about-section" class="Boton-Fuente-Grande Boton-Blanco"> Más información </a></p>
-                <p><a href="#about-section" class="Boton-Fuente-Chica Boton-Blanco"> Conseguir la promo ahora de 2 meses gratis </a></p>
+                <p><a href="#about-section" class="Boton-Fuente-Chica Boton-Blanco"> Conseguir ahora la promo  de 2 meses gratis </a></p>
               </div>
             </div>
           </div>

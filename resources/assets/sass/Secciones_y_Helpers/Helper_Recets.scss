@@ -23,10 +23,13 @@ a:hover, a:focus, a>p:hover, a>p:focus{
 
  a{
   color: $color-3;
+  font-weight: bold;
  }
 
  a:hover{
-  color: $color-3-primary_hover;
+  color: $color-2;
+  font-weight: bold;
+  text-decoration: underline;
  }
 
 

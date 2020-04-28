@@ -58,6 +58,7 @@
 }
 .Boton-Primario-Relleno:hover{
   background-color: lighten( $color-3, 10% );
+  color:$color-white;
 }
 
 .Boton-Primario-Sin-Relleno{
@@ -68,6 +69,7 @@
 }
 .Boton-Primario-Sin-Relleno:hover{
   background-color: $color-3;
+  color:$color-white;
 }
 
 .Boton-Blanco{
