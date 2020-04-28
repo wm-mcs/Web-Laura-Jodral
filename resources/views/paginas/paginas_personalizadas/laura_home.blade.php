@@ -121,11 +121,11 @@
                 <h1  class="titulos-class text-white">Aprendé como tomar las riendas de tu vida</h1>
                 <h2 class="sub-titulos-class text-white">Mejorá tus conflictos emocionales, miedos, autoestima, inseguridad ..
 </h2>
-                <p class="parrafo-class text-white"> Aquí estoy escribiendo texto de párrafo para la página web</p>
+                <p class="parrafo-class text-white"> Soy Laura Jodral y estoy aquí para acompañarte en tu proceso de desarrollo personal. Si quieres saber cómo aprender a ser el dueño/a de tu vida seguí leyendo.</p>
                
                 
            
-                <p><a href="#sobre-mi" class="Boton-Fuente-Grande Boton-Chico"> Aprendé como ahora mismo <i class="fas fa-chevron-right"></i> </a></p>
+                <p><a href="#sobre-mi" class="Boton-Fuente-Chico Boton-Blanco"> Aprendé como ahora mismo <i class="fas fa-chevron-right"></i> </a></p>
               </div>
             </div>
           </div>
