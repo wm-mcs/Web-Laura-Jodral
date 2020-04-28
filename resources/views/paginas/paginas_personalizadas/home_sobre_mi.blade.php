@@ -1,7 +1,7 @@
 <div  class="site-section" id="sobre-mi">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-6 order-2 order-lg-1">
+          <div class="col-lg-6 order-2 order-lg-1 flex-column">
           <h2 class="titulos-class mb-4 ">Laura Jodral</h2>
           <p class="parrafo-class mb-5">Estoy aquí para acompañarte en tu proceso de desarrollo personal y apoyarte al atravesar momentos que te pueden resultar difíciles. Al igual que si uno se adentra en el bosque o en un lugar desconocido a oscuras le ayudaría tener una linterna a mano para orientarse, hay momentos en la vida en que gracias a esa ‘linterna’ nos ahorramos confusiones, desorientación, no saber por dónde ir, mal estar, angustia,conflictos...
 
