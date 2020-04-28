@@ -9,7 +9,8 @@
 
 
           <div>
-            <a href="#"><a href="#about-section" class="Boton-Fuente-Chica Boton-Primario-Relleno"> Conocé más ahora sobre Laura Jodral</a></a>
+           <a href="#about-section" class="Boton-Fuente-Chica Boton-Primario-Relleno"> Conocé más ahora sobre Laura Jodral <i class="fas fa-chevron-right"></i>
+           </a>
           </div>
 
          

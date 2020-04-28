@@ -1,7 +1,7 @@
 
-$font-primary:'Spartan', sans-serif;
+$font-primary:'Comic Neue', cursive;;
 $font-secondary: 'Lato', sans-serif;
-
+$font-tercery:'Spartan', sans-serif;
 
 
 
@@ -88,11 +88,29 @@ $font-secondary: 'Lato', sans-serif;
 /*  S e r á n   l o s   p á r r a f o s  */
 .parrafo-class{
   font-size:16px !important;
-  letter-spacing:1.6px;
-  
+  letter-spacing:1.6px;  
   line-height: 1;
   font-family:$font-primary;
-  text-align: justify;
+  
+}
+
+
+@media (min-width: $BrackPoint-Secundario){
+ 
+.titulos-class{
+  font-size:44px !important;
+}
+
+/*  S e r á n   l o s   s u b   t í t u l o s  */
+.sub-titulos-class{
+  font-size:28px !important; 
+}
+}
+
+@media (min-width: $BrackPoint-Tercer){
+
+
+
 }
 
 
