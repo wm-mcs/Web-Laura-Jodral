@@ -22,14 +22,14 @@ a:hover, a:focus, a>p:hover, a>p:focus{
  }
 
  a{
-  color: $color-3;
-  font-weight: bold;
+  color: $color-3 !important;
+  font-weight: bold !important;
  }
 
  a:hover{
   color: $color-2;
-  font-weight: bold;
-  text-decoration: underline;
+  font-weight: bold !important;
+  text-decoration: underline !important;
  }
 
 
