@@ -8,10 +8,10 @@
           </p>   
 
 
-          <div>
-           <a href="{{url()}}" class="Boton-Fuente-Chica Boton-Primario-Relleno"> Conocé más ahora sobre Laura Jodral <i class="fas fa-chevron-right"></i>
+         
+           <a href="{{url()}}" class="Boton-Fuente-Chica Boton-Primario-Relleno margin-botto-only-mobil"> Conocé más ahora sobre Laura Jodral <i class="fas fa-chevron-right"></i>
            </a>
-          </div>
+          
 
          
 
