@@ -1,4 +1,4 @@
-<div  class="site-section" id="about-section">
+<div  class="site-section" id="sobre-mi">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 order-2 order-lg-1">
@@ -9,7 +9,7 @@
 
 
           <div>
-           <a href="#about-section" class="Boton-Fuente-Chica Boton-Primario-Relleno"> Conocé más ahora sobre Laura Jodral <i class="fas fa-chevron-right"></i>
+           <a href="{{url()}}" class="Boton-Fuente-Chica Boton-Primario-Relleno"> Conocé más ahora sobre Laura Jodral <i class="fas fa-chevron-right"></i>
            </a>
           </div>
 

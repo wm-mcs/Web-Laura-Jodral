@@ -24,7 +24,8 @@
 
             <nav class="site-navigation position-relative" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">               
-                <li><a href="#precios-section" class="text-uppercase">Precios</a></li>
+                <li><a href="#precios-section" class="text-uppercase">Sobre Laura Jodral</a></li>
+                <li><a href="#precios-section" class="text-uppercase">Servicios</a></li>
                 <li><a href="#contact-section" class="text-uppercase">Contacto</a></li>
                 @if(!Auth::guest())
                   <li><a href="{{route('get_datos_corporativos')}}" class="text-uppercase">Administrar</a></li>

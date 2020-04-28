@@ -118,15 +118,14 @@
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row">
               <div class="col-lg-8">
-                <h1  class="titulos-class text-white">{{$Titulo}}</h1>
-                <h2 class="sub-titulos-class text-white">Esto es un subtítulo para la página web</h2>
+                <h1  class="titulos-class text-white">Aprendé como tomar las riendas de tu vida</h1>
+                <h2 class="sub-titulos-class text-white">Mejorá tus conflictos emocionales, miedos, autoestima, inseguridad ..
+</h2>
                 <p class="parrafo-class text-white"> Aquí estoy escribiendo texto de párrafo para la página web</p>
                
                 
-                <p><a href="#about-section" class="Boton-Fuente-Grande Boton-Primario-Relleno"> Más información </a></p>
-                <p><a href="#about-section" class="Boton-Fuente-Grande Boton-Primario-Sin-Relleno"> Más información </a></p>
-                <p><a href="#about-section" class="Boton-Fuente-Grande Boton-Blanco"> Más información </a></p>
-                <p><a href="#about-section" class="Boton-Fuente-Chica Boton-Blanco"> Conseguir ahora la promo  de 2 meses gratis </a></p>
+           
+                <p><a href="#sobre-mi" class="Boton-Fuente-Grande Boton-Chico"> Aprendé como ahora mismo <i class="fas fa-chevron-right"></i> </a></p>
               </div>
             </div>
           </div>
