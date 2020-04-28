@@ -117,7 +117,7 @@
         <div class="row justify-content-center">
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row">
-              <div class="col-lg-8">
+              <div class="col-lg-8 " style="max-width: 550px;">
                 <h1  class="titulos-class text-white">Aprendé como tomar las riendas de tu vida</h1>
                 <h2 class="sub-titulos-class text-white">Mejorá tus conflictos emocionales, miedos, autoestima, inseguridad ..
 </h2>
