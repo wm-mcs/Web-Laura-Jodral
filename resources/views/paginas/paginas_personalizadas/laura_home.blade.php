@@ -133,7 +133,7 @@
         </div>
       </div>
       
-       <img class="post-img-slider-size Slider_cabecer_img" style="position: absolute;top: 0;" src="{{$ImagenPortada}}" alt="Software simple de usar para gestionar tu gimnasio, centro de fitness, box de crossfit o entrenamiento funcional"> 
+       <img class="post-img-slider-size Slider_cabecer_img" style="position: absolute;top: 0;" src="{{$ImagenPortada}}" alt="Laura Jodral portada."> 
        {{-- <img class="logo-float-easy-socio-portada" :src="empresa.logo_easy_blanco" alt="Easysocio ptograma de gestion de gimasios y academias simple de usar."> --}}
        
 
@@ -145,43 +145,13 @@
 
 @section('contenido')
 
-  <div  class="site-section" id="about-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 order-2 order-lg-1">
-          <h2 class="section-title Easy-titulo-seccion ">Software en la nube</h2>
-          <p class="Easy-parrafo-seccion">
-            <strong>¿Tu objetivo es aumentar tus ventas?, ¿conseguir nuevos clientes?, ¿dar a conocer tus talentos al mundo?, ¿te gustaría convertirte en un candidato muchos más cotizado a la hora de buscar un nuevo trabajo?
-            </strong>  
-          </p>   
-
-          <p class="Easy-parrafo-seccion">Lo primero que tienes que saber es que tener un página web <strong> te va a ayudar a centralizar toda la información con respecto a ti</strong> va ser como  <strong>tu curriculum vitae pero mostrado de una forma super linda e inteligente</strong> . Podrás incluir por ejemplo <strong>todos tus datos de contacto y redes sociales, podrás contarnos quién eres y en qué eres bueno/a, vas a poder exponer toda tu experiencia como profesional</strong> . 
-          </p> 
-
-         
+  
 
 
+      @include('paginas.paginas_personalizadas.home_sobre_mi')
 
-
-          </div>
-          <div class="col-lg-6 order-3 pl-lg-5 order-lg-2">
-            <img class="img-fluid mb-4 helper-border-radius-16" src="{{url()}}/imagenes/Easysocio/Easysocio-software-para-administrar-gimnasisos-celular.png" alt="Easysocio está en la nuebe y lo puedes usar desde celulares y computadoras. Desde cualquier lugar. ">
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    
-
-     {{-- Imagen con logo para mostrar por el medio --}}
-      <div class="contiene-todo-image-centrada">
-        <img src="{{url()}}/imagenes/PaginasPersonalizadas/paginas-webs-mauricio-costanzo-responsive.jpg" class="imagen-medio-de-web">
-        <div class="sub-contiene-texto-imagen-medio">
-          <div class="contiene-texto-imagen-medio-texto">Tu pagina web será tu carta de presentación ante el mundo.  </div>
-          
-        </div>
-      </div>
+      {{-- L i b r o s --}}
+      <div class="background_img background_img_fixed img_home_primera"> </div>
 
 
 

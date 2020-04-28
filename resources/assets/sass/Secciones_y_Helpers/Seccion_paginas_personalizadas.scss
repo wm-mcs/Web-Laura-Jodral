@@ -1,0 +1,45 @@
+ 
+/* L O G O   F L O T A N T E   E N   I M A G E N E S */
+ .logo-float{
+  height: 60px;
+  position: absolute;
+  bottom: 5%;
+  right: 5%; 
+  display: block;
+}
+
+
+/* I M Á G E N E S   B A C K G R O U N D */
+.img_home_primera{
+  
+  background-image: url("../../imagenes/Home/imagen-libro-laura-jodral.jpg");
+  height: 600px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: $BrackPoint-Secundario){
+ 
+
+
+}
+
+@media (min-width: $BrackPoint-Tercer){
+
+.logo-float{
+  height: 80px;
+}
+
+}

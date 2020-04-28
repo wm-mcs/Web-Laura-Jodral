@@ -20,7 +20,7 @@
 
 
 
-/* CLASES DE TAMAÑO */
+/*  C L A S E S   D E   T A M A Ñ O  */
 .get_width_100{
   width:100%;
 }
@@ -31,41 +31,25 @@
 
 
 
-/* CLASES DE COLOR DE FONDO */
-.BackgroundPrimary{
-  background-color: $color-3; 
+/*  I M Á G E N E S  */
+
+.background_img{
+ max-height: 100vh;
+ width: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
 }
-.BackgroundGris{
-  background-color: $color-gris-background; 
+
+.background_img_fixed{
+ background-attachment: fixed; 
 }
 
 
-/* B o r d e s */
-.helper-border-top{
-  border-top:solid 1px $color-gris-lineas;
-}
-
-/* CLASES BOTONES */
-.boton-simple{
-  background-color: $color-3; 
-  color:white;
-  padding: 20px 35px;
-  border-radius: 4px;
-  font-size:30px; 
-  cursor: pointer;
-  font-weight:bold;
-  font-family: arial;
-}
-.boton-simple:hover{
-  background-color: $color-3-primary_hover; 
-} 
 
 
-.previo-boton{
-  margin-right: 10px;
-  font-size: 30px;
-  padding:10px;
-}
+
+
 
 
 
