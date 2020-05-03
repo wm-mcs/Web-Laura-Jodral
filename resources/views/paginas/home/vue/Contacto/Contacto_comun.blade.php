@@ -16,7 +16,7 @@
    
     <div class="row mb-4">
       <div class="form-group col-12">
-        <textarea v-model="data_mensaje.mensaje" cols="30" rows="4" :class="classImput" placeholder="Mensaje"></textarea>
+        <textarea v-model="data_mensaje.mensaje" cols="30" rows="2" :class="classImput" placeholder="Mensaje"></textarea>
       </div>
     </div>
 
@@ -39,12 +39,12 @@
       </div>  
 
     </div>
-    <div class="row">
+    {{-- <div class="row">
        <div class="col-md-12 text-center parrafo-class p-3 mb-4 " :class="classTextColor" >
         Te responderé en menos de 24hs
       </div>
       
-    </div>
+    </div> --}}
     
   </div>
 </div>
