@@ -8,7 +8,7 @@
           </p>   
 
           <p class="margin-botto-only-mobil">
-              <a href="{{url()}}" class="Boton-Fuente-Chica Boton-Primario-Relleno "> Conocer todos mis servicios en detalle aquí <i class="fas fa-chevron-right"></i>
+              <a href="{{route('get_pagina_servicios')}}" class="Boton-Fuente-Chica Boton-Primario-Relleno "> Conocer todos mis servicios en detalle aquí <i class="fas fa-chevron-right"></i>
            </a>
           </p>
          
