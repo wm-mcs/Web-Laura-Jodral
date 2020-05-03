@@ -1,5 +1,5 @@
-<div  class="p-5 background_img img_contacto-home container" id="contacto_home">
-  
+<div  class="p-5 background_img img_contacto-home row align-items-center justify-content-center" id="contacto_home">
+  <div class="container">
     <div class="row align-items-center justify-content-center justify-content-lg-end">
       <div class="col-lg-6">
         <div class="container">
@@ -13,5 +13,5 @@
         </contacto-component>
       </div>
     </div>
-  
+  </div>
 </div>
