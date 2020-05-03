@@ -5,10 +5,10 @@
 
 {{--*/ $ImagenPortada         = url() . '/imagenes/Portadas/laura-jodral-home-imagen-principal.jpg'/*--}}
 {{--*/ $ImagenParaTaG         = url() . '/imagenes/PaginasPersonalizadas/Socios/easy-socio-el-software-para-administrar-gimnasios-academias-de-baile-institutos-de-ingles-y-mucho-más.jpg'/*--}}
-{{--*/ $Titulo                = 'Laura Jodral' /*--}}
+{{--*/ $Titulo                = 'Servicios | Laura Jodral' /*--}}
 {{--*/ $DescriptionEtiqueta   = '' /*--}}
 {{--*/ $PalabrasClaves        = '' /*--}}
-{{--*/ $UrlDeLaPagina         = route('get_home') /*--}}
+{{--*/ $UrlDeLaPagina         = route('get_pagina_servicios') /*--}}
 
 
 @section('favicon')
@@ -120,11 +120,11 @@
               <div class="col-lg-8 " style="max-width: 550px;">
                 <h1  class="titulos-class text-white">Mis servicios</h1>
                 
-                <p class="parrafo-class text-white"> Soy Laura Jodral y estoy aquí para acompañarte en tu proceso de desarrollo personal.</p>
+                {{-- <p class="parrafo-class text-white"> Soy Laura Jodral y estoy aquí para acompañarte en tu proceso de desarrollo personal.</p>
                
                 
            
-                <p><a href="#sobre-mi" class="Boton-Fuente-Chico Boton-Blanco"> Aprendé como ahora mismo <i class="fas fa-chevron-right"></i> </a></p>
+                <p><a href="#sobre-mi" class="Boton-Fuente-Chico Boton-Blanco"> Aprendé como ahora mismo <i class="fas fa-chevron-right"></i> </a></p> --}}
               </div>
             </div>
           </div>
