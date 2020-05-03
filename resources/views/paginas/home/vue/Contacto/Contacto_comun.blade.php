@@ -26,7 +26,7 @@
         <div :class="classTextColor" v-for="error in errores">@{{error}}</div>
       </div>
 
-      <div class="col-md-6">
+      <div class="col-md-12">
         <div v-if="cargando" class="flex-column align-items-center">
           <div class="cssload-tube-tunnel" :class="classCargadorColor"></div>
         </div>
@@ -40,7 +40,7 @@
 
     </div>
     <div class="row">
-       <div class="col-md-6 text-center parrafo-class p-3 mb-4 color-text-gris" >
+       <div class="col-md-12 text-center parrafo-class p-3 mb-4 color-text-gris" >
         Te responderé en menos de 24hs
       </div>
       
