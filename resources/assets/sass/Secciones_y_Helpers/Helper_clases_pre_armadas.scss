@@ -1,3 +1,15 @@
+
+@import "resources/assets/sass/Secciones_y_Helpers/Helper_Plug-flex"; 
+@import "resources/assets/sass/Secciones_y_Helpers/Helper_mediCueris";
+@import "resources/assets/sass/Secciones_y_Helpers/Helper_AJUSTES_Y_MIXIN_GENERALES";
+@import "resources/assets/sass/Secciones_y_Helpers/Helper_botones";
+@import "resources/assets/sass/Secciones_y_Helpers/Helper_Textos_Estilos";
+@import "resources/assets/sass/Secciones_y_Helpers/Helper_Inputs_Estilos";
+@import "resources/assets/sass/Secciones_y_Helpers/Helper_Imagenes_background";
+
+
+
+
 .flex-row-center{
   @include flexbox;       
   @include flex-direction(row);
@@ -20,7 +32,7 @@
 
 
 
-/*  C L A S E S   D E   T A M A Ñ O  */
+/* C L A S E S   D E   T A M A Ñ O  */
 .get_width_100{
   width:100%;
 }
@@ -31,19 +43,52 @@
 
 
 
-/*  I M Á G E N E S  */
 
-.background_img{
- max-height: 100vh;
- width: 100%;
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
+
+
+/* CLASES DE COLOR DE FONDO */
+.BackgroundPrimary{
+  background-color: $color-3; 
+}
+.BackgroundGris{
+  background-color: $color-gris-background; 
 }
 
-.background_img_fixed{
- background-attachment: fixed; 
+
+/* B o r d e s */
+.helper-border-top{
+  border-top:solid 1px $color-gris-lineas;
 }
+
+/* CLASES BOTONES */
+.boton-simple{
+  background-color: $color-3; 
+  color:white;
+  padding: 20px 35px;
+  border-radius: 4px;
+  font-size:30px; 
+  cursor: pointer;
+  font-weight:bold;
+  font-family: arial;
+}
+.boton-simple:hover{
+  background-color: $color-3-primary_hover; 
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -57,36 +102,17 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* clases para mostrar o no */
 .no-mostrar{
   display:none;
 }
 
-.no-mostrar-en-mobil{
-  display:none;
-}
-
 .mostrar-solo-mobil{
 
+}
+
+.no-mostrar-en-mobil{
+  display:none;
 }
 
 
@@ -129,7 +155,6 @@
 .no-mostrar-en-mobil{
   display:block;
 }
-
 
 .margin-botto-only-mobil{
  margin-bottom: 0;

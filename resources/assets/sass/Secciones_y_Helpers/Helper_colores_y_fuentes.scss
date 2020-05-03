@@ -1,8 +1,7 @@
 
 $color-3:#952464; /* institucional PRINCIPAL */
 $color-3-primary_hover: lighten( $color-3, 5% );
-$color-2:darken( $color-3, 10% ); /* institucional OSCURO -  */
-
+$color-2:darken( $color-3, 10% );
 
 
 $color-2semilight:#eb6367;
@@ -64,7 +63,32 @@ $Color-Amarill-warning: #fff0ba;
 
 $Color-Texto-Warning:#aa8749;
 
-$Color-Verde-Google: #006621;
+$Color-Verde-Google: #006621; 
+
+
+
+
+/* $font-primary:'Merriweather', 'Helvetica Neue', Arial, sans-serif ; */
+$font-primary:'Raleway', sans-serif ;
+$font-secondary: 'Raleway', sans-serif;
+
+
+//border-radius
+
+$Border-radius: 4px;
+
+
+
+
+/* fuente sociales */
+
+@font-face {
+font-family: 'Social-Media-Circled'; /* Nombre que va a tener esa font*/
+font-style: normal;
+font-weight: normal;
+src: local('../fonts/Social-Media-Circled'), url('../fonts/Social-Media-Circled.otf') format('truetype');
+} 
+
 
 
 

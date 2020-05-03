@@ -1,47 +1,49 @@
 
-/*---  B o t o n   b a s e  ---*/
-
-
+/*---  B O T Ó N E S  d e   M A U R I  ---*/
 @mixin Boton-Normal($bk: $color-3, $color:white )
 {
-  padding: 10px 14px;  
-  border: solid 2px transparent;
+  background-color: $bk;
+  color:$color ;
+  padding: 10px 14px;
+  font-size: 20px;
+  border: solid 1px transparent;
   border-radius: 4px;
-  font-size: 28px;
+  margin: 15px auto;
+  display: table;
   cursor:pointer;
-  letter-spacing: 1.2px;
-  text-align: center;
-  color:$color;
-  background-color:$bk ;
 }
+
+
 @mixin Boton-Chico($bk: $color-3, $color:white )
 {
-  padding: 10px 14px;  
-  border: solid 2px transparent;
+  background-color: $bk;
+  color:$color ;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-family: arial;
+  border: solid 1px transparent;
   border-radius: 4px;
-  font-size: 28px;
-  cursor:pointer;
-  letter-spacing: 1.2px;
-  text-align: center;
-  color:$color;
-  background-color:$bk ;
+  margin: 15px auto;
+  display: table;
+  cursor:pointer;  
 }
+
 @mixin Boton-base()
 {
   padding: 10px 14px;
   
-  border: solid 2px transparent;
-  border-radius: 4px;
+  border: solid 3px transparent;
+  border-radius: $Border-radius;
   width:100%;
   cursor:pointer;
-  letter-spacing: 1.2px;
+  letter-spacing: 1.4px;
   text-align: center;
-  display: table-cell;
+  display: block;
+  
 }
 
 
-
-
+/* B O T O N E S */
 .Boton-Fuente-Chica{
   font-size: 18px;
 }
@@ -80,25 +82,29 @@
   border-color:$color-white;
 }
 .Boton-Blanco:hover{
-  background-color: darken($color-white, 10% );
-  color:$color-black;
+  background-color:  lighten( $color-3, 10% );
+  border-color:darken( $color-3, 10% );
+  color:$color-white;
+}
+
+.Boton-Disable{
+  cursor: not-allowed;
 }
 
 
 
 
+
 @media (min-width: $BrackPoint-Secundario){
- 
+
 .Boton-Fuente-Chica{
   font-size: 22px;
 }
 .Boton-Fuente-Grande{
   font-size: 36px;
 }
-}
-
-@media (min-width: $BrackPoint-Tercer){
 
 
 
-}
+
+}  

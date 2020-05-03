@@ -22,14 +22,11 @@ a:hover, a:focus, a>p:hover, a>p:focus{
  }
 
  a{
-  color: $color-3 !important;
-  font-weight: bold !important;
+  color: $color-3;
  }
 
  a:hover{
-  color: $color-2;
-  font-weight: bold !important;
-  text-decoration: underline !important;
+  color: $color-3-primary_hover;
  }
 
 
@@ -37,7 +34,7 @@ a:hover, a:focus, a>p:hover, a>p:focus{
     border:solid 3px $color-3 !important;
     box-shadow: none !important;
     outline: 0 none !important;
-}
+ }
 
 
 *, *:before, *:after {
