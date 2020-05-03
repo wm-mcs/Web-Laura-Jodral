@@ -4,9 +4,12 @@ var app = new Vue({
       empresa: {!! json_encode($Empresa) !!},
       blogs:   {!! json_encode($blogs) !!},
       cargando:false,
-
       scrolled:0,
       windowWidth: window.innerWidth,
+      variables:{
+                  input_color_primary:'input_color_primary',
+                  input_color_white:'input_color_white'
+                }
 
       
 
