@@ -48,22 +48,26 @@ class Paginas_Controller extends Controller
     // C o n t a c t o
     public function get_pagina_contacto()
     {
+
+        $blogs          = $this->NoticiasRepo->getUltimosBlogs();
         $Empresa = $this->EmpresaRepo->getEmpresaDatos();
-        return view('paginas.paginas_personalizadas.laura_contacto', compact('Empresa'));
+        return view('paginas.paginas_personalizadas.laura_contacto', compact('Empresa','blogs'));
     }
 
     // S e r v i c i o s
     public function get_pagina_servicios()
     {
+        $blogs          = $this->NoticiasRepo->getUltimosBlogs();
         $Empresa = $this->EmpresaRepo->getEmpresaDatos();
-        return view('paginas.paginas_personalizadas.laura_servicios', compact('Empresa'));
+        return view('paginas.paginas_personalizadas.laura_servicios', compact('Empresa','blogs'));
     }
 
     // Q u i é n   e s   L a u r a 
     public function get_pagina_quien_es()
     {
+        $blogs          = $this->NoticiasRepo->getUltimosBlogs();
         $Empresa = $this->EmpresaRepo->getEmpresaDatos();
-        return view('paginas.paginas_personalizadas.laura_quien_es', compact('Empresa'));
+        return view('paginas.paginas_personalizadas.laura_quien_es', compact('Empresa','blogs'));
     }
 
    
