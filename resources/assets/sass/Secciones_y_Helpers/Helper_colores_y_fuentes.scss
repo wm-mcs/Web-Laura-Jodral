@@ -66,11 +66,22 @@ $Color-Texto-Warning:#aa8749;
 $Color-Verde-Google: #006621; 
 
 
+/* G o o g l e   f o n t s  */
+$Lato: 'Lato', sans-serif;
+$Raleway:  'Raleway', sans-serif;
+$Petit-Formal-Script: 'Petit Formal Script', cursive;
+$Great-Vibes:'Great Vibes', cursive;
+
+
+
+
 
 
 /* $font-primary:'Merriweather', 'Helvetica Neue', Arial, sans-serif ; */
-$font-primary: 'Lato', sans-serif;
+$font-primary: $Great-Vibes;
 $font-secondary: 'Raleway', sans-serif;
+
+
 
 
 
