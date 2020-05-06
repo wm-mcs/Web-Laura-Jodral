@@ -158,10 +158,6 @@
           Te ofrezco un acompañamiento  terapéutico utilizando diferentes herramientas de        orientación, desarrollo y evolución  para tu crecimiento  personal y profesional  facilitandote el  desarrollo de tus potencialidades y recursos.
           </p>
 
-          <p class="margin-botto-only-mobil">
-              <a href="{{url()}}" class="Boton-Fuente-Chica Boton-Primario-Relleno "> Conocé más sobre Laura Jodral <i class="fas fa-chevron-right"></i>
-           </a>
-          </p>
          
          
           
