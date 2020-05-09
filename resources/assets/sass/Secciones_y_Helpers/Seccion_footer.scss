@@ -1,32 +1,11 @@
 
 
-/* contiene-cada-columna-del-footer */
-.contenedor-columna-footer{
-  padding:40px;
-  width:90%;  
+.footer-titulo-columna{
+  font-size:24px;
+  letter-spacing: -1px;
+  font-family:$font-secondary;
+  
 }
-
-/* es-el-logo-del-footer-a-la-derecha */
-.logo-footer{
-  width:130px;
-  height:auto;
-}
-
-.footer-icono-social{
-  font-size: 35px;
-  padding:3px 8px;
-  border-radius: 4px;  
-}
-.footer-icono-social:hover{
-  background-color:$color-3-primary_hover;
-  color:white;
-}
-
-
-.social-circle{
-  font-size: 26px;
-}
-
 
 
 
@@ -44,14 +23,7 @@
 
 @media (min-width: $BrackPoint-Primario){
 
-        .contenedor-columna-footer{
-          padding:10px;
-          width:33.33%;
-        }
 
-        .logo-footer{
-          width:150px; 
-        }
 
        
 
@@ -59,14 +31,7 @@
 
 @media (min-width: $BrackPoint-Secundario){
 
-        .contenedor-columna-footer{
-          padding:40px;
-        }
-
-        .logo-footer{
-          width:180px; 
-        }
-
+    
   
 }
 
