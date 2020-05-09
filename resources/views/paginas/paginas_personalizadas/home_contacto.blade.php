@@ -5,7 +5,7 @@
         <div class="container">
           <div class="row">
             <h3 class="col-12 titulos-class text-color-primary mb-1 text-center">Contáctate ahora</h3>
-            <p class="col-12 text-color-primary parrafo-class mb-4 text-center">Para contactarte rellenar el formulario de aqui abajo </p>
+            <p class="col-12 text-color-primary parrafo-class mb-4 text-center">Para contactarte rellenar el formulario de aquí abajo </p>
           </div>
         </div>
         <contacto-component :empresa="empresa" :color="variables.input_color_primary" inline-template>
