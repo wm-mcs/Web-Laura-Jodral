@@ -17,13 +17,25 @@
             
 
              
-              
-                <a href="#contact-section" >Contacto</a>
+               <p>
+                 <a href="#contact-section" >Contacto</a>
+               </p>
+                
+
                @if(Auth::guest())
-                <a href="{{route('auth_login_get')}}" >Iniciar sesión</a>
+               <p>
+                 <a href="{{route('auth_login_get')}}" >Iniciar sesión</a>
+               </p>
+                
                @else
-                <a href="{{route('get_datos_corporativos')}}" >Administrar</a>
-                <a href="{{route('logout')}}" >Salir</a>
+               <p>
+                 <a href="{{route('get_datos_corporativos')}}" >Administrar</a>
+               </p>
+               <p>
+                 <a href="{{route('logout')}}" >Salir</a>
+               </p>
+                
+                
                @endif
             
           </div>   
@@ -59,32 +71,32 @@
             <h3 class="footer-titulo-columna mb-5 text-color-primary text-bold">Sígueme</h3>
             <p v-if="se_muestra(empresa.twitter_url)"  class="">
              <a :href="empresa.twitter_url">
-               <span class="icon-twitter mr-4"></span> Twitter
+               <span class="icon-twitter mr-2"></span> Twitter
              </a> 
             </p>
             <p v-if="se_muestra(empresa.facebook_url)"  class="">
              <a :href="empresa.facebook_url">
-               <span class="icon-facebook mr-4"></span> Facebook
+               <span class="icon-facebook mr-2"></span> Facebook
              </a>
             </p>
             <p v-if=" se_muestra(empresa.instagram_url)"  class="">
              <a :href="empresa.instagram_url">
-               <span class="icon-instagram mr-4"></span> Instagram
+               <span class="icon-instagram mr-2"></span> Instagram
              </a>
             </p>
             <p v-if="se_muestra(empresa.youtube_url)"  class="">
              <a :href="empresa.youtube_url">
-               <span class="icon-youtube mr-4"></span> Youtube
+               <span class="icon-youtube mr-2"></span> Youtube
              </a>
             </p>
             <p v-if="se_muestra(empresa.linkedin_url)"  class="">
              <a :href="empresa.linkedin_url">
-               <span class="icon-linkedin mr-4"></span> Linkedin
+               <span class="icon-linkedin mr-2"></span> Linkedin
              </a>
             </p>
             <p v-if="se_muestra(empresa.Whatsapp_cel)" class=""> 
              <a :href="empresa.link_whatsapp_send" >
-               <i class="fab fa-whatsapp mr-4"></i> Whatsapp
+               <i class="fab fa-whatsapp mr-2"></i> Whatsapp
              </a>
             </p>
           </div>
