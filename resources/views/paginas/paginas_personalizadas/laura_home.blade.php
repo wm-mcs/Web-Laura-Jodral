@@ -105,7 +105,7 @@
 @stop
 
 @section('footer')
-	{{-- @include('paginas.paginas_personalizadas.Footer.Footer_principal') --}}
+	@include('paginas.paginas_personalizadas.Footer.Footer_principal')
 @stop
 
 
