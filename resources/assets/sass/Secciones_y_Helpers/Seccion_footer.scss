@@ -3,6 +3,7 @@
 $Fuente-titulo:$font-primary;
 $Color-textos-titulo:$color-3;
 $Color-parrafos:$color-3;
+$color-iconos:$color-3;
 
 
 
@@ -30,6 +31,11 @@ $Color-parrafos:$color-3;
   }
   .contiene-link-linea:hover{
     font-weight: bold !important;
+  }
+
+  .color-iconos-footer{
+    color:$color-iconos;
+    font-size:16px;
   }
 
 

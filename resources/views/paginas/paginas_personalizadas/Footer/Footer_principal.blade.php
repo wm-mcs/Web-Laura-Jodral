@@ -46,16 +46,16 @@
             <h3 class="footer-titulo-columna mb-5">Datos de contacto</h3>
                              
               <p class="contiene-p-linea" v-if="se_muestra(empresa.telefono)"  > 
-                 <i class="fas fa-phone-square mr-2"></i>   @{{empresa.telefono}}
+                 <i class="fas fa-phone-square mr-2 color-iconos-footer"></i>   @{{empresa.telefono}}
               </p>
               <p class="contiene-p-linea" v-if="se_muestra(empresa.celular)"   > 
-                 <i class="fas fa-mobile-alt mr-2"></i>     @{{empresa.celular}} 
+                 <i class="fas fa-mobile-alt mr-2 color-iconos-footer"></i>     @{{empresa.celular}} 
               </p>
               <p class="contiene-p-linea" v-if="se_muestra(empresa.direccion)"  >
-                 <i class="fas fa-map-marker-alt mr-2"></i> @{{empresa.direccion}}
+                 <i class="fas fa-map-marker-alt mr-2 color-iconos-footer"></i> @{{empresa.direccion}}
               </p>
               <p class="contiene-p-linea" v-if="se_muestra(empresa.horarios)"  > 
-                 <i class="far fa-clock mr-2"></i>          @{{empresa.horarios}}
+                 <i class="far fa-clock mr-2 color-iconos-footer"></i>          @{{empresa.horarios}}
               </p>
               <p class="contiene-p-linea" v-if="se_muestra(empresa.email)" >    
                  <a class="contiene-link-linea" href="{{route('get_pagina_contacto')}}"><i class="far fa-envelope mr-2"></i>       @{{empresa.email}}</a> 
@@ -71,32 +71,32 @@
             <h3 class="footer-titulo-columna mb-5 text-color-primary text-bold">Sígueme en mis redes</h3>
             <p class="contiene-p-linea" v-if="se_muestra(empresa.twitter_url)">
              <a class="contiene-link-linea" :href="empresa.twitter_url">
-               <span class="icon-twitter mr-2"></span> Twitter
+               <span class="icon-twitter mr-2 color-iconos-footer"></span> Twitter
              </a> 
             </p>
             <p class="contiene-p-linea" v-if="se_muestra(empresa.facebook_url)">
              <a class="contiene-link-linea" :href="empresa.facebook_url">
-               <span class="icon-facebook mr-2"></span> Facebook
+               <span class="icon-facebook mr-2 color-iconos-footer"></span> Facebook
              </a>
             </p>
             <p class="contiene-p-linea" v-if=" se_muestra(empresa.instagram_url)">
              <a class="contiene-link-linea" :href="empresa.instagram_url">
-               <span class="icon-instagram mr-2"></span> Instagram
+               <span class="icon-instagram mr-2 color-iconos-footer"></span> Instagram
              </a>
             </p>
             <p class="contiene-p-linea" v-if="se_muestra(empresa.youtube_url)">
              <a class="contiene-link-linea" :href="empresa.youtube_url">
-               <span class="icon-youtube mr-2"></span> Youtube
+               <span class="icon-youtube mr-2 color-iconos-footer"></span> Youtube
              </a>
             </p>
             <p class="contiene-p-linea" v-if="se_muestra(empresa.linkedin_url)">
              <a class="contiene-link-linea" :href="empresa.linkedin_url">
-               <span class="icon-linkedin mr-2"></span> Linkedin
+               <span class="icon-linkedin mr-2 color-iconos-footer"></span> Linkedin
              </a>
             </p>
             <p class="contiene-p-linea" v-if="se_muestra(empresa.Whatsapp_cel)"> 
              <a class="contiene-link-linea" :href="empresa.link_whatsapp_send" >
-               <i class="fab fa-whatsapp mr-2"></i> Whatsapp
+               <i class="fab fa-whatsapp mr-2 color-iconos-footer"></i> Whatsapp
              </a>
             </p>
           </div>
