@@ -40,12 +40,12 @@
 					color: rgba($color-white, .7)!important;
 					&:hover, &.active {
 						color: $color-white!important;
-						font-weight: bold !important;
+						font-weight: bold ;
 					}
 					
 					&:hover {
 						color: $primary;
-						font-weight: bold !important;
+						font-weight: bold;
 						
 					}
 				}
