@@ -8,7 +8,7 @@
           {{-- P r i m e r    b l o q u e   --}}
           <div class="col-md-3 p-4">
             <h3 class="footer-titulo-columna mb-5 ">@{{empresa.name}}</h3>
-            <p  class="contiene-p-linea" v-if="se_muestra(empresa.home_footer_sobre_mi)">@{{empresa.home_footer_sobre_mi}}</p>           
+            <p  class="contiene-p-linea">Lo que piensas es lo que atraes</p>           
           </div>
 
           {{-- S e g u n d o   B l o q u e     --}}  
@@ -18,7 +18,7 @@
 
              
                <p class="contiene-p-linea">
-                 <a class="contiene-link-linea" href="#contact-section" >Contacto</a>
+                 <a class="contiene-link-linea" href="{{route('get_pagina_contacto')}}" >Contacto</a>
                </p >
                 
 
@@ -43,22 +43,22 @@
 
           {{-- T e r c e r   B l o q u e     --}}  
           <div class="col-md-3 p-4">
-            <h3 class="footer-titulo-columna mb-5">Mis datos</h3>
+            <h3 class="footer-titulo-columna mb-5">Datos de contacto</h3>
                              
               <p class="contiene-p-linea" v-if="se_muestra(empresa.telefono)"  > 
-                 <i class="fas fa-phone-square"></i>   @{{empresa.telefono}}
+                 <i class="fas fa-phone-square mr-2"></i>   @{{empresa.telefono}}
               </p>
               <p class="contiene-p-linea" v-if="se_muestra(empresa.celular)"   > 
-                 <i class="fas fa-mobile-alt"></i>     @{{empresa.celular}} 
+                 <i class="fas fa-mobile-alt mr-2"></i>     @{{empresa.celular}} 
               </p>
               <p class="contiene-p-linea" v-if="se_muestra(empresa.direccion)"  >
-                 <i class="fas fa-map-marker-alt"></i> @{{empresa.direccion}}
+                 <i class="fas fa-map-marker-alt mr-2"></i> @{{empresa.direccion}}
               </p>
               <p class="contiene-p-linea" v-if="se_muestra(empresa.horarios)"  > 
-                 <i class="far fa-clock"></i>          @{{empresa.horarios}}
+                 <i class="far fa-clock mr-2"></i>          @{{empresa.horarios}}
               </p>
               <p class="contiene-p-linea" v-if="se_muestra(empresa.email)" >    
-                 <i class="far fa-envelope"></i>       @{{empresa.email}}
+                 <a class="contiene-link-linea" href="{{route('get_pagina_contacto')}}"><i class="far fa-envelope mr-2"></i>       @{{empresa.email}}</a> 
               </p>
             
           </div> 
@@ -68,7 +68,7 @@
           
           {{-- C u a r t o   B l o q u e     --}}
           <div class="col-md-3 p-4">
-            <h3 class="footer-titulo-columna mb-5 text-color-primary text-bold">Sígueme</h3>
+            <h3 class="footer-titulo-columna mb-5 text-color-primary text-bold">Sígueme en mis redes</h3>
             <p class="contiene-p-linea" v-if="se_muestra(empresa.twitter_url)">
              <a class="contiene-link-linea" :href="empresa.twitter_url">
                <span class="icon-twitter mr-2"></span> Twitter

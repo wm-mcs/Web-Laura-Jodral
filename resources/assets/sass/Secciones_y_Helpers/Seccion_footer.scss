@@ -7,10 +7,11 @@ $Color-parrafos:$color-3;
 
 
 .footer-titulo-columna{
-  font-size:22px;
+  font-size:24px;
   letter-spacing: -1px;
   font-family:$Fuente-titulo;
   color:$Color-textos-titulo;
+  font-weight: bold;
 
 }
 
@@ -28,7 +29,7 @@ $Color-parrafos:$color-3;
     color:$Color-parrafos;
   }
   .contiene-link-linea:hover{
-    font-weight: bold;
+    font-weight: bold !important;
   }
 
 
