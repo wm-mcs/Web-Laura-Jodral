@@ -7,9 +7,9 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto ">
                 <li>
-                  <a  href="{{url()}}" class="nav-img">
-                    <img  v-if="scrolled > 0" :src="empresa.logo_easy_color" style="height:65px;">
-                    <img  v-else :src="empresa.logo_easy_blanco" style="height:65px;">
+                  <a  href="{{url()}}" class="logo-nav">                    
+                    <span class="" v-if="scrolled > 0">Laura Jodral Garcia</span>
+                    <span class="" v-else>Laura Jodral Garcia</span>                    
                   </a>
                 </li>
                 

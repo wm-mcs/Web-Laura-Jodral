@@ -9,6 +9,17 @@
 }
 
 
+/*  L o g o  N A V */
+.logo-nav{
+  font-size:24px;
+  font-family:$font-primary;
+  letter-spacing: 1.5px;  
+}
+.logo-nav:hover{
+  color:$color-3-primary_hover;
+}
+
+
 /* I M Á G E N E S   B A C K G R O U N D */
 .img_home_primera{  
   background-image: url("../../imagenes/Home/imagen-libro-laura-jodral.jpg");
