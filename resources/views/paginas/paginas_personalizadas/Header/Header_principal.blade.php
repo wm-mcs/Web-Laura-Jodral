@@ -9,7 +9,7 @@
                 <li>
                   <a  href="{{url()}}" class="logo-nav">                    
                     <span class="text-color-primary" v-if="scrolled > 0">Laura Jodral Garcia</span>
-                    <span class="color-text-white" v-else>Laura Jodral Garcia</span>                    
+                    <span class="" v-else>Laura Jodral Garcia</span>                    
                   </a>
                 </li>
                 

@@ -8,9 +8,9 @@
 	position: absolute;
 	top: 0;
 	width: 100%;
-	// background: $white;
+	// background:$color-white;
 	
-	border-bottom: rgba($white,.7);
+	border-bottom: rgba($color-white,.7);
 	.site-logo {
 		font-size: 1.5rem;
 	}
@@ -27,6 +27,7 @@
 				display: inline-block;
 				position: relative;
 				padding: 5px 20px;
+				font-weight: normal !important;
 				
 			}
 			> li, div {
@@ -36,9 +37,9 @@
 					display: inline-block;
 					text-decoration: none!important;
 
-					color: rgba($white, .7)!important;
+					color: rgba($color-white, .7)!important;
 					&:hover, &.active {
-						color: $white!important;
+						color: $color-white!important;
 					}
 					
 					&:hover {
@@ -91,7 +92,7 @@
 						}
 						&:before {
 							border-color: rgba(136, 183, 213, 0);
-							border-bottom-color: $white;
+							border-bottom-color: $color-white;
 							border-width: 10px;
 							margin-left: -10px;
 						}	

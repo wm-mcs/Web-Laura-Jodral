@@ -8,7 +8,7 @@
           </p>   
 
           <p class="margin-botto-only-mobil">
-              <a href="{{url()}}" class="Boton-Fuente-Chica Boton-Primario-Relleno "> Conocé más sobre Laura Jodral <i class="fas fa-chevron-right"></i>
+              <a href="{{url()}}" class="Boton-Fuente-Chica Boton-Primario-Relleno "> Conoce más sobre Laura Jodral <i class="fas fa-chevron-right"></i>
            </a>
           </p>
          
