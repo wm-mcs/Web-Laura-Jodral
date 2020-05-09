@@ -1,11 +1,37 @@
 
 
+$Fuente-titulo:$font-primary;
+$Color-textos-titulo:$color-3;
+$Color-parrafos:$color-3;
+
+
+
 .footer-titulo-columna{
   font-size:22px;
   letter-spacing: -1px;
-  font-family:$font-secondary;
+  font-family:$Fuente-titulo;
+  color:$Color-textos-titulo;
 
 }
+
+
+ .contiene-p-linea{
+  @include Parrafo_Style;
+  font-size: 12px !important;
+  margin-bottom: 4px;
+  font-style: normal;
+  color:$Color-parrafos;
+ }
+
+  .contiene-link-linea{
+    font-weight: normal !important;
+    color:$Color-parrafos;
+  }
+  .contiene-link-linea:hover{
+    font-weight: bold;
+  }
+
+
 
 
 
