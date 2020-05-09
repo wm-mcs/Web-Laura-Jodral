@@ -7,8 +7,8 @@ $Color-parrafos:$color-3;
 
 
 .footer-titulo-columna{
-  font-size:24px;
-  letter-spacing: -1px;
+  font-size: 26px;
+  letter-spacing: 1.6px;
   font-family:$Fuente-titulo;
   color:$Color-textos-titulo;
   font-weight: bold;
@@ -18,7 +18,7 @@ $Color-parrafos:$color-3;
 
  .contiene-p-linea{
   @include Parrafo_Style;
-  font-size: 12px !important;
+  font-size: 14px !important;
   margin-bottom: 4px;
   font-style: normal;
   color:$Color-parrafos;
