@@ -8,8 +8,8 @@
               <ul class="site-menu main-menu js-clone-nav mr-auto ">
                 <li>
                   <a  href="{{url()}}" class="logo-nav">                    
-                    <span class="" v-if="scrolled > 0">Laura Jodral Garcia</span>
-                    <span class="" v-else>Laura Jodral Garcia</span>                    
+                    <span class="text-color-primary" v-if="scrolled > 0">Laura Jodral Garcia</span>
+                    <span class="color-text-white" v-else>Laura Jodral Garcia</span>                    
                   </a>
                 </li>
                 
