@@ -11,13 +11,14 @@
 
 /*  L o g o  N A V */
 .logo-nav{
-  font-size:25px;
+  font-size:30px;
   font-family:$font-primary;
   letter-spacing: 1.7px;  
   font-weight: normal !important;
 }
 .logo-nav:hover{
   color:$color-3-primary_hover;
+  font-weight: normal !important;
 }
 
 
