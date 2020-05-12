@@ -195,10 +195,11 @@
 
     <div  class="site-section background-gris-0" id="">
       <div class="container">
-        <div class="p-4 border-3 border-primary">
-          <p class="parrafo-class mb-5">
+        <div class="p-4 border border-primary">
+          <p class="parrafo-class ">
             
-            El poder usar  la  Gestalt, el Coaching, la Astrología y la PNL  como herramientas de trabajo para el acompañamiento terapéutico me ayudan a percibir  y orientar a las persona desde una comprensión mucho más amplia. Esto, sumado a mi grado de sensibilidad me dotan de una empatía necesaria para el acompañamiento terapéutico.
+            El poder usar  <strong> la  Gestalt, el Coaching, la Astrología y la PNL  como herramientas</strong> de trabajo para el acompañamiento terapéutico me ayudan a percibir  y orientar a las persona desde una comprensión mucho más amplia. Esto, sumado a mi grado de sensibilidad me dotan de una empatía necesaria para el acompañamiento terapéutico.
+
           </p>
         </div>
       </div>
