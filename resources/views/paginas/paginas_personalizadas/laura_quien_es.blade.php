@@ -151,7 +151,12 @@
       </h2>
       <h3 class="sub-titulos-class text-center text-color-primary">
         Necesitas cambiar el rumbo de tu vida y mejora tus conflictos emocionales, miedos, autoestima e inseguridad.
-      </h3>       
+      </h3>    
+
+      <p class="text-center text-color-primary m-0">
+        
+        <strong>¿Quiéres tomar las riendas de tu vida? ¿Te gustaría saber cómo? </strong> te ofrezco las herramientas perfectas para que tengas una vida diseñada por tí.
+      </p>   
       
     </div>
   </div>
