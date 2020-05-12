@@ -146,11 +146,11 @@
   
   <div class="site-section background-gris-1">
     <div class="container">
-      <h2 class="mb-4 sub-titulos-class text-color-primary text-bold">
+      <h2 class="mb-4 sub-titulos-class text-center text-color-primary text-bold">
         HAS LLEGADO HASTA AQUÍ POR ALGO.
       </h2>
-      <h3 class="sub-titulos-class text-color-primary">
-        Necesitás cambiar el rumbo de tu vida y mejora tus conflictos emocionales, miedos, autoestima e inseguridad.
+      <h3 class="sub-titulos-class text-center text-color-primary">
+        Necesitas cambiar el rumbo de tu vida y mejora tus conflictos emocionales, miedos, autoestima e inseguridad.
       </h3>       
       
     </div>
