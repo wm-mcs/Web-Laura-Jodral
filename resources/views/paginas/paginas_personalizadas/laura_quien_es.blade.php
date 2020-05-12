@@ -149,13 +149,13 @@
       <h2 class="mb-4 sub-titulos-class text-center text-color-primary text-bold">
         HAS LLEGADO HASTA AQUÍ POR ALGO.
       </h2>
-      <h3 class="sub-titulos-class text-center text-color-primary">
+      <h3 class="sub-titulos-class text-center text-color-primary mb-4">
         Necesitas cambiar el rumbo de tu vida y mejora tus conflictos emocionales, miedos, autoestima e inseguridad.
       </h3>    
 
       <p class="text-center text-color-primary m-0">
         
-        <strong>¿Quiéres tomar las riendas de tu vida? ¿Te gustaría saber cómo? </strong> te ofrezco las herramientas perfectas para que tengas una vida diseñada por tí.
+       ¿Quiéres tomar las riendas de tu vida? ¿Te gustaría saber cómo?  te ofrezco las herramientas para que puedas llevar tu vida a otro nivel.
       </p>   
       
     </div>
@@ -166,7 +166,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 order-2 order-lg-1 flex-column">
-          <h2 class="h2-titulos-class mb-4 text-color-primary">Laura Jodral</h2>
+          <h2 class="h2-titulos-class mb-4 text-color-primary">¿Qué haré por tí?</h2>
           <p class="parrafo-class mb-5"> Como facilitadora del desarrollo personal ,detectaré las áreas de dificultad que te impiden crecer personal y profesionalmente  y te asistiré en tus procesos de aprendizaje y cambio para conseguirlo.  Del mismo modo que si uno se adentra en un lugar desconocido a oscuras sintiéndose desorientado sin saber por dónde ir en ese momento, si tuviese una linterna a mano le ayudaría para orientarse, hay momentos en la vida en que gracias a esa ‘linterna’ podemos recorrer el camino que deseamos y decidimos realizar.
           </p>   
           <p class="parrafo-class mb-5">
