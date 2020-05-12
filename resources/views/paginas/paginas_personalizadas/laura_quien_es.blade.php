@@ -144,10 +144,20 @@
 @section('contenido')
 
   
-
+  <div class="site-section background-gris-1">
+    <div class="container">
+      <h2 class="mb-4 sub-titulos-class text-color-primary text-bold">
+        HAS LLEGADO HASTA AQUÍ POR ALGO.
+      </h2>
+      <h3 class="sub-titulos-class text-color-primary">
+        Necesitás cambiar el rumbo de tu vida y mejora tus conflictos emocionales, miedos, autoestima e inseguridad.
+      </h3>       
+      
+    </div>
+  </div>
 
       
-  <div  class="site-section" id="sobre-mi">
+  <div  class="site-section" id="">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 order-2 order-lg-1 flex-column">
