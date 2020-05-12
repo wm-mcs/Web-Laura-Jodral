@@ -195,22 +195,22 @@
 
     <div  class="site-section background-gris-0" id="">
       <div class="container">
-        <div class="p-4 border border-primary mb-3">
-          <p class="parrafo-class mb-2">            
+        <div class="p-4 border border-primary mb-3 d-flex flex-column align-items-center">
+          <p class="col-12 parrafo-class mb-2">            
             El poder usar  <strong> la  Gestalt, el Coaching, la Astrología y la PNL  como herramientas</strong> de trabajo para el acompañamiento terapéutico me ayudan a percibir  y orientar a las persona desde una comprensión mucho más amplia. Esto, sumado a mi grado de sensibilidad me dotan de una empatía necesaria para el acompañamiento terapéutico.
           </p>
-          <p class="parrafo-class mb-2">            
+          <p class="col-12 parrafo-class mb-2">            
            Te facilito el desarrollo de tu confianza, conocimientos y responsabilidad para optimizar al máximo tu potencial y conseguir lo que deseas.
           </p>
-          <p class="parrafo-class mb-2">            
+          <p class="col-12 parrafo-class mb-2">            
            Creo en algo más que en lo tangible, lo que me lleva  a confiar en mi guía interno y creer que no pasa nada mas que lo inevitable y que cada encuentro se da por una razón inalcanzable a nuestros sentidos pero necesario para el alma ,por lo que si has llegado hasta aquí, a leer estas líneas, no es casualidad que nos hayamos encontrado.
           </p>
-          <p class="parrafo-class m-0">            
+          <p class="col-12 parrafo-class m-0">            
            Escucha a tu maestro interno y déjate guiar por tu intuición.
           </p>
         </div>
-        <div class="col-12 col-lg-10">
-          <a href="{{url()}}" class="Boton-Fuente-Chica Boton-Primario-Relleno "> Descubre las herramientas que te llevarán tu vida al siguente nivel <i class="fas fa-chevron-right"></i>
+        <div class="col-12 col-lg-10 p-4">
+          <a href="{{route('get_pagina_servicios')}}" class="Boton-Fuente-Chica Boton-Primario-Relleno "> Descubre las herramientas que llevarán tu vida al siguente nivel <i class="fas fa-chevron-right"></i>
            </a>
         </div>
       </div>
