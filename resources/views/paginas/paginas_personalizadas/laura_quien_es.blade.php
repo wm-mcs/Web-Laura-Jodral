@@ -162,7 +162,7 @@
   </div>
 
       
-  <div  class="site-section" id="">
+  {{-- <div  class="site-section" id="">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 order-2 order-lg-1 flex-column">
@@ -188,7 +188,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
 
 
     <div  class="site-section background-gris-0" id="">
