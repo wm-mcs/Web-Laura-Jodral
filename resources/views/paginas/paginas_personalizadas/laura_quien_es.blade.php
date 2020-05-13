@@ -169,9 +169,7 @@
           <h2 class="h2-titulos-class mb-4 text-color-primary">¿Qué haré por tí?</h2>
           <p class="parrafo-class mb-5"> Como facilitadora del desarrollo personal ,detectaré las áreas de dificultad que te impiden crecer personal y profesionalmente  y te asistiré en tus procesos de aprendizaje y cambio para conseguirlo.  Del mismo modo que si uno se adentra en un lugar desconocido a oscuras sintiéndose desorientado sin saber por dónde ir en ese momento, si tuviese una linterna a mano le ayudaría para orientarse, hay momentos en la vida en que gracias a esa ‘linterna’ podemos recorrer el camino que deseamos y decidimos realizar.
           </p>   
-          <p class="parrafo-class mb-5">
-          Te ofrezco un acompañamiento  terapéutico utilizando diferentes herramientas de        orientación, desarrollo y evolución  para tu crecimiento  personal y profesional  facilitandote el  desarrollo de tus potencialidades y recursos.
-          </p>
+          
 
          
          
@@ -186,7 +184,7 @@
 
           </div>
           <div class="col-lg-6 order-3 pl-lg-5 order-lg-2">
-            <img class="img-fluid mb-4" src="{{url()}}/imagenes/Home/laura_jodral_es.jpg" alt="Laura Jodral">
+            <img class="img-fluid mb-4 p-3" data-src="{{url()}}/imagenes/Quien/Laura-jodral-terapias-pnl-mejora-tu-vida-coach.jpg" alt="Laura Jodral">
           </div>
         </div>
       </div>
@@ -195,6 +193,10 @@
 
     <div  class="site-section background-gris-0" id="">
       <div class="container d-flex flex-column align-items-center">
+
+        
+          <img class="rounded-circle img-fluid p-4 mb-4" data-src="{{url()}}/imagenes/Contacto/Laura-Jodral-contacto-terapias-foto-chica.jpg">
+        
         <div class="col-12 p-4 border border-primary mb-3 ">
           <p class=" parrafo-class mb-2">            
             El poder usar  <strong> la  Gestalt, el Coaching, la Astrología y la PNL  como herramientas</strong> de trabajo para el acompañamiento terapéutico me ayudan a percibir  y orientar a las persona desde una comprensión mucho más amplia. Esto, sumado a mi grado de sensibilidad me dotan de una empatía necesaria para el acompañamiento terapéutico.
