@@ -1,5 +1,6 @@
-
-$color-3:#952464; /* institucional PRINCIPAL */
+$Color-fuxia-oscuro:#952464 ;
+$Color-Propuesto-por-Laura:#00d4e1;
+$color-3:$Color-Propuesto-por-Laura;  /* institucional PRINCIPAL */
 $color-3-primary_hover: lighten( $color-3, 5% );
 $color-2:darken( $color-3, 10% );
 
@@ -90,7 +91,7 @@ $font-secondary: 'Raleway', sans-serif;
 
 //border-radius
 
-$Border-radius: 4px;
+$Border-radius: 8px;
 
 
 

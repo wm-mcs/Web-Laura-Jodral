@@ -194,7 +194,7 @@
     <div  class="site-section background-gris-0" id="">
       <div class="container d-flex flex-column align-items-center">
 
-        <div class=" p-4 mb-4 col-8 col-lg-4 d-flex flex-column align-items-center">
+        <div class=" p-4 mb-4 col-6 col-md-4 col-lg-3 d-flex flex-column align-items-center">
           <img class="rounded-circle img-fluid" data-src="{{url()}}/imagenes/Contacto/Laura-Jodral-contacto-terapias-foto-chica.jpg">
         </div>
           
