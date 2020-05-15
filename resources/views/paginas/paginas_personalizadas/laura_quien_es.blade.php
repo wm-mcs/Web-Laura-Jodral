@@ -160,6 +160,7 @@
       
     </div>
   </div>
+  <div class="background_img background_img_fixed img_help-quien"></div>
 
       
   {{-- <div  class="site-section" id="">
@@ -220,9 +221,7 @@
       </div>
     </div>
 
-    <div class="background_img background_img_fixed img_help-quien"> 
-
-    </div>
+    
 
 
 
