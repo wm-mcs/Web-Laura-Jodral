@@ -188,17 +188,14 @@
            Escucha a tu maestro interno y déjate guiar por tu intuición.
           </p>
         </div>
-        <div class="col-12 col-lg-10 p-4">
-          <a href="{{route('get_pagina_servicios')}}" class="Boton-Fuente-Chica Boton-Primario-Relleno "> Descubre las herramientas que llevarán tu vida al siguente nivel <i class="fas fa-chevron-right"></i>
-           </a>
-        </div>
+        
       </div>
     </div>
 
-      <div  class="site-section" id="">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 order-2 order-lg-1 flex-column">
+      <div  class="site-section background_img background_img_fixed img_Laura-Jodral-Minimalista" id="">
+      <div class="container ">
+        <div class="row d-flex flex-row justify-content-start">
+          <div class="col-lg-6 ">
           <h2 class="h2-titulos-class mb-4 text-color-primary">¿Qué haré por tí?</h2>
           <p class="parrafo-class mb-5"> Como facilitadora del desarrollo personal ,detectaré las áreas de dificultad que te impiden crecer personal y profesionalmente  y te asistiré en tus procesos de aprendizaje y cambio para conseguirlo.  Del mismo modo que si uno se adentra en un lugar desconocido a oscuras sintiéndose desorientado sin saber por dónde ir en ese momento, si tuviese una linterna a mano le ayudaría para orientarse, hay momentos en la vida en que gracias a esa ‘linterna’ podemos recorrer el camino que deseamos y decidimos realizar.
           </p>   
@@ -216,9 +213,7 @@
 
 
           </div>
-          <div class="col-lg-6 order-3 pl-lg-5 order-lg-2">
-            <img class="img-fluid mb-4 p-3" data-src="{{url()}}/imagenes/Quien/Laura-jodral-terapias-pnl-mejora-tu-vida-coach.jpg" alt="Laura Jodral">
-          </div>
+          
         </div>
       </div>
     </div>
@@ -229,10 +224,15 @@
       
           
 
-      <p class="text-center text-color-primary m-0">
+      <p class="text-center text-color-primary mb-3">
         
        Confío en cada uno <strong>puede llegar a ser la mejor versión de sí mismo</strong>  y la experiencia me ha mostrado que la gran mayoría de las personas viven distanciadas de sí mismas caminando por la vida como medianamente pueden sin ser quien realmente son con todo su ser y sin experimentar todas las potencialidades que tienen para manifestar en este mundo lo cual acarrea una serie de conflictos internos que si se dedicasen un poquito de tiempo para adentrarse y mirarse a  sí mismos podrían disfrutar de una vida más plena,  y <strong>que mejor momento que ahora, en esta Vida, en la que aún puedes hacer algo por ti</strong> .
       </p>   
+
+      <div class="col-12 col-lg-10 p-4">
+          <a href="{{route('get_pagina_servicios')}}" class="Boton-Fuente-Chica Boton-Primario-Relleno "> Descubre las herramientas que llevarán tu vida al siguente nivel <i class="fas fa-chevron-right"></i>
+           </a>
+        </div>
       
     </div>
   </div>
