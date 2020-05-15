@@ -223,6 +223,20 @@
       </div>
     </div>
 
+
+    <div class="site-section background-gris-1">
+    <div class="container">
+      
+          
+
+      <p class="text-center text-color-primary m-0">
+        
+       Confío en cada uno <strong>puede llegar a ser la mejor versión de sí mismo</strong>  y la experiencia me ha mostrado que la gran mayoría de las personas viven distanciadas de sí mismas caminando por la vida como medianamente pueden sin ser quien realmente son con todo su ser y sin experimentar todas las potencialidades que tienen para manifestar en este mundo lo cual acarrea una serie de conflictos internos que si se dedicasen un poquito de tiempo para adentrarse y mirarse a  sí mismos podrían disfrutar de una vida más plena,  y <strong>que mejor momento que ahora, en esta Vida, en la que aún puedes hacer algo por ti</strong> .
+      </p>   
+      
+    </div>
+  </div>
+
     
 
 
