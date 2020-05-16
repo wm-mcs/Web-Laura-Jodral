@@ -169,7 +169,7 @@
           <p class="parrafo-class mb-5"> Como facilitadora del desarrollo personal ,<strong>detectaré las áreas de dificultad que te impiden crecer personal y profesionalmente  y te asistiré en tus procesos de aprendizaje y cambio para conseguirlo</strong> .  Del mismo modo que si uno se adentra en un lugar desconocido a oscuras sintiéndose desorientado sin saber por dónde ir en ese momento, si tuviese una linterna a mano le ayudaría para orientarse, <strong>hay momentos en la vida en que gracias a esa ‘linterna’ podemos recorrer el camino que deseamos y decidimos realizar</strong> .
           </p>   
 
-          <p class="parrafo-class mb-5">
+          <p class="parrafo-class mb-2">
              Con el pasar de los años desarrollé la metodología justa y necesaría que te podrá ayudarte a tener el control sobre tu vida. Este proceso combina todo lo que he aprendido de: 
           </p> 
           <p class="mb-5">
