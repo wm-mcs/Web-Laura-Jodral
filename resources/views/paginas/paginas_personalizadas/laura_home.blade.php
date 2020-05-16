@@ -145,7 +145,20 @@
 @section('contenido')
 
   
+      <div class="site-section background-gris-1">
+        <div class="container">
+          
+          <h3 class="sub-titulos-class text-center text-color-primary mb-3">
+            Ama la vida que tienes para poder vivir la vida que amas.
+          </h3>    
 
+
+          <p class="text-center text-color-primary m-0">            
+           
+          </p>   
+          
+        </div>
+      </div>
 
       @include('paginas.paginas_personalizadas.home_sobre_mi')
 
