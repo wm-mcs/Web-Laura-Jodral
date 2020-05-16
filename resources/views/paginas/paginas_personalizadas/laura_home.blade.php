@@ -170,11 +170,13 @@
           </p>   
 
           <p class="parrafo-class mb-5">
-            Me gustaría poder mostrarte las herramientas que te van cambiar la vida. Con el pasar de los años desarrollé la metodología justa y necesaría que te podrá ayudarte a tener el control sobre tu vida. Este proceso convina todo lo que he aprendido de: 
+             Con el pasar de los años desarrollé la metodología justa y necesaría que te podrá ayudarte a tener el control sobre tu vida. Este proceso combina todo lo que he aprendido de: 
           </p> 
-          <p>
+          <p class="mb-5">
             <div class="lista-class">Terapia Gestalt</div>
             <div class="lista-class">PNL ( Programación Neuro Lingüística)
+            </div>
+            <div class="lista-class">Coaching
             </div>
             <div class="lista-class">Astrologia Humanista
             </div>
