@@ -154,7 +154,7 @@
 
 
           <p class="text-center text-color-primary m-0">            
-            Confío en cada uno <strong>puede llegar a ser la mejor versión de sí mismo</strong>. Estoy aquí para hacer simple ese proceso. 
+            Confío en cada uno <strong>puede llegar a ser la mejor versión de sí mismo</strong>. Estoy aquí para enseñarte a tomar las riendas de tu vida. 
           </p>   
           
         </div>
