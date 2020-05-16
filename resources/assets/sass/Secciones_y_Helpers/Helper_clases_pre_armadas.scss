@@ -10,25 +10,7 @@
 
 
 
-.flex-row-center{
-  @include flexbox;       
-  @include flex-direction(row);
-  @include align-items(center); 
-}
 
-.flex-row-column{
-  @include flexbox;       
-  @include flex-direction(column);
-  @include align-items(center); 
-}
-
-.flex-justifice-space-around{
-  @include justify-content(space-around);
-}
-
-.flex-wrap{
-  @include flex-wrap(wrap); 
-}
 
 
 
@@ -41,108 +23,50 @@
   height:100%;
 }
 
-
-
-
-
-
-/* CLASES DE COLOR DE FONDO */
-.BackgroundPrimary{
-  background-color: $color-3; 
-}
-.BackgroundGris{
-  background-color: $color-gris-background; 
-}
-
-
-/* B o r d e s */
-.helper-border-top{
-  border-top:solid 1px $color-gris-lineas;
+/* C L A S E S   D E   L I S T A S  */
+.lista-class{
+    width: 100%;
+    margin-top: 4px;    
+    font-size: 14px;
+    letter-spacing: 1.4px;  
+    padding-left:20px;
+    line-height:1.7;
+    font-family:$font-secondary;
+      
 }
 
-/* CLASES BOTONES */
-.boton-simple{
-  background-color: $color-3; 
-  color:white;
-  padding: 20px 35px;
-  border-radius: 4px;
-  font-size:30px; 
-  cursor: pointer;
-  font-weight:bold;
-  font-family: arial;
-}
-.boton-simple:hover{
-  background-color: $color-3-primary_hover; 
-} 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* M A R G E N E S */
-.margin-botto-only-mobil{
- margin-bottom: 30px;
+.lista-class::before{
+    content: "\025cf";    
+    color:$color-3;  
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
 }
 
 
 
 
-/* clases para mostrar o no */
-.no-mostrar{
-  display:none;
-}
-
-.mostrar-solo-mobil{
-
-}
-
-.no-mostrar-en-mobil{
-  display:none;
-}
-
-
-/*simula un link*/
-.simula_link{
-  cursor:pointer;
-  color:  $color-3;
-}
-
-.simula_link:hover{
-  color:$color-3-primary_hover;
-}
-
-.helper_cursor_pointer{
-  cursor:pointer;
-}
-
-.helper_max_width_100{
-  max-width: 100%;
-}
 
 
 
-.helper-relative{
-  position:relative;
-}
 
-.helper-border-radius-16{
-  border-radius: 16px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
