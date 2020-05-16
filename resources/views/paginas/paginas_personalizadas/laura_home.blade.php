@@ -172,22 +172,18 @@
           <p class="parrafo-class mb-2">
              Con el pasar de los años desarrollé la metodología justa y necesaría que te podrá ayudar a tener el control sobre tu vida. Este proceso combina todo lo que he aprendido de: 
           </p> 
-          <p class="mb-5">
+
+          <ul class="mb-5">
             <div class="lista-class">Terapia Gestalt</div>
-            <div class="lista-class">PNL ( Programación Neuro Lingüística)
-            </div>
-            <div class="lista-class">Coaching
-            </div>
-            <div class="lista-class">Astrologia Humanista
-            </div>
-          </p>
-          <a href="{{route('get_pagina_servicios')}}" class="Boton-Primario-Sin-Relleno Boton-Fuente-Chico"> Explora las herramientas que cambiarán tu vida 
+            <div class="lista-class">PNL ( Programación Neuro Lingüística)</div>
+            <div class="lista-class">Coaching</div>
+            <div class="lista-class">Astrologia Humanista</div>
+          </ul>
+
+          <a href="{{route('get_pagina_servicios')}}" class="Boton-Primario-Sin-Relleno Boton-Fuente-Chico"> 
+          Explora las herramientas que cambiarán tu vida 
           <i class="fas fa-chevron-right"></i>
           </a>
-
-
-
-          
 
 
           </div>
