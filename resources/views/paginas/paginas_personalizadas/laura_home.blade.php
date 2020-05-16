@@ -148,13 +148,13 @@
       <div class="site-section background-gris-1">
         <div class="container">
           
-          <h3 class="sub-titulos-class text-center text-color-primary mb-3">
-            Ama la vida que tienes para poder vivir la vida que amas.
+          <h3 class="sub-titulos-class text-center text-color-primary font-italic mb-3">
+            "Ama la vida que tienes para poder vivir la vida que amas".
           </h3>    
 
 
           <p class="text-center text-color-primary m-0">            
-           
+            Confío en cada uno <strong>puede llegar a ser la mejor versión de sí mismo</strong>. Estoy aquí para hacer simple ese proceso. 
           </p>   
           
         </div>
