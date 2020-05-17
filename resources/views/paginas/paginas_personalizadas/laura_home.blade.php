@@ -194,6 +194,19 @@
 
       @include('paginas.paginas_personalizadas.home_sobre_mi')
 
+       <div class="site-section background-gris-1">
+        <div class="container">
+          
+          <h3 class="sub-titulos-class text-center m-0 text-color-primary font-italic mb-3">
+            "La vida es un 10% lo que te pasa y un 90% cómo reaccionas ante eso".
+          </h3>    
+
+
+          
+          
+        </div>
+      </div>
+
       {{-- L i b r o s --}}
       <div class="background_img background_img_fixed img_home_primera"> </div>
 
