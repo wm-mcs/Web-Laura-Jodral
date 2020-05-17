@@ -118,7 +118,7 @@
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row">
               <div class="col-lg-8 " style="max-width: 550px;">
-                <h1  class="titulos-class text-white">Aprende como tomar las riendas de tu vida</h1>
+                <h1  class="titulos-class text-white font-secondary">Aprende como tomar las riendas de tu vida</h1>
                 <h2 class="sub-titulos-class text-white no-mostrar-en-mobil">Mejora tus conflictos emocionales, miedos, autoestima e inseguridad.
 </h2>
                 <p class="parrafo-class text-white"> Soy Laura Jodral y estoy aquí para acompañarte en tu proceso de desarrollo personal.</p>
@@ -166,14 +166,14 @@
         <div class="row d-flex flex-row justify-content-start">
           <div class="col-lg-6 ">
           <h2 class="h2-titulos-class mb-4 text-color-primary">Vive la vida que <i class="fas fa-heart"></i></h2>
-          <p class="parrafo-class mb-5"> Como facilitadora del desarrollo personal ,<strong>detectaré las áreas de dificultad que te impiden crecer personal y profesionalmente  y te asistiré en tus procesos de aprendizaje y cambio para conseguirlo</strong> .  
+          <p class="parrafo-class mb-3"> Como facilitadora del desarrollo personal ,<strong>detectaré las áreas de dificultad que te impiden crecer personal y profesionalmente  y te asistiré en tus procesos de aprendizaje y cambio para conseguirlo</strong> .  
           </p>   
 
-          <p class="parrafo-class mb-5">
+          <p class="parrafo-class mb-3">
              Con el pasar de los años desarrollé la metodología que te conseguirá que tengas el control de tu vida. Este proceso combina todo lo que he aprendido de: 
           </p> 
 
-          <ul class="mb-5">
+          <ul class="mb-3">
             <div class="lista-class">Terapia Gestalt</div>
             <div class="lista-class">PNL ( Programación Neuro Lingüística)</div>
             <div class="lista-class">Coaching</div>
@@ -195,17 +195,22 @@
       @include('paginas.paginas_personalizadas.home_sobre_mi')
 
        <div class="site-section background-gris-1">
-        <div class="container">
-          
+        <div class="container">          
           <h3 class="sub-titulos-class text-center m-0 text-color-primary font-italic mb-3">
             "La vida es un 10% lo que te pasa y un 90% cómo reaccionas ante eso".
           </h3>    
-
-
-          
-          
         </div>
-      </div>
+       </div>
+        <div class="site-section background-gris-1">
+        <div class="container">          
+          <p class="parrafo-class text-color-primary m-3"> 
+          Te ofrezco un acompañamiento  terapéutico utilizando diferentes herramientas de orientación, desarrollo y evolución  para tu crecimiento  personal y profesional  facilitandote el  desarrollo de tus potencialidades y recursos. 
+          </p> 
+          <p class="parrafo-class text-color-primary m-3"> 
+          Te ofrezco un acompañamiento  terapéutico utilizando diferentes herramientas de orientación, desarrollo y evolución  para tu crecimiento  personal y profesional  facilitandote el  desarrollo de tus potencialidades y recursos. 
+          </p>     
+        </div>
+       </div>
 
       {{-- L i b r o s --}}
       {{-- <div class="background_img background_img_fixed img_home_primera"> </div> --}}
