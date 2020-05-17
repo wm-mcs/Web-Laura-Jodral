@@ -208,11 +208,11 @@
       </div>
 
       {{-- L i b r o s --}}
-      <div class="background_img background_img_fixed img_home_primera"> </div>
+      {{-- <div class="background_img background_img_fixed img_home_primera"> </div> --}}
 
       
       {{-- S e r v i c i o s  --}}
-      @include('paginas.paginas_personalizadas.home_servicios')
+      {{-- @include('paginas.paginas_personalizadas.home_servicios') --}}
       
 
       {{-- C o n t a c t o  --}}
