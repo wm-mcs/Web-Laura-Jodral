@@ -1,9 +1,9 @@
 <div  class="site-section" id="sobre-mi">
       <div class="container">
-        <div class="row align-items-center border border-primary">
+        <div class="row align-items-center border border-primary p-5">
 
           <h2 class="col-12 titulos-class  text-center text-color-primary mb-3 font-secondary">¿Quién es Laura Jodral Garcia?</h2>
-          <h3 class="sub-titulos-class text-center text-color-primary text-uppercase mb-5">Gestalt. Coaching. PNL. ASTROLOGÍA.</h3>
+          <h3 class="col-12 sub-titulos-class text-center text-color-primary text-uppercase mb-5">Gestalt. Coaching. PNL. ASTROLOGÍA.</h3>
 
           <div class="row align-items-center mb-4">
            <div class="col-lg-6 order-2 order-lg-2 flex-column p-4">          
