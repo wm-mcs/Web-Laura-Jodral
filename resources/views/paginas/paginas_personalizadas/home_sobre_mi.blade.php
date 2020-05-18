@@ -10,7 +10,10 @@
               
 
             <p class="parrafo-class mb-5">
-              Laura Jodral García es <strong>terapeuta Gestalt y tiene un Master en PNL</strong>. Se ha formado en Astrología Humanista y hoy en día se dedica a enseñar a las personas <strong>como tomar las riendas de su vida</strong>. Ha conseguido desarrollar herramientas que estan demostrando ser altamente eficaces para mejorar a las personas en el ámbito personal como en el profesioanal.                
+             <strong> Laura Jodral García es terapeuta Gestalt y tiene un Master en PNL</strong>. Se ha formado en Astrología Humanista y hoy en día se dedica a enseñar a las personas <strong>como tomar las riendas de su vida</strong>. Ha conseguido desarrollar herramientas que estan demostrando ser altamente eficaces en el ámbito del desarrollo personal como en el profesioanal.                
+            </p>
+            <p class="parrafo-class mb-5">
+              Hoy imparte cursos personalizados y siente que ha encontrado su misión en esta vida.....
             </p>
            
                 
