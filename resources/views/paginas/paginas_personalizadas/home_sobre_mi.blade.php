@@ -7,9 +7,11 @@
 
           <div class="row align-items-center ">
            <div class="col-lg-6 order-2 order-lg-2 flex-column p-4">          
+              
+
             <p class="parrafo-class mb-5">
-            Estoy aquí para acompañarte en tu proceso de desarrollo personal y apoyarte al atravesar momentos que te pueden resultar difíciles. Al igual que si uno se adentra en el bosque o en un lugar desconocido a oscuras le ayudaría tener una linterna a mano para orientarse, hay momentos en la vida en que gracias a esa ‘linterna’ nos ahorramos confusiones, desorientación, no saber por dónde ir, mal estar, angustia,conflictos...
-            </p>   
+              Laura Jodral García es <strong>terapeuta Gestalt y tiene un Master en PNL</strong>. Se ha formado en Astrología Humanista y hoy en día se dedica a enseñar a las personas <strong>como tomar las riendas de su vida</strong>. Ha conseguido desarrollar herramientas que estan demostrando ser altamente eficaces para mejorar a las personas en el ámbito personal como en el profesioanal.                
+            </p>
            
                 
              
@@ -21,7 +23,7 @@
           </div>         
          
         </div>
-         <a href="{{url()}}" class="Boton-Fuente-Chica Boton-Primario-Relleno "> Conoce la historia de Laura Jodral <i class="fas fa-heart"></i></i>
+         <a href="{{route('get_pagina_quien_es')}}" class="Boton-Fuente-Chica Boton-Primario-Relleno "> Conoce la historia de Laura Jodral <i class="fas fa-heart"></i></i>
              </a>
       </div>
     </div>
