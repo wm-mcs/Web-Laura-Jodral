@@ -71,6 +71,11 @@ class Empresa extends Model
         return url().'/imagenes/'.$this->logo_horizontal;
     }
 
+      public function getPathImgLogoHorizontalAttribute()
+      {
+        return public_path(). '/imagenes/'.$this->logo_horizontal;
+      }
+
     public function getImgLogoVerticalAttribute()
     {
         
@@ -256,6 +261,13 @@ class Empresa extends Model
     public function getNumeroWhatsappYaArregladoAttribute()
     {
         return '598'. substr(trim($this->whatsapp_empresa),1);
+    }
+
+
+
+    public function getPathUrlImgAttribute()
+    {
+        return public_path().'/imagenes/Empresa/'.$this->id.'-logo_empresa_socios'.'.png';
     }
 
 

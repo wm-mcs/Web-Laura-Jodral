@@ -1,7 +1,17 @@
 <div class="admin-columna-contenedor">
 
  {{-- imagen logo --}}
- <a href="{{route('get_home')}}"><img class="admin-header-logo" src="{{$Empresa->img_logo_cuadrado}}"></a>
+ <a href="{{route('get_home')}}">
+
+  @if(file_exists($Empresa->_path_img_logo_horizontal))
+  <img class="admin-header-logo" src="{{$Empresa->img_logo_cuadrado}}">
+  
+  @else
+  <span class="text-color-primary">Laura Jodral Garcia</span>
+  @endif
+
+
+ </a>
 
  <ul>
    @if(Auth::user()->role === 'adminMcos522')

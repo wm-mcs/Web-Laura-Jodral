@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" href="{{url()}}{{ elixir('css/admin.css') }}">  
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> 
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Petit+Formal+Script&display=swap" rel="stylesheet">
     
     <META name="robots" content="NOINDEX,NOFOLLOW">
   </head>
