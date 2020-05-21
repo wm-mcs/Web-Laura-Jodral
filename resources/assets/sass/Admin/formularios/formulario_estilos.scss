@@ -18,13 +18,13 @@
 
    }
     .contenedor-grupo-datos-titulo{
-     padding:8px;
+     
      margin-bottom: 8px;
      font-size: 16px;     
-     color:black;     
-     width: 100%;
-     border-radius:4px;
+     color:$color-black;     
+     width: 100%;     
      font-weight: bold;
+     font-family: $font-secondary;
     }
 
 
@@ -40,11 +40,11 @@
              @include flex-direction(column);
              @include align-items(flex-start);
              width:100%;
-             padding: 4px;
-             border-radius: 4px;
-             border:solid 1px transparent;
-             background-color:$color-grey0;
+             padding: 4px;             
+             border:solid 1px transparent;             
              margin-top: 4px;
+             border-bottom:solid 2px $color-grey0;
+             font-family: $font-secondary;
            }
 
            .aclaracion-de-etiquetas{
@@ -56,6 +56,7 @@
             @include flex-direction(column);
             @include align-items(flex-start);  
             border-radius:4px;    
+            font-family: $font-secondary;
             }
 
             .aclaracion-de-etiquetas-linea{
@@ -70,9 +71,11 @@
 
               .formulario-label{                
                 padding:4px;                
-                color: black;                              
+                color: $color-black;                              
                 text-align: center;
+                font-family: $font-secondary;
                 font-size: 12px;
+                margin:0;
               }
 
               .formulario-field{
