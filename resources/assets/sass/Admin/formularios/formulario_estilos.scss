@@ -81,25 +81,25 @@
                 margin:0;
                 background-color:$color-grey1;
                 border-radius:8px;
-                letter-spacing: 1.8px;
+
 
               }
 
 
               .formulario-field{
                 @include InputGeneral;
-                border-bottom:solid 2px $color-grey0;
+                border:solid 2px lighten( $color-grey3, 30% );
                 color:$color-grey3;
                 font-size:12px !important;
               }
 
               .formulario-field::placeholder{
-                  color: lighten( $color-grey3, 20% );
+                  color: lighten( $color-grey3, 30% );
               }
               .formulario-field:focus {    
                 box-shadow: none !important;
                 outline: 0 none !important;
-                border-bottom-color:$color-grey3;
+                border-color:$color-grey3;
               }
 
               
