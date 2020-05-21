@@ -24,7 +24,7 @@
       <meta name="Keywords"  content="@yield('palabras-claves')">
 
       {{-- css --}}   
-      @include('layouts.user_layout.css_fonts')
+      @include('paginas.comunes.css_y_fonts')  
 
   
   </head>
