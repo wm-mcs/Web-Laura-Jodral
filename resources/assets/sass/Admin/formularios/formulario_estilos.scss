@@ -15,6 +15,7 @@
       margin-bottom: 15px;          
       border-radius:6px;      
       width: 49%;
+      background-color:$color-grey-1;
 
    }
     .contenedor-grupo-datos-titulo{
@@ -84,12 +85,13 @@
                 @include InputGeneral;
                 border-bottom:solid 2px $color-grey0;
                 color:$color-grey3;
+                font-size:12px !important;
               }
 
-              .input-text-class-primary::placeholder{
+              .formulario-field::placeholder{
                   color: lighten( $color-grey3, 20% );
               }
-              .input-text-class-primary:focus {    
+              .formulario-field:focus {    
                 box-shadow: none !important;
                 outline: 0 none !important;
                 border-color:$color-3;
