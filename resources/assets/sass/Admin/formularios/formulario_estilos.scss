@@ -72,14 +72,14 @@
 
 
               .formulario-label{                
-                padding:6px;                
+                padding:2px 6px;                
                 color: $color-white;                              
                 text-align: center;
                 font-family: $font-secondary;
                 font-size: 12px;
                 font-weight: bold;
                 margin:0;
-                background-color:$color-grey1;
+                
                 border-radius:8px;
 
 
@@ -88,7 +88,7 @@
 
               .formulario-field{
                 @include InputGeneral;
-                border:solid 2px lighten( $color-grey3, 30% );
+                border:solid 2px $color-grey0;
                 color:$color-grey3;
                 font-size:12px !important;
               }
