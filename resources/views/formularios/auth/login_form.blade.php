@@ -13,9 +13,7 @@
               
               <div class="cols-sm-10">
                 <div class="d-flex flex-column align-items-center">
-                  <span class="input-group-addon mr-2">
-                    <i class="fas fa-user"></i>
-                  </span>
+                  
                   
                   
                   {!! Form::text('email', null ,['class'       => 'input-text-class-primary',
@@ -29,8 +27,7 @@
               
               <div class="cols-sm-10">
                 <div class="flex-row-center">
-                  <span class="input-group-addon"><i class="fas fa-unlock"></i></span>  
-                  <div class="auth-separador"></div>              
+                              
                   {!! Form::password('password', [ 'class'       => 'input-text-class-primary',
                                                    'id'          => 'password',
                                                    'placeholder' => 'Escribe tu contraseña']) !!}
@@ -38,16 +35,12 @@
               </div>
             </div>
 
-            <div class="form-group ">
-              <button type="submit" class="btn btn-primary btn-lg btn-block">Ingresar</button>
-            </div>
             
-<div class="checkbox">
-  <label>
-    <input type="checkbox" value="">
-    Recordar mi usuario
-  </label>
-</div>
+              <button type="submit" class="Boton-Fuente-Chica
+Boton-Primario-Relleno mt-4">Ingresar</button>
+           
+            
+
 
     <hr>
    <div class="login-register">
