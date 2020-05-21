@@ -16,6 +16,7 @@
       border-radius:6px;      
       width: 49%;
       background-color:$color-grey-1;
+      padding:10px;
 
    }
     .contenedor-grupo-datos-titulo{
@@ -76,6 +77,7 @@
                 text-align: center;
                 font-family: $font-secondary;
                 font-size: 12px;
+                font-weight: bold;
                 margin:0;
 
               }
@@ -94,7 +96,7 @@
               .formulario-field:focus {    
                 box-shadow: none !important;
                 outline: 0 none !important;
-                border-color:$color-3;
+                border-bottom-color:$color-grey3;
               }
 
               
