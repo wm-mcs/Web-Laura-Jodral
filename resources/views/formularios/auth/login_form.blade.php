@@ -7,14 +7,16 @@
                             ])               !!}
 
             
-<div class="text-center">
-<div class="center-block">
+<div class="col-12 d-flex flex-column align-items-center">
+<div class="col-11 col-lg-7 p-2 p-lg-5 background-gris-0">
             <div class="form-group">
-              <label for="username" class="cols-sm-2 control-label">Usuario</label>
+              <label for="username" class="col-12 control-label">Usuario</label>
               <div class="cols-sm-10">
                 <div class="flex-row-center">
-                  <span class="input-group-addon"><i class="fas fa-user"></i></span>
-                  <div class="auth-separador"></div>
+                  <span class="input-group-addon">
+                    <i class="fas fa-user"></i>
+                  </span>
+                  
                   
                   {!! Form::text('email', null ,['class'       => 'form-control',
                                                  'id'          => 'username',
