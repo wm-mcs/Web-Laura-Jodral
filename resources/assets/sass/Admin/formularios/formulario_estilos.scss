@@ -43,7 +43,7 @@
              padding: 4px;             
              border:solid 1px transparent;             
              margin-top: 4px;
-             border-bottom:solid 2px $color-grey0;
+             
              font-family: $font-secondary;
            }
 
@@ -71,16 +71,31 @@
 
               .formulario-label{                
                 padding:4px;                
-                color: $color-black;                              
+                color: $color-3;                              
                 text-align: center;
                 font-family: $font-secondary;
                 font-size: 12px;
                 margin:0;
+
               }
+
 
               .formulario-field{
                 @include InputGeneral;
+                border-bottom:solid 2px $color-grey0;
+                color:$color-grey3;
               }
+
+              .input-text-class-primary::placeholder{
+                  color: lighten( $color-grey3, 20% );
+              }
+              .input-text-class-primary:focus {    
+                box-shadow: none !important;
+                outline: 0 none !important;
+                border-color:$color-3;
+              }
+
+              
 
 
               .admin-boton-editar{
