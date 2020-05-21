@@ -12,13 +12,13 @@
             <div class="form-group">
               <label for="username" class="col-12 control-label">Usuario</label>
               <div class="cols-sm-10">
-                <div class="flex-row-center">
-                  <span class="input-group-addon">
+                <div class="d-flex flex-column align-items-center">
+                  <span class="input-group-addon mr-2">
                     <i class="fas fa-user"></i>
                   </span>
                   
                   
-                  {!! Form::text('email', null ,['class'       => 'form-control',
+                  {!! Form::text('email', null ,['class'       => 'input-text-class-primary',
                                                  'id'          => 'username',
                                                  'placeholder' => 'Escribe tu email']) !!}
                 </div>
@@ -31,7 +31,7 @@
                 <div class="flex-row-center">
                   <span class="input-group-addon"><i class="fas fa-unlock"></i></span>  
                   <div class="auth-separador"></div>              
-                  {!! Form::password('password', [ 'class'       => 'form-control',
+                  {!! Form::password('password', [ 'class'       => 'input-text-class-primary',
                                                    'id'          => 'password',
                                                    'placeholder' => 'Escribe tu contraseña']) !!}
                 </div>
