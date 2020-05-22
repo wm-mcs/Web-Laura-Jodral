@@ -8,7 +8,7 @@
   });
 
 
-  $('body').on('click','.admin-boton-editar',function(e)
+  $('body').on('click','.admin-boton-editar, .disparar-este-form',function(e)
   {
    e.preventDefault();   
 
