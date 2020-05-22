@@ -1,13 +1,13 @@
 {!! Form::model(Request::all(),['route'   => 'get_admin_noticias', 
                 'method'  => 'GET',
-                'class'   => 'navbar-form',
+                'class'   => 'row',
                 'role'    => 'search' ])                             !!}
-  <div class="admin-entidad-buscador-contenedor">
-  {!! Form::text('name', null , ['class'       => 'form-control', 
-                                 'placeholder' => 'buscar'])        !!}
+  <div class="row">
+  {!! Form::text('name', null , ['class'       => 'input-text-class-primary', 
+                                 'placeholder' => 'Buscar'])        !!}
  
 
-  <button type="submit" class="btn btn-default">Buscar</button>
+  <button type="submit" class="sub-titulos-class text-color-primary"><i class="fas fa-search"></i></button>
   </div>
   
 
