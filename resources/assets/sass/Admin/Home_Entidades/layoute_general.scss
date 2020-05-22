@@ -26,7 +26,7 @@
   @include align-items(center);
   @include flex-direction(row); 
   border:solid 1px transparent;
-  font-family: $font-primary;
+  font-family: $font-secondary;
   
 }  
 
@@ -52,7 +52,7 @@
   top: 0;
   left: 0;
   z-index: 1000;
-  font-family: $font-primary;
+  font-family: $font-secondary;
  
 }
 
@@ -64,7 +64,7 @@
   }
 
     .admin-contiene-content-wraper{
-      width: 95%;    
+      width: 100%;    
       @include flexbox;
       @include align-items(center);
       @include flex-direction(column); 
@@ -98,13 +98,13 @@
  * * * * * * * * * * * * * * * * * * * * * * * * * */
  // columna
  .admin-columna-contenedor{
-  width: 20%;  
-  border-right: 1px solid $color-3;  
+  width: 20%;    
   @include flexbox;
   @include align-items(center);
   @include flex-direction(column);   
   min-height: 100vh;
   position: fixed;
+  background-color: $color-grey-1;
 }
 
 
