@@ -26,18 +26,29 @@
    <div class="row">
 
       {{-- datos corporativos --}}
-      <div class="contenedor-grupo-datos">
-        <div class="contenedor-grupo-datos-titulo"><span class="icon-person"></span> Identidad</div>
+      <div class="contenedor-grupo-datos col-12 col-lg-6">
+        <div class="contenedor-grupo-datos-titulo"><span class="icon-person"></span> Datos</div>
         <div class="contenedor-formulario-label-fiel">                       
           @include('admin.noticias.formularios_partes.datos_basicos')
         </div>
       </div>
 
+
       {{-- imagenes corporativos --}}
-      <div class="contenedor-grupo-datos">
+      <div class="contenedor-grupo-datos col-12 col-lg-6">
         <div class="contenedor-grupo-datos-titulo"><span class="icon-person"></span> Imagen</div>
         <div class="contenedor-formulario-label-fiel">                       
           @include('admin.noticias.formularios_partes.datos_imagenes')
+        </div>
+      </div>
+      <div class="contenedor-grupo-datos col-12">
+        <div class="contenedor-grupo-datos-titulo"><span class="icon-person"></span> Contenido del post</div>
+        <div class="contenedor-formulario-label-fiel">                       
+          <div class="formulario-label-fiel">
+            @include('admin.noticias.formularios_partes.aclaracion_etiquetas')
+            {!! Form::label('description', 'Contenido', array('class' => 'formulario-label ')) !!}
+            {!! Form::textarea('description', null ,['class' => 'formulario-field']) !!}
+          </div>
         </div>
       </div>
 
@@ -45,8 +56,8 @@
 
       
    </div>
-   <div class="admin-boton-editar">
-     Crear Noticia
+   <div class="mt-5 mb-5 Boton-Fuente-Chica Boton-Primario-Relleno">
+     Crear post <i class="fas fa-angle-double-right"></i>
    </div> 
 
 
