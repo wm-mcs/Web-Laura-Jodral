@@ -19,7 +19,7 @@
     @include('admin.noticias.partes.buscador')
  </div>
  <div class="admin-contiene-entidades-y-pagination">
-   <div class="admin-entidad-contenedor-entidades">
+   <div class="row col-12">
      @foreach($Entidades as $Entidad)
           @include('admin.noticias.partes.lista')
      @endforeach

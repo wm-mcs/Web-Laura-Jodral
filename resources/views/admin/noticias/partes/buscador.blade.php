@@ -2,12 +2,12 @@
                 'method'  => 'GET',
                 'class'   => 'row',
                 'role'    => 'search' ])                             !!}
-  <div class="row">
+  <div class="col-6 d-flex align-items-center">
   {!! Form::text('name', null , ['class'       => 'input-text-class-primary', 
                                  'placeholder' => 'Buscar'])        !!}
  
 
-  <button type="submit" class="sub-titulos-class text-color-primary"><i class="fas fa-search"></i></button>
+  <button type="submit" class="ml-3 sub-titulos-class text-color-primary"><i class="fas fa-search"></i></button>
   </div>
   
 
