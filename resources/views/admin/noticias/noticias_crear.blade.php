@@ -1,16 +1,8 @@
 @extends('layouts.admin_layout.admin_layout')
 
 
-@section('miga-de-pan')
- 
-  {{-- lugar atras --}}
-  <a href="{{route('get_admin_noticias')}}"><span>Noticias</span></a>
-
-  {{-- separador --}}
-  <span class="spam-separador"><span class="icon-keyboard_arrow_right"></span></span> 
-
-  {{-- lugar donde esta --}}
-  <span>Crear Noticia</span>
+@section('miga-de-pan')   
+  <h1 class="titulos-class mb-5 text-color-primary">Crear post</h1>
 @stop
 
 @section('content')
