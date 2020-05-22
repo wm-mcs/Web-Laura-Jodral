@@ -28,7 +28,7 @@
             
          
                @include('alerts.Alertas_Todos_Agrupados.alertas_agrupados')  
-               <div class="col-12  p-5 font-secondary">
+               <div class="col-12  p-5 ">
                 
                 @yield('miga-de-pan')                
               </div>
