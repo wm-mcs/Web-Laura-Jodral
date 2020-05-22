@@ -58,6 +58,11 @@ class Noticia extends Model
         return url().'/imagenes/Noticias/'.$this->img.$this->id.'-portada'.'.jpg';
     }
 
+       public function getPathUrlImgPortadaAttribute()
+       {
+         return public_path().'/imagenes/Noticias/'.$this->img.$this->id.'-portada'.'.jpg';
+       }
+
     public function getUrlImgPortadaChicaAttribute()
     {
         
@@ -69,6 +74,11 @@ class Noticia extends Model
         
         return url().'/imagenes/Noticias/'.$this->img.$this->id.'-adicional'.'.jpg';
     }
+
+        public function getPathUrlImgAdicionalAttribute()
+        {
+         return public_path().'/imagenes/Noticias/'.$this->img.$this->id.'-adicional'.'.jpg';
+        }
 
     public function getUrlImgAdicionalChicaAttribute()
     {        
