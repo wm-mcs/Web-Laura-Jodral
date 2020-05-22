@@ -61,6 +61,7 @@
     @include flexbox;
     @include align-items(center);
     @include flex-direction(column);  
+    font-family:$font-secondary;
   }
 
     .admin-contiene-content-wraper{
@@ -70,22 +71,12 @@
       @include flex-direction(column); 
       padding:8px;
       border-radius:4px;
+      font-family:$font-secondary;
       
     }
 
 
-  .admin-contnedor-navegacion-miga{
-    width: 100%;
-    padding:6px 2px;
-    border-bottom: solid 1px $Color-Gris-Claro;
-    font-size: 14px;
-    margin-bottom:12px;
-  }
-    .spam-separador{
-      margin: 0 2px;
-      
-
-    }
+  
 
 
 
