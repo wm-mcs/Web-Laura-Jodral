@@ -47,7 +47,8 @@
           <div class="formulario-label-fiel">
             @include('admin.noticias.formularios_partes.aclaracion_etiquetas')
             {!! Form::label('description', 'Contenido', array('class' => 'formulario-label ')) !!}
-            {!! Form::textarea('description', null ,['class' => 'formulario-field']) !!}
+            {!! Form::textarea('description', null ,['class' => 'formulario-field',
+                                                     'rows' => 16 ]) !!}
           </div>
         </div>
       </div>
