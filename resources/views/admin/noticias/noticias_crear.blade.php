@@ -23,7 +23,7 @@
                             'files' =>  true,
                             'id'    => 'form-admin-empresa-datos'
                           ])               !!}
-   <div class="row">
+   <div class="row p-5">
 
       {{-- datos corporativos --}}
       <div class="contenedor-grupo-datos col-12 col-lg-6">
