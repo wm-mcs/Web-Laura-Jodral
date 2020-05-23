@@ -7,7 +7,7 @@
 	                                 'placeholder' => 'Buscar'])        !!}
 	 
 
-	  <button type="submit" class="Boton-Fuente-Chica Boton-Primario-Sin-Relleno col-2">
+	  <button type="submit" class="Boton-Fuente-Chica Boton-Primario-Sin-Relleno-Ni-Borde col-2">
 	    <i class="fas fa-search"></i>
 	  </button>
   </div>
