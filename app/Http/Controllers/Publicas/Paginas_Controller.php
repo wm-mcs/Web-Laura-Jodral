@@ -70,6 +70,22 @@ class Paginas_Controller extends Controller
         return view('paginas.paginas_personalizadas.laura_quien_es', compact('Empresa','blogs'));
     }
 
+
+
+    
+    // B l o g   I n d i v i d u a l 
+    public function get_pagina_noticia_individual($name,$id)
+    {
+        $Noticia              = $this->NoticiasRepo->find($id);
+        $Empresa              = $this->EmpresaRepo->getEmpresaDatos();        
+        $blogs                = '';
+        $blogs_relacionados   = $this->NoticiasRepo->getBlogsRelacionados($Noticia);
+        
+        return view('paginas.noticias.noticia_individual',compact('Noticia','Empresa','blogs','blogs_relacionados'));
+    }
+
+
+
    
     
 
