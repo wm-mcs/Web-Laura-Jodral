@@ -9,7 +9,7 @@
 
  {{-- titulo --}}
  <div class="container">
-  <div class="row  p-3">
+  <div class="row  p-3 justify-content-between ">
    
 
 
