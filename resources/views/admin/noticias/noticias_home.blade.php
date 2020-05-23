@@ -2,23 +2,22 @@
 
 @section('miga-de-pan') 
 
- <span>Noticias</span>
+ <h1 class="titulos-class  text-color-primary font-secondary">Mi Blog</h1>
 @stop
 
 @section('content')
 
  {{-- titulo --}}
- <div class="contenedor-admin-entidad-titulo-form-busqueda">
-    <div class="admin-entidad-titulo">Noticias 
-     <a href="{{route('get_admin_noticias_crear')}}">
-      <span class="admin-user-boton-Crear">Crear 
-       <span class="icon-add_circle_outline"></span> 
-      </span>
+ <div class="container p-3">
+    <div class="col-6"> 
+     <a class="col-12 Boton-Fuente-Chica Boton-Primario-Relleno" href="{{route('get_admin_noticias_crear')}}"> 
+      Crear post
+      
      </a>  
     </div>
     @include('admin.noticias.partes.buscador')
  </div>
- <div class="admin-contiene-entidades-y-pagination">
+ <div class="container p-4">
    <div class="row col-12">
      @foreach($Entidades as $Entidad)
           @include('admin.noticias.partes.lista')
