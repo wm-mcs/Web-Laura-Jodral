@@ -203,6 +203,19 @@
       
       {{-- S e r v i c i o s  --}}
       {{-- @include('paginas.paginas_personalizadas.home_servicios') --}}
+
+
+      <section v-if="blogs.length" class="site-section background-gris-0" id="blog-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mb-5 position-relative">
+            <h2 class="text-color-primary titulos-class text-center mb-5">Blog</h2>
+          </div>
+           <blog-list-component v-for="blog in blogs" :empresa="empresa" :blog="blog" :key="blog.id" ></blog-list-component>
+
+        </div>
+      </div>
+    </section>
       
 
       {{-- C o n t a c t o  --}}
