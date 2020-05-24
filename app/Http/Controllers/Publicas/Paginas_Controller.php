@@ -4,14 +4,12 @@ namespace App\Http\Controllers\Publicas;
 
 use App\Http\Controllers\Controller;
 use App\Repositorios\ImgHomeRepo;
-use App\Repositorios\ProyectoRepo;
+
 use Illuminate\Http\Request;
 use App\Repositorios\NoticiasRepo;
 use App\Repositorios\EmpresaRepo;
-use App\Repositorios\MarcaRepo;
-use App\Repositorios\Marca_de_eventoRepo;
-use Illuminate\Pagination\LengthAwarePaginator;
-use Illuminate\Pagination\Paginator;
+
+
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Session;
 use App\Helpers\CurlHelper;
@@ -28,20 +26,13 @@ class Paginas_Controller extends Controller
     protected $Marca_de_eventoRepo;
     protected $CurlHelper;
 
-    public function __construct(ImgHomeRepo         $ImgHomeRepo,
-                                ProyectoRepo        $ProyectoRepo, 
-                                NoticiasRepo        $NoticiasRepo,
-                                EmpresaRepo         $EmpresaRepo, 
-                                MarcaRepo           $MarcaRepo,
-                                Marca_de_eventoRepo $Marca_de_eventoRepo,
+    public function __construct(NoticiasRepo        $NoticiasRepo,
+                                EmpresaRepo         $EmpresaRepo,                                 
                                 CurlHelper          $CurlHelper   )
     {
-        $this->ProyectoRepo        = $ProyectoRepo;
-        $this->ImgHomeRepo         = $ImgHomeRepo;
+        
         $this->NoticiasRepo        = $NoticiasRepo;
         $this->EmpresaRepo         = $EmpresaRepo;
-        $this->MarcaRepo           = $MarcaRepo;       
-        $this->Marca_de_eventoRepo = $Marca_de_eventoRepo;
         $this->CurlHelper          = $CurlHelper;
     }
 
@@ -66,7 +57,7 @@ class Paginas_Controller extends Controller
     public function get_pagina_quien_es()
     {
         $blogs          = $this->NoticiasRepo->getUltimosBlogs();
-        $Empresa = $this->EmpresaRepo->getEmpresaDatos();
+        $Empresa        = $this->EmpresaRepo->getEmpresaDatos();
         return view('paginas.paginas_personalizadas.laura_quien_es', compact('Empresa','blogs'));
     }
 
