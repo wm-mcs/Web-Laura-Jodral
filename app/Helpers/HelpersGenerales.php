@@ -1,8 +1,7 @@
 <?php
 
 namespace App\Helpers;
-use App\Repositorios\ProductoRepo;
-use Illuminate\Support\Facades\Cache;
+
 
 
 
