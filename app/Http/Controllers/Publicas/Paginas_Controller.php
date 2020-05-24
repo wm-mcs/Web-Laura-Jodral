@@ -63,7 +63,7 @@ class Paginas_Controller extends Controller
        
         $Noticia              = $this->NoticiasRepo->find($id);
 
-        dd($Noticia,$name,$id);
+        
         $Empresa              = $this->EmpresaRepo->getEmpresaDatos();        
         $blogs                = '';
         $blogs_relacionados   = $this->NoticiasRepo->getBlogsRelacionados($Noticia);
