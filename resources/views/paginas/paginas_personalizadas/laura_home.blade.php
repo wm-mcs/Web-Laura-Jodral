@@ -209,7 +209,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 mb-5 position-relative">
-            <h2 class="text-color-primary titulos-class text-center mb-5">Blog</h2>
+            <h2 class="text-color-primary titulos-class text-center font-secondary mb-5">Blog</h2>
           </div>
            <blog-list-component v-for="blog in blogs" :empresa="empresa" :blog="blog" :key="blog.id" ></blog-list-component>
 
