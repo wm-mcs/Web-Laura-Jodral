@@ -116,6 +116,9 @@ class Noticia extends Model
         $cadena = str_replace('(P)' ,'<p class="post-individual-p">', $cadena);
         $cadena = str_replace('(/P)' ,'</p>', $cadena);
 
+        $cadena = str_replace('(I)' ,'<span class="font-italic">', $cadena);  
+        $cadena = str_replace('(/I)' ,'</span>', $cadena);
+
 
         //text bold  
         $cadena = str_replace('(B)' ,'<strong>', $cadena);  

@@ -13,6 +13,7 @@
   <div class="lista-class aclaracion-de-etiquetas-linea"> Párrafos: <span class="text-bold"> (P)   (/P) </span> </div>
 
   <div class="lista-class aclaracion-de-etiquetas-linea"> Bold: <span class="text-bold"> (B)   (/B) </span> </div> 
+   <div class="lista-class aclaracion-de-etiquetas-linea"> Italic: <span class="text-bold"> (I)   (/I) </span> </div> 
 
    <div class="lista-class aclaracion-de-etiquetas-linea"> Contiene lista: <span class="text-bold"> (U)   (/U) </span> </div> 
 
