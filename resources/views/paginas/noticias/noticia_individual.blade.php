@@ -1,6 +1,16 @@
-@extends('layouts.credo.layout_pricnipal')
+@extends('layouts.paginasPersonalizadas.layout')
 
+@section('favicon')
+<link rel="shortcut icon" href="{{ asset('imagenes/favicon-easy.ico') }}"> 
+@stop
 
+@section('header')
+  @include('paginas.paginas_personalizadas.Header.Header_principal')
+@stop
+
+@section('footer')
+  @include('paginas.paginas_personalizadas.Footer.Footer_principal')
+@stop
 
 @section('og-tags')
   <meta property="og:url"                content="{{$Noticia->route}}" />
@@ -62,40 +72,7 @@
   @include('paginas.home.vue.vue-instance')
 @stop
 
-@section('header')
-<div class="container-fluid">
-        <div class="row align-items-center justify-content-center">
-          
-          <div class="">
-            <nav class="site-navigation position-relative text-right" role="navigation">
-              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="{{route('get_home')}}" class="nav-link">Home</a></li>               
-              </ul>
-            </nav>
-          </div>
 
-        
-
-          <div class="text-left">
-
-            <nav class="site-navigation position-relative" role="navigation">
-              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">                
-                <li><a href="#contact-section" class="nav-link">Contacto</a></li>
-                @if(!Auth::guest())
-                  <li><a href="{{route('get_datos_corporativos')}}" class="nav-link">Administrar</a></li>
-                  <li><a href="{{route('logout')}}" class="nav-link">Salir</a></li>
-                @endif
-              </ul>
-            </nav>
-
-
-            <div class="d-inline-block d-lg-none" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
-
-          </div>
-
-        </div>
-      </div>
-@stop
 
 
 @section('iconos-compartir')
