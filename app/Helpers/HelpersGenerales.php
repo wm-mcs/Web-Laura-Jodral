@@ -33,9 +33,9 @@ class HelpersGenerales
 
     public static function helper_olvidar_este_cache($nombre_de_cache)
     {
-        if (Cache::has($cache))
+        if (Cache::has($nombre_de_cache))
         {
-         Cache::forget($cache);
+         Cache::forget($nombre_de_cache);
         }
     }
 }
