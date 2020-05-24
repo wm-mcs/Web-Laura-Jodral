@@ -34,6 +34,14 @@
           <li class="admin-columna-li mi-float-right"><i class="fas fa-bars"></i> Categorias</li>
         </a>  
 
+        <a href="{{route('get_admin_trayectorias')}}">
+          <li class="admin-columna-li mi-float-right"><i class="fas fa-user-tie"></i> Trayectoria</li>
+        </a>   
+
+        <a href="{{route('get_cv')}}">
+          <li class="admin-columna-li mi-float-right"><i class="fas fa-user-tie"></i> CV</li>
+        </a>  
+
          
 
         
@@ -46,20 +54,10 @@
    <div id="admin-col-admin">
         <a href="{{route('get_datos_corporativos')}}">
             <li class="admin-columna-li mi-float-right"><i class="fas fa-building"></i> Mis datos</li>
-        </a>   
-
-        <a href="{{route('get_admin_trayectorias')}}">
-          <li class="admin-columna-li mi-float-right"><i class="fas fa-user-tie"></i> Trayectoria</li>
-        </a>   
-
-        <a href="{{route('get_cv')}}">
-          <li class="admin-columna-li mi-float-right"><i class="fas fa-user-tie"></i> CV</li>
         </a>  
 
-        
-
-           <a href="{{route('get_admin_noticias')}}">
-          <li class="admin-columna-li mi-float-right"><i class="fas fa-newspaper"></i> Noticias</li>
+        <a href="{{route('get_admin_noticias')}}">
+          <li class="admin-columna-li mi-float-right"><i class="fas fa-newspaper"></i> Blog</li>
         </a>   
         
     </div>
