@@ -3,13 +3,9 @@
 namespace App\Http\Controllers\Publicas;
 
 use App\Http\Controllers\Controller;
-use App\Repositorios\ImgHomeRepo;
-
 use Illuminate\Http\Request;
 use App\Repositorios\NoticiasRepo;
 use App\Repositorios\EmpresaRepo;
-
-
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Session;
 use App\Helpers\CurlHelper;
@@ -17,13 +13,9 @@ use App\Helpers\CurlHelper;
 
 class Paginas_Controller extends Controller
 {
-    protected $ImgHomeRepo;
-    protected $ProyectoRepo;
+   
     protected $NoticiasRepo;
-    protected $EmpresaRepo;
-    protected $MarcaRepo;
-    protected $EventoRepo;
-    protected $Marca_de_eventoRepo;
+    protected $EmpresaRepo;    
     protected $CurlHelper;
 
     public function __construct(NoticiasRepo        $NoticiasRepo,
