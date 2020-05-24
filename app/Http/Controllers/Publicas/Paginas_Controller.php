@@ -76,6 +76,8 @@ class Paginas_Controller extends Controller
     // B l o g   I n d i v i d u a l 
     public function get_pagina_noticia_individual($name,$id)
     {
+
+        dd('hola');
         $Noticia              = $this->NoticiasRepo->find($id);
         $Empresa              = $this->EmpresaRepo->getEmpresaDatos();        
         $blogs                = '';
