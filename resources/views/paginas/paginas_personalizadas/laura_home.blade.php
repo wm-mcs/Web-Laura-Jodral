@@ -205,7 +205,7 @@
       {{-- @include('paginas.paginas_personalizadas.home_servicios') --}}
 
 
-      <section v-if="blogs.length" class="site-section background-gris-0" id="blog-section">
+      <section v-if="blogs.length" class="site-section background-gris-1" id="blog-section">
       <div class="container">
         <div class="row">
           <div class="col-12 mb-5 position-relative">
