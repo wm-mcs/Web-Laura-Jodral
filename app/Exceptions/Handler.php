@@ -42,6 +42,8 @@ class Handler extends ExceptionHandler
 
         // 404 page when a model is not found
         if ($e instanceof ModelNotFoundException) {
+
+            dd($e);
             return response()->view('errors.404', [], 404);
         }
 
