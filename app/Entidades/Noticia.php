@@ -4,6 +4,7 @@ namespace App\Entidades;
 
 use Illuminate\Database\Eloquent\Model;
 use Carbon\Carbon;
+use App\Helpers\HelpersGenerales;
 
 
 
@@ -100,7 +101,7 @@ class Noticia extends Model
 
     public function getNameSlugAttribute()
     {
-        return $this->helper_convertir_cadena_para_url($this->name);
+        return HelpersGenerales::helper_convertir_cadena_para_url($this->name);
     }
 
 
@@ -163,18 +164,7 @@ class Noticia extends Model
         return htmlentities($cadena, ENT_QUOTES | ENT_IGNORE, "UTF-8"); 
     }
 
-    //funciones personalizadas para reciclar
-    public function helper_convertir_cadena_para_url($cadena)
-    {
-        $cadena = trim($cadena);
-        //quito caracteres - 
-        $cadena = str_replace('-' ,' ', $cadena);
-        $cadena = str_replace(' ' ,'-', $cadena);
-        $cadena = str_replace('?' ,'', $cadena);
-        $cadena = str_replace('¿' ,'', $cadena);
-
-        return $cadena;
-    }
+   
 
 
     public function getFechaPersonalizadaAttribute()
