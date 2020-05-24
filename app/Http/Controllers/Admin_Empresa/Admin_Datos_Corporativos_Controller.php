@@ -8,6 +8,7 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use App\Http\Controllers\Controller;
 use App\Repositorios\EmpresaRepo;
 use Illuminate\Http\Request;
+use App\Helpers\HelpersGenerales;
 
 
 
@@ -49,6 +50,7 @@ class Admin_Datos_Corporativos_Controller extends Controller
       $this->Empresa->setImagen(null,$Request,'imagen_contacto','Empresa/','atencion','.jpg',300);
 
       $Empresa->save();  
+      HelpersGenerales::helper_olvidar_este_cache('EmpresaDatos');
  
     return redirect()->back()->with('alert', 'has actualizado la información de manera correcta');
   }

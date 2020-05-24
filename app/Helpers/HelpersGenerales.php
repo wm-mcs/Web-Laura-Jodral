@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Helpers;
+use Illuminate\Support\Facades\Cache;
 
 
 
@@ -8,6 +9,9 @@ namespace App\Helpers;
 class HelpersGenerales
 {
 
+    /**
+     * Convierte una cadena y la prepara para URL
+     */
     public static function helper_convertir_cadena_para_url($cadena)
     {
 
@@ -25,5 +29,13 @@ class HelpersGenerales
         $cadena = str_replace('¿' ,'', $cadena);
         return $cadena;
     
+    }
+
+    public static function helper_olvidar_este_cache($nombre_de_cache)
+    {
+        if (Cache::has($cache))
+        {
+         Cache::forget($cache);
+        }
     }
 }

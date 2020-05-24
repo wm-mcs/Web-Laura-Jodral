@@ -9,6 +9,7 @@ use App\Http\Controllers\Controller;
 use App\Repositorios\NoticiasRepo;
 use Illuminate\Http\Request;
 use App\Managers\noticia_manager;
+use App\Helpers\HelpersGenerales;
 
 
 
@@ -63,6 +64,9 @@ class Admin_Noticias_Controllers extends Controller
 
           $this->NoticiasRepo->setImagen( $noticia ,$Request , 'img', 'Noticias/',  $noticia->name_slug .$noticia->id.'-portada-chica'   ,'.jpg',250);
      $this->NoticiasRepo->setImagen( null ,$Request , 'img2', 'Noticias/', $noticia->name_slug .$noticia->id.'-adicional-chica' ,'.jpg',250);
+
+     //Olvido el cache de últimos blogs
+     HelpersGenerales::helper_olvidar_este_cache('UltimosBlogs');
       
       return redirect()->route('get_admin_noticias')->with('alert', 'Noticia Creado Correctamente');
     }
@@ -95,6 +99,11 @@ class Admin_Noticias_Controllers extends Controller
 
          $this->NoticiasRepo->setImagen( $noticia ,$Request , 'img', 'Noticias/',  $noticia->name_slug .$noticia->id.'-portada-chica'   ,'.jpg',250);
      $this->NoticiasRepo->setImagen( null ,$Request , 'img2', 'Noticias/', $noticia->name_slug .$noticia->id.'-adicional-chica' ,'.jpg',250);
+
+     //Olvido el cache de últimos blogs
+     HelpersGenerales::helper_olvidar_este_cache('UltimosBlogs');
+
+     
 
     return redirect()->route('get_admin_noticias')->with('alert', 'Noticia Editado Correctamente');  
   }

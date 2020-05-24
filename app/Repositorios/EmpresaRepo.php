@@ -21,7 +21,7 @@ class EmpresaRepo extends BaseRepo
 
   public function getEmpresaDatos()
   {
-     return  Cache::remember('EmpresaDatos', 500, function() {
+     return  Cache::remember('EmpresaDatos', 800, function() {
                               return $this->getEntidad()->find(1); 
                           }); 
   }
