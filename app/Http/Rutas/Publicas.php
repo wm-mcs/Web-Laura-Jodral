@@ -6,12 +6,7 @@
 require __DIR__ . '/Formularios/Rutas_Formularios_Publicas.php';
 
 
-// N o t i c i a   I n d i v i d u a l 
-Route::get('/blog/{name}-{id}' , [                    
-'uses' => 'Publicas\Paginas_Controller@get_pagina_noticia_individual',
-'as'   => 'get_pagina_noticia_individual']
-)->where(['id'  => '[0-9]+',
-        'name'=> '^[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*$']);
+
 
 
 
@@ -39,6 +34,13 @@ Route::get('/Quién-es-Laura-Jodral-Garcia' , [
   'uses' => 'Publicas\Paginas_Controller@get_pagina_quien_es',
   'as'   => 'get_pagina_quien_es']
 );
+
+// N o t i c i a   I n d i v i d u a l 
+Route::get('/blog/{name}-{id}' , [                    
+'uses' => 'Publicas\Paginas_Controller@get_pagina_noticia_individual',
+'as'   => 'get_pagina_noticia_individual']
+)->where(['id'  => '[0-9]+',
+        'name'=> '^[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*$']);
 
 
 
