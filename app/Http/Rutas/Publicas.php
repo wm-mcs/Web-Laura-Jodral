@@ -5,7 +5,7 @@
 
 require __DIR__ . '/Formularios/Rutas_Formularios_Publicas.php';
 
-require __DIR__ . '/Noticias/Rutas_Noticias_Publicas.php';
+
 
 
 
@@ -34,4 +34,7 @@ Route::get('/Quién-es-Laura-Jodral-Garcia' , [
   'uses' => 'Publicas\Paginas_Controller@get_pagina_quien_es',
   'as'   => 'get_pagina_quien_es']
 );
+
+// B l o g
+require __DIR__ . '/Noticias/Rutas_Noticias_Publicas.php';
 
