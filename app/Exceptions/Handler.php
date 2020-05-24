@@ -52,7 +52,7 @@ class Handler extends ExceptionHandler
             return response()->view('errors.500', [], 500);
         }
 
-        dd($e);
+        
 
         return parent::render($request, $e);
     }
