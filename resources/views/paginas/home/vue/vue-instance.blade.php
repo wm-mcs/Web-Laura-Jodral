@@ -2,7 +2,7 @@ var app = new Vue({
     el: '#app',    
     data:{
       empresa: {!! json_encode($Empresa) !!},
-      blogs:   {!! json_encode($blogs) !!},
+      blogs:   @if(isset($blogs)) {!! json_encode($blogs) !!} @else '' @endif,
       cargando:false,
       scrolled:0,
       windowWidth: window.innerWidth,

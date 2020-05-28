@@ -25,6 +25,9 @@
             <nav class="site-navigation position-relative" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">               
                 <li><a href="{{route('get_pagina_quien_es')}}" class="text-uppercase">Sobre Laura Jodral</a></li>
+
+                <li><a href="{{route('get_pagina_noticias_listado')}}" class="text-uppercase">Blog</a></li>
+
                 <li><a href="{{route('get_pagina_servicios')}}" class="text-uppercase">Servicios</a></li>
                 <li><a href="{{route('get_pagina_contacto')}}" class="text-uppercase">Contacto</a></li>
                 @if(!Auth::guest())

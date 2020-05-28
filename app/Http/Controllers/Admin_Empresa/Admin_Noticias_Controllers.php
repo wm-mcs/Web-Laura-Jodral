@@ -67,8 +67,14 @@ class Admin_Noticias_Controllers extends Controller
 
      //Olvido el cache de últimos blogs
      HelpersGenerales::helper_olvidar_este_cache('UltimosBlogs');
+     HelpersGenerales::helper_olvidar_este_cache('Blogs-page-1');
+     HelpersGenerales::helper_olvidar_este_cache('Blogs-page-2');
+     HelpersGenerales::helper_olvidar_este_cache('UltimosBlogs');
+     
+
+     
       
-      return redirect()->route('get_admin_noticias')->with('alert', 'Noticia Creado Correctamente');
+      return redirect()->route('get_admin_noticias')->with('alert', 'Noticia creada correctamente');
     }
 
    

@@ -32,7 +32,7 @@ class Paginas_Controller extends Controller
     public function get_pagina_contacto()
     {
 
-        $blogs          = $this->NoticiasRepo->getUltimosBlogs();
+        $blogs   = $this->NoticiasRepo->getUltimosBlogs();
         $Empresa = $this->EmpresaRepo->getEmpresaDatos();
         return view('paginas.paginas_personalizadas.laura_contacto', compact('Empresa','blogs'));
     }
@@ -40,7 +40,7 @@ class Paginas_Controller extends Controller
     // S e r v i c i o s
     public function get_pagina_servicios()
     {
-        $blogs          = $this->NoticiasRepo->getUltimosBlogs();
+        $blogs   = $this->NoticiasRepo->getUltimosBlogs();
         $Empresa = $this->EmpresaRepo->getEmpresaDatos();
         return view('paginas.paginas_personalizadas.laura_servicios', compact('Empresa','blogs'));
     }
@@ -55,15 +55,29 @@ class Paginas_Controller extends Controller
 
 
 
+    // B l o g   L i s t a d o 
+    public function get_pagina_noticias_listado(Request $Request)
+    {
+        
+        //La página en la cual está
+        $Pagina   = isset($_GET['page']) ? (int)$_GET['page'] : 1;  
+
+        //Me traigo los últimos blogs y los pagino
+        $Blogs    = Cache::remember('Blogs-page-' . $Pagina, 60, function() use ($Request) {
+                        return $this->NoticiasRepo
+                                    ->getEntidadActivasYOrdenadasSegunPaginadas($Request,'created_at','desc',9);
+                    }); 
+        $Empresa  = $this->EmpresaRepo->getEmpresaDatos();   
+        return view('paginas.noticias.noticias',compact('Blogs','Empresa'));     
+        
+    }
     
     // B l o g   I n d i v i d u a l 
     public function get_pagina_noticia_individual($name,$id)  {
        
         $Noticia              = $this->NoticiasRepo->find($id);
-
-
         $Empresa              = $this->EmpresaRepo->getEmpresaDatos();        
-        $blogs                = '';
+        
         $blogs_relacionados   = $this->NoticiasRepo->getBlogsRelacionados($Noticia);
         
         return view('paginas.noticias.noticia_individual',compact('Noticia','Empresa','blogs','blogs_relacionados'));
