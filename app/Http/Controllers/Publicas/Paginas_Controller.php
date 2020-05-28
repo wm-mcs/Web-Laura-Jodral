@@ -65,7 +65,7 @@ class Paginas_Controller extends Controller
         //Me traigo los últimos blogs y los pagino
         $Blogs    = Cache::remember('Blogs-page-' . $Pagina, 60, function() use ($Request) {
                         return $this->NoticiasRepo
-                                    ->getEntidadActivasYOrdenadasSegunPaginadas($Request,'created_at','desc',9);
+                                    ->getEntidadActivasYOrdenadasSegunPaginadas($Request,'created_at','desc',2);
                     }); 
         $Empresa  = $this->EmpresaRepo->getEmpresaDatos();   
         return view('paginas.noticias.noticias',compact('Blogs','Empresa'));     
