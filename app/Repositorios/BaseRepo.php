@@ -76,7 +76,8 @@ abstract class BaseRepo
     {
       return $this->entidad
                   ->name($request->get('name')) 
-                  ->active()               
+                  ->where('estado','si')  
+                  ->where('borrado','no')            
                   ->orderBy($OrdenadasSegunAtributo,$Orden)
                   ->paginate($paginacion);
     }
