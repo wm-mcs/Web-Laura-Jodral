@@ -144,7 +144,7 @@
 
 
           <div class="col-12 my-5">
-            {{ $Blogs->render() }}
+            {!! $Blogs->render() !!}
           </div>
            
 
