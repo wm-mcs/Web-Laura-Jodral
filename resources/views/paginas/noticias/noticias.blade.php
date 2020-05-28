@@ -143,7 +143,7 @@
           @endforeach
 
 
-          <div class="col-12 my-5">
+          <div class="col-12 my-5 d-flex flex-column align-items-center">
             {!! $Blogs->render() !!}
           </div>
            
