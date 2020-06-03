@@ -211,7 +211,7 @@
           <div class="col-12 mb-5 position-relative">
             <h2 class="text-color-primary titulos-class text-center font-secondary mb-5">Blog</h2>
           </div>
-          @foreach($Blogs as $Blog)
+          @foreach($blogs as $Blog)
           {{--*/ $Entidad  = $Blog /*--}}
           {{--*/ $Route    = $Entidad->route /*--}}
           @include('paginas.noticias.noticias_lista_individual')
