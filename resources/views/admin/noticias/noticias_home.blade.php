@@ -25,7 +25,9 @@
  <div class="container p-4">
    <div class="row col-12">
      @foreach($Entidades as $Entidad)
-          @include('admin.noticias.partes.lista')
+          {{--*/ $Entidad  = $Entidad /*--}}
+          {{--*/ $Route    = $Entidad->route_admin /*--}}
+          @include('paginas.noticias.noticias_lista_individual')
      @endforeach
    </div>
    <div>

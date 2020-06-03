@@ -160,7 +160,7 @@
    @if($blogs_relacionados->count() > 0)
    <div class="wraper-secciones-blog-titulo-content">
      <div class="wrpaer-titulo-de-seccion">Artículos relacionados</div>
-     
+      
       @include('paginas.noticias.blogs_relacionados')
      
    </div>
