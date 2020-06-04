@@ -1,6 +1,6 @@
 
 
-$Background-normal:rgba($color-black,.8) ; 
+$Background-normal:rgba($color-black,.2) ; 
 $Background-scroll: $color-white ; 
 
 
@@ -10,9 +10,7 @@ $Background-scroll: $color-white ;
 	z-index: 1999;
 	position: absolute;
 	top: 0;
-	width: 100%;
-
-	
+	width: 100%;	
 	border-bottom: rgba($color-white,.7);
 	.site-logo {
 		font-size: 1.5rem;

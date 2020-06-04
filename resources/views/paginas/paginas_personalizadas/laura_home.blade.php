@@ -101,11 +101,10 @@
         <div class="row justify-content-center">
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row">
-              <div class="col-lg-8 " style="max-width: 550px;">
-                <h1  class="titulos-class text-white font-secondary">Aprende como tomar las riendas de tu vida</h1>
-                <h2 class="sub-titulos-class text-white no-mostrar-en-mobil">Mejora tus conflictos emocionales, miedos, autoestima e inseguridad.
-</h2>
-                <p class="parrafo-class text-white"> Soy Laura Jodral y estoy aquí para acompañarte en tu proceso de desarrollo personal.</p>
+              <div class="col-5 col-lg-6 " >
+                <h1  class="titulos-class text-white font-secondary">Toma las riendas de tu vida</h1>
+                
+                <p class="parrafo-class text-white"> Mejora tus conflictos emocionales, miedos, autoestima e inseguridad.</p>
                
                 
            
