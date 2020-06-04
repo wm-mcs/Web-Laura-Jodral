@@ -1,5 +1,8 @@
 
 
+$Background-normal:rgba($color-black,.8) ; 
+$Background-scroll: $color-white ; 
+
 
 .site-navbar {
 
@@ -8,7 +11,7 @@
 	position: absolute;
 	top: 0;
 	width: 100%;
-	// background:$color-white;
+
 	
 	border-bottom: rgba($color-white,.7);
 	.site-logo {
@@ -170,8 +173,7 @@
 }
 
 
-// mobile menu
-
+// M o b i l 
 .site-mobile-menu {
 	width: 300px;
 	position: fixed;
@@ -355,6 +357,7 @@
 	position: absolute;
 	z-index: 100;
 	width: 100%;
+	background-color:$Background-normal;
 	& + .site-blocks-cover {
 		// margin-top: 140px;
 		// margin-top: 96px;
@@ -389,7 +392,7 @@
 	&.is-sticky {
 		
 		.site-navbar {
-			background: $white;
+			background: $Background-scroll;
 			border-bottom: 1px solid transparent;
 			box-shadow: 4px 0 20px -5px rgba(0,0,0,.1);
 			.site-menu-toggle {
