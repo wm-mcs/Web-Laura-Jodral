@@ -56,3 +56,8 @@
 .background-black{
   background-color: $color-black;
 }
+
+
+.background-black-transparent{
+  background-color: rgba($color-black,.2);
+}
