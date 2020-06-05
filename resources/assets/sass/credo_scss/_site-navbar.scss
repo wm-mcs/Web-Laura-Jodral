@@ -1,7 +1,16 @@
 
 
 $Background-normal:rgba($color-black,.2) ; 
+$fuente-normal-color: darken($color-white,5%);
+$fuente-normal-color-hover: $color-white;
+$icon-menu-color:$fuente-normal-color;
+
+
+
 $Background-scroll: $color-white ; 
+$fuente-scroll-color: $color-black;
+$fuente-scroll-color-hover: $primary;
+$icon-menu-scroll-color: $fuente-scroll-color;
 
 
 .site-navbar {
@@ -368,7 +377,7 @@ $Background-scroll: $color-white ;
 		.site-menu-toggle {
 			color: $white;
 			.icon-menu {
-				color: $white;
+				color: $icon-menu-color;
 			}
 		}
 		.site-logo {
@@ -379,9 +388,9 @@ $Background-scroll: $color-white ;
 		.site-menu {
 			> li {
 				> a {
-					color: rgba($white, .7)!important;
+					color: $fuente-normal-color  !important;
 					&:hover, &.active {
-						color: $white!important;
+						color: $fuente-normal-color-hover  !important;
 					}
 				}
 			}
@@ -396,7 +405,7 @@ $Background-scroll: $color-white ;
 			.site-menu-toggle {
 				color: $black;
 				.icon-menu {
-					color: $black;
+					color: $icon-menu-scroll-color;
 				}
 			}
 			.site-logo {
@@ -407,9 +416,9 @@ $Background-scroll: $color-white ;
 			.site-menu {
 				> li {
 					> a {
-						color: $black!important;
+						color: $fuente-scroll-color!important;
 						&:hover, &.active {
-							color: $primary!important;
+							color:$fuente-scroll-color-hover !important;
 						}
 					}
 				}
