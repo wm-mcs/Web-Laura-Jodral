@@ -146,7 +146,7 @@
 
     <div  class="site-section " id="">
       <div class="container ">
-        <div class="row d-flex flex-row justify-content-center">
+        <div class="row d-flex flex-row align-items-center justify-content-center">
           <div class="col-lg-6 ">
           <h2 class="h2-titulos-class mb-4 text-color-primary">Vive la vida que <i class="fas fa-heart"></i></h2>
           <p class="parrafo-class mb-3"> Como facilitadora del desarrollo personal ,<strong>detectaré las áreas de dificultad que te impiden crecer personal y profesionalmente  y te asistiré en tus procesos de aprendizaje y cambio para conseguirlo</strong> .  
