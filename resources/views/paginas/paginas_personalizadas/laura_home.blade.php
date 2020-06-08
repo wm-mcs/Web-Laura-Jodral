@@ -170,9 +170,13 @@
 
 
           </div>
-          <div class="col-6 background_img background_img_fixed img_Laura-Jodral-Campo">
+          <div class="col-6 ">
+            <div class="background_img background_img_fixed img_Laura-Jodral-Campo">
             
           </div>
+            
+          </div>
+          
           
         </div>
       </div>
