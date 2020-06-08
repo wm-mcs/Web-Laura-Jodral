@@ -144,7 +144,7 @@
       </div>
       
 
-    <div  class="site-section background_img background_img_fixed img_Laura-Jodral-Campo" id="">
+    <div  class="site-section " id="">
       <div class="container ">
         <div class="row d-flex flex-row justify-content-start">
           <div class="col-lg-6 ">
@@ -169,6 +169,9 @@
           </a>
 
 
+          </div>
+          <div class="col-6 background_img background_img_fixed img_Laura-Jodral-Campo">
+            
           </div>
           
         </div>
