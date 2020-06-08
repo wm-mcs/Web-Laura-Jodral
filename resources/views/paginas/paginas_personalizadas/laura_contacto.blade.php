@@ -3,7 +3,7 @@
 
 
 
-{{--*/ $ImagenPortada         = url() . '/imagenes/Portadas/laura-jodral-home-imagen-principal.jpg'/*--}}
+{{--*/ $ImagenPortada         = url() . '/imagenes/Contacto/Laura-Jodral-contacto-terapias.jpg'/*--}}
 {{--*/ $ImagenParaTaG         = url() . '/imagenes/Contacto/Laura-Jodral-contacto-terapias-foto-chica.jpg'/*--}}
 {{--*/ $Titulo                = 'Contacto | Laura Jodral' /*--}}
 {{--*/ $DescriptionEtiqueta   = '' /*--}}
