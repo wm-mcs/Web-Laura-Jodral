@@ -171,7 +171,7 @@
 
           </div>
           <div class="col-12  col-lg-6 p-2 p-lg-4 mt-3 mt-lg-0 " >
-            <img calss="img-fluid" src="{{url()}}/imagenes/Home/laura_jodral_vive_la_vida_que_amas.jpg">
+            <img class="img-fluid" src="{{url()}}/imagenes/Home/laura_jodral_vive_la_vida_que_amas.jpg">
             
           </div>
           
