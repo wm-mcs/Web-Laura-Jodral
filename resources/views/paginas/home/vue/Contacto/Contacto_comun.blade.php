@@ -39,15 +39,19 @@
       </div>  
 
     </div>
-    {{-- <div class="row">
-       <div class="col-md-12 text-center parrafo-class p-3 mb-4 " :class="classTextColor" >
-        Te responderé en menos de 24hs
+    <div class="row">
+       <div class="col-md-12 text-center parrafo-class p-3 mb-4 "  >
+        <p class="text-center color-text-gris">
+          Te responderé en menos de 24hs
+        </p>
+        
       </div>
       
-    </div> --}}
+    </div>
     
   </div>
 </div>
-<div v-else class="section-title text-centermb-5" :class="classTextColor">
-  <h2 class="section-title text-center text-white mb-5">@{{mensaje_se_envio}}</h2>
+<div v-else class="section-title text-center mb-5" :class="classTextColor">
+  <h2 class="section-title text-center mb-5" :class="classTextColor" >@{{mensaje_se_envio}}</h2>
+  <a href="{{route('get_home')}}" class="Boton-Fuente-Chica Boton-Primario-Relleno mb-4 mt-4">Seguir explorando servicios de crecimiento personal</a>
 </div>
