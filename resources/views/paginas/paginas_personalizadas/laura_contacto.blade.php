@@ -76,120 +76,84 @@
 
 
 @section('vue')
-
-
-  
   @include('paginas.home.vue.contacto-component')
   @include('paginas.home.vue.blog-list-component')
   @include('paginas.home.vue.vue-instance')
 @stop
 
 @section('header')
-	@include('paginas.paginas_personalizadas.Header.Header_principal')
+	
 @stop
 
 @section('footer')
-	{{-- @include('paginas.paginas_personalizadas.Footer.Footer_principal') --}}
+	
 @stop
 
 
 
 @section('portada')
-
     <div class="site-blocks-cover overlay bg-light" id="home-section">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row">
               <div class="col-5 col-lg-6 p-4 background-black-transparent" >
-                <h1  class="titulos-class text-white font-secondary">Estoy para ayudarte</h1>
-                
-                <p class="parrafo-class text-white"> Para hablar directamente conmigo llenar el formulario de aquí abajo <i class="fas fa-hand-point-down"></i> </p>
-               
-                
-           
-                
+                @if($tipo == '-con-laura-jodral')
+                  <h1  class="titulos-class text-white font-secondary">Estoy para ayudarte</h1>
+                  <p class="parrafo-class text-white"> 
+                   Para hablar directamente conmigo llenar el formulario de aquí abajo <i class="fas fa-hand-point-down"></i> 
+                  </p>               
+                @elseif($tipo == '-para-coordinar-llamada')
+                  <h1  class="titulos-class text-white font-secondary">Coordinar llamada</h1>
+                  <p class="parrafo-class text-white"> 
+                   Para coordinar una llamada gratuita llenar el formulario de abajo <i class="fas fa-hand-point-down"></i> 
+                  </p> 
+                @else
+                  <h1  class="titulos-class text-white font-secondary">Estoy para ayudarte</h1>
+                  <p class="parrafo-class text-white"> 
+                   Para hablar directamente conmigo llenar el formulario de aquí abajo <i class="fas fa-hand-point-down"></i> 
+                  </p>
+                @endif  
               </div>
             </div>
           </div>
         </div>
       </div>
-      
-       <img class="imagen-portada-altura-100vh" style="position: absolute;top: 0;" src="{{$ImagenPortada}}" alt="Laura Jodral portada."> 
-       {{-- <img class="logo-float-easy-socio-portada" :src="empresa.logo_easy_blanco" alt="Easysocio ptograma de gestion de gimasios y academias simple de usar."> --}}
-       
-
-    </div>  
-
-
-
+      <img class="imagen-portada-altura-100vh" style="position: absolute;top: 0;" src="{{$ImagenPortada}}" alt="Laura Jodral portada.">
+    </div>
 @stop
 
-@section('contenido')
-
-  
-
-
-      
-
-
-
-    
-
-
+@section('contenido')   
      <div  class="site-section" id="formulario">
       <div class="container">
-        <div class="d-flex  flex-column align-items-center justify-content-center">
-
-
-         
-        <div class="col-6 col-lg-3 p-5 mb-3">
-            <img src="{{url()}}/imagenes/Contacto/Laura-Jodral-contacto-terapias-foto-chica.jpg" class="img-fluid p5 rounded-circle ">
-            
+        <div class="d-flex  flex-column align-items-center justify-content-center">         
+          <div class="col-6 col-lg-3 p-5 mb-3">
+            <img src="{{url()}}/imagenes/Contacto/Laura-Jodral-contacto-terapias-foto-chica.jpg" 
+               class="img-fluid p5 rounded-circle">
           </div>
-         <div class="col-8 col-lg-5  mb-5">
-          <p class="text-center color-text-gris">
-             Para contactarte rellenar el formulario de contacto de aquí abajo <i class="fas fa-hand-point-down"></i>. Hay una gurú de la atención comercial lista para atenderte. 
-          </p>
-         </div> 
-         
-         
-          
+          <div class="col-8 col-lg-5  mb-5">
+            <p class="text-center color-text-gris">
+              @if($tipo == '-con-laura-jodral')
+                Para contactarte rellenar el formulario de aquí abajo <i class="fas fa-hand-point-down"></i>. Hay una gurú de la atención comercial lista para atenderte.                
+              @elseif($tipo == '-para-coordinar-llamada')
+                Para coordinar una llamada gratuita rellenar el formulario de aquí abajo <i class="fas fa-hand-point-down"></i>. Hay una gurú de la atención comercial lista para atenderte.  
+              @else
+                Para contactarte rellenar el formulario de aquí abajo <i class="fas fa-hand-point-down"></i>. Hay una gurú de la atención comercial lista para atenderte.
+              @endif                
+            </p>
+          </div>
           <div class="col-lg-6  " id="formulario_contacto">
-
-                
-              
-                
-
                <contacto-component :empresa="empresa" :color="variables.input_color_primary" inline-template>
-                 @include('paginas.home.vue.Contacto.Contacto_comun')
+                  @if($tipo == '-con-laura-jodral')
+                   @include('paginas.home.vue.Contacto.Contacto_comun')              
+                  @elseif($tipo == '-para-coordinar-llamada')
+                    @include('paginas.home.vue.Contacto.Contacto_llamada') 
+                  @else
+                    @include('paginas.home.vue.Contacto.Contacto_comun')
+                  @endif                 
                </contacto-component>
-
-
-            
-            
-            
           </div>
-          
-          
         </div>
       </div>
     </div>
-
-
-
-
-    
-
-    
-
-   
-
-
-   
-
-    
-
-   
-
 @stop

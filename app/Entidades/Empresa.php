@@ -24,7 +24,9 @@ class Empresa extends Model
                            'imagen_quien_soy_url2',
                            'link_whatsapp_send',
                            'logo_easy_color',
-                           'logo_easy_blanco'];
+                           'logo_easy_blanco',
+                           'route_contacto_comun',
+                           'route_contacto_llamada'];
 
     /**
      * para verificar si no es null o no es cadena vacia
@@ -271,8 +273,13 @@ class Empresa extends Model
     }
 
 
+    public function getRouteContactoComunAttribute()
+    {
+        return route('get_pagina_contacto','-con-laura-jodral');
+    }
 
-    
-
-    
+    public function getRouteContactoLlamadaAttribute()
+    {
+        return route('get_pagina_contacto','-para-coordinar-llamada');
+    }
 }

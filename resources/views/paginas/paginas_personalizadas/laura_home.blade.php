@@ -194,7 +194,7 @@
           <p class="parrafo-class text-color-primary m-3"> 
           Te ofrezco un acompañamiento  terapéutico utilizando diferentes herramientas de orientación, desarrollo y evolución  para tu crecimiento  personal y profesional  facilitandote el  desarrollo de tus potencialidades y recursos. 
           </p> 
-           <a href="{{route('get_pagina_contacto')}}" class="Boton-Primario-Sin-Relleno Boton-Fuente-Chico"> 
+           <a :href="empresa.route_contacto_llamada" class="Boton-Primario-Sin-Relleno Boton-Fuente-Chico"> 
           Para coordinar una video llamada gratuita click aquí 
           <i class="fas fa-chevron-right"></i>
           </a>     

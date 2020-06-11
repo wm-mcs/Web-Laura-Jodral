@@ -18,7 +18,7 @@
 
              
                <p class="contiene-p-linea">
-                 <a class="contiene-link-linea" href="{{route('get_pagina_contacto')}}" >Contacto</a>
+                 <a class="contiene-link-linea" :href="empresa.route_contacto_comun" >Contacto</a>
                </p >
                 
 

@@ -29,7 +29,7 @@
                 <li><a href="{{route('get_pagina_noticias_listado')}}" class="text-uppercase">Blog</a></li>
 
                 <li><a href="{{route('get_pagina_servicios')}}" class="text-uppercase">Servicios</a></li>
-                <li><a href="{{route('get_pagina_contacto')}}" class="text-uppercase">Contacto</a></li>
+                <li><a :href="empresa.route_contacto_comun" class="text-uppercase">Contacto</a></li>
                 @if(!Auth::guest())
                   <li><a href="{{route('get_datos_corporativos')}}" class="text-uppercase">Administrar</a></li>
                   <li><a href="{{route('logout')}}" class="text-uppercase">Salir</a></li>
