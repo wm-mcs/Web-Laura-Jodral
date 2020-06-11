@@ -106,7 +106,7 @@
                 @elseif($tipo == '-para-coordinar-llamada')
                   <h1  class="titulos-class text-white font-secondary">Coordinar video llamada</h1>
                   <p class="parrafo-class text-white"> 
-                   Para coordinar una video llamada gratuita rellenar el formulario aquí abajo <i class="fas fa-hand-point-down"></i> 
+                   Para coordinar una video llamada gratuita rellenar el formulario de aquí abajo <i class="fas fa-hand-point-down"></i> 
                   </p> 
                 @else
                   <h1  class="titulos-class text-white font-secondary">Estoy para ayudarte</h1>
