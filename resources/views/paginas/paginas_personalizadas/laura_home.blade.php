@@ -191,7 +191,7 @@
        </div>
         <div class="site-section background-gris-0">
         <div class="container">          
-          <p class="parrafo-class text-color-primary m-3"> 
+          <p class="parrafo-class text-color-primary m-3 text-center"> 
           Te ofrezco un acompañamiento  terapéutico utilizando diferentes herramientas de orientación, desarrollo y evolución  para tu crecimiento  personal y profesional  facilitandote el  desarrollo de tus potencialidades y recursos. 
           </p> 
            <a :href="empresa.route_contacto_llamada" class="Boton-Primario-Sin-Relleno Boton-Fuente-Chico"> 
