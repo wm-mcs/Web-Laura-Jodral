@@ -29,12 +29,12 @@ class Paginas_Controller extends Controller
     }
 
     // C o n t a c t o
-    public function get_pagina_contacto()
-    {
+    public function get_pagina_contacto($tipo)
+    {       
 
         $blogs   = $this->NoticiasRepo->getUltimosBlogs();
         $Empresa = $this->EmpresaRepo->getEmpresaDatos();
-        return view('paginas.paginas_personalizadas.laura_contacto', compact('Empresa','blogs'));
+        return view('paginas.paginas_personalizadas.laura_contacto', compact('Empresa','blogs','tipo'));
     }
 
     // S e r v i c i o s
