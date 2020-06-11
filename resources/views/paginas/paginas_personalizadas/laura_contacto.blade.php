@@ -97,16 +97,16 @@
         <div class="row justify-content-center">
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row">
-              <div class="col-5 col-lg-6 p-4 background-black-transparent" >
+              <div class="col-5 col-lg-6 p-5 background-primary" >
                 @if($tipo == '-con-laura-jodral')
                   <h1  class="titulos-class text-white font-secondary">Estoy para ayudarte</h1>
                   <p class="parrafo-class text-white"> 
-                   Para hablar directamente conmigo llenar el formulario de aquí abajo <i class="fas fa-hand-point-down"></i> 
+                   Para hablar directamente conmigo rellenar el formulario de aquí abajo <i class="fas fa-hand-point-down"></i> 
                   </p>               
                 @elseif($tipo == '-para-coordinar-llamada')
-                  <h1  class="titulos-class text-white font-secondary">Coordinar llamada</h1>
+                  <h1  class="titulos-class text-white font-secondary">Coordinar video llamada</h1>
                   <p class="parrafo-class text-white"> 
-                   Para coordinar una llamada gratuita llenar el formulario de abajo <i class="fas fa-hand-point-down"></i> 
+                   Para coordinar una video llamada gratuita rellenar el formulario aquí abajo <i class="fas fa-hand-point-down"></i> 
                   </p> 
                 @else
                   <h1  class="titulos-class text-white font-secondary">Estoy para ayudarte</h1>

@@ -108,7 +108,7 @@
                
                 
            
-                <p><a href="#sobre-mi" class="Boton-Fuente-Chico Boton-Blanco"> Aprende como ahora mismo <i class="fas fa-chevron-right"></i> </a></p>
+                <p><a href="#sobre-mi" class="scroll-to Boton-Fuente-Chico Boton-Blanco"> Aprende como ahora mismo <i class="fas fa-chevron-right"></i> </a></p>
               </div>
             </div>
           </div>
