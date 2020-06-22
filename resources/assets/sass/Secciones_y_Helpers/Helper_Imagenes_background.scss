@@ -1,7 +1,6 @@
 /*  I M Á G E N E S  */
 
-.background_img{
- 
+.background_img{ 
  width: 100%;
  /*background-position: center;*/
  background-repeat: no-repeat;
@@ -14,9 +13,9 @@
 
 .imagen-portada-altura-100vh{
 	display: block;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
 }
 
 
@@ -32,7 +31,6 @@
 .background-white{
   background-color: $color-white;
 }
-
 
 .background-gris-0{
   background-color: $color-grey-1;
@@ -61,7 +59,10 @@
   background-color: transparent;
 }
 
-
 .background-black-transparent{
   background-color: rgba($color-black,.2);
+}
+
+.background-primary-transparent{
+  background-color: rgba($color-3,.2);
 }
