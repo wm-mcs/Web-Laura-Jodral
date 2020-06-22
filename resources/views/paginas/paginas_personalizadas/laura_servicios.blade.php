@@ -101,14 +101,14 @@
         <div class="row justify-content-center">
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row">
-              <div class="col-lg-8 " style="max-width: 550px;">
-                <h1  class="titulos-class text-white">Mis servicios</h1>
+              <div class="col-6 col-lg-6 p-2 p-lg-5 background-primary" >
                 
-                {{-- <p class="parrafo-class text-white"> Soy Laura Jodral y estoy aquí para acompañarte en tu proceso de desarrollo personal.</p>
+                  <h1  class="titulos-class text-white font-secondary">Servicios</h1>
+                  <p class="parrafo-class text-white"> 
+                   Imagina ser capaz de lograr todo lo que te propones y conocer cómo funciona tu mente y emociones.
+                  </p>     
+                  <p><a href="#intro" class="scroll-to Boton-Fuente-Chico Boton-Blanco"> Explora las herramientas que te lo permitirán <i class="fas fa-chevron-right"></i> </a></p>          
                
-                
-           
-                <p><a href="#sobre-mi" class="Boton-Fuente-Chico Boton-Blanco"> Aprendé como ahora mismo <i class="fas fa-chevron-right"></i> </a></p> --}}
               </div>
             </div>
           </div>
@@ -128,7 +128,17 @@
 @section('contenido')
 
   
-
+<div class="site-section background-gris-0" id="intro">
+    <div class="container">          
+      <h2 class="titulos-class text-center text-color-primary  mb-3">
+       Estas son las herramientas... 
+      </h2>    
+      <p class="text-center text-color-primary m-0">            
+        que cambiarán tu vida. Aprenderás a tomar el control de tus emociones y a concerte a tí mismo. <i class="fas fa-hand-point-down"></i>  
+      </p>   
+      
+    </div>
+</div>
 
       
 

@@ -97,7 +97,7 @@
         <div class="row justify-content-center">
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row">
-              <div class="col-5 col-lg-6 p-5 background-primary" >
+              <div class="col-6 col-lg-6 p-2 p-lg-5 background-primary" >
                 @if($tipo == '-con-laura-jodral')
                   <h1  class="titulos-class text-white font-secondary">Estoy para ayudarte</h1>
                   <p class="parrafo-class text-white"> 
