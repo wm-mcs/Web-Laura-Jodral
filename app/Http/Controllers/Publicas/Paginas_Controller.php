@@ -40,9 +40,18 @@ class Paginas_Controller extends Controller
     // S e r v i c i o s
     public function get_pagina_servicios()
     {
-        $blogs   = $this->NoticiasRepo->getUltimosBlogs();
-        $Empresa = $this->EmpresaRepo->getEmpresaDatos();
-        return view('paginas.paginas_personalizadas.laura_servicios', compact('Empresa','blogs'));
+        $blogs     = $this->NoticiasRepo->getUltimosBlogs();
+        $Empresa   = $this->EmpresaRepo->getEmpresaDatos();
+        $Servicios = [
+                        [
+                         'name'        => 'Terapia Gestalt',
+                         'descripcion' => 'Basada en el desarrollo del potencial humano centrándose en el aquí y el ahora, el darse cuenta, tomando conciencia de lo que le ocurre a uno mismo y haciéndose responsable de sus actos, lo que conlleva a unos resultados de saber guiarse a uno mismo convirtiéndose en una filosofía de vida.',
+                         'img'         => url().'/imagenes/Servicios/gestalt.jpg'
+                        ],
+                     ];  
+
+        $Servicios = json_encode($Servicios);
+        return view('paginas.paginas_personalizadas.laura_servicios', compact('Empresa','blogs','Servicios'));
     }
 
     // Q u i é n   e s   L a u r a 
