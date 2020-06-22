@@ -143,16 +143,16 @@
     </div>
 </div>
 
-<div class="site-section background-gris-0" id="intro">
+<div class="site-section background-gris-1" id="intro">
     <div class="container">          
       <div class="row">
        
        <div class="col-md-6 col-lg-4 mb-4">
-            <div class="servicio_lista service d-flex flex-column align-items-center">              
-              <img src="{{url()}}/imagenes/Servicios/gestalt.jpg" alt="" class="imagen-servicios-chica mb-3">
+            <div class="servicio_lista service d-flex flex-column align-items-center background-transparent ">              
+              <img src="{{url()}}/imagenes/Servicios/gestalt.jpg" alt="" class="imagen-servicios-chica my-4">
               <div class="p-3 mt-0">
                 <h3 class="sub-titulos-class text-color-primary font-secondary mb-2">
-                   Terapia Gestalt
+                   <b>Terapia Gestalt</b>
                 </h3>
                 <p class="color-text-gris">
                   Basada en el desarrollo del potencial humano centrándose en el aquí y el ahora, el darse cuenta, tomando conciencia de lo que le ocurre a uno mismo y haciéndose responsable de sus actos, lo que conlleva a unos resultados de saber guiarse a uno mismo convirtiéndose en una filosofía de vida.
