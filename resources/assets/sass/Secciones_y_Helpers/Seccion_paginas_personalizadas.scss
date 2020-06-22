@@ -53,6 +53,18 @@
 
 
 
+/* P á g i n a   d e   s e r v i c i o s */
+.imagen-servicios-chica{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    border-radius:100%;    
+  }
+
+
+
+
 
 
 
@@ -67,7 +79,11 @@
 
 @media (min-width: $BrackPoint-Secundario){
  
-
+.imagen-servicios-chica{
+    width: 200px;
+    height: 200px;
+    
+  }
 
 }
 

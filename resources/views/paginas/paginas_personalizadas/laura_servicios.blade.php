@@ -133,9 +133,35 @@
       <h2 class="titulos-class text-center text-color-primary font-secondary  mb-3">
        Estas son las herramientas... 
       </h2>    
-      <p class="text-center text-color-primary m-0">            
-        que cambiarán tu vida. Aprenderás a tomar el control de tus emociones y a concerte a tí mismo. <i class="fas fa-hand-point-down"></i>  
+      <p class="text-center text-color-primary m-2">            
+        que cambiarán tu vida. Aprenderás a tomar el control de tus emociones y a concerte a tí mismo. 
       </p>   
+      <p class="text-center text-color-primary">
+        Si estás atravesando momentos difíciles; si deseas cambiar hábitos y actitudes; si deseas autodesarrollarte y crecer como persona; y si quieres lograr objetivos y no sabes cómo; estás herrameintas son para tí.  <i class="fas fa-hand-point-down"></i> 
+      </p>
+      
+    </div>
+</div>
+
+<div class="site-section background-gris-0" id="intro">
+    <div class="container">          
+      <div class="row">
+       
+       <div class="col-md-6 col-lg-4 mb-4">
+            <div class="servicio_lista service d-flex flex-column align-items-center">              
+              <img src="{{url()}}/imagenes/Servicios/gestalt.jpg" alt="" class="imagen-servicios-chica mb-3">
+              <div class="p-3 mt-0">
+                <h3 class="sub-titulos-class text-color-primary font-secondary mb-2">
+                   Terapia Gestalt
+                </h3>
+                <p class="color-text-gris">
+                  Basada en el desarrollo del potencial humano centrándose en el aquí y el ahora, el darse cuenta, tomando conciencia de lo que le ocurre a uno mismo y haciéndose responsable de sus actos, lo que conlleva a unos resultados de saber guiarse a uno mismo convirtiéndose en una filosofía de vida.
+                </p>                               
+              </div>
+            </div>
+          </div>
+        
+      </div> 
       
     </div>
 </div>
