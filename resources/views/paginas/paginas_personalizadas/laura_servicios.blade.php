@@ -130,7 +130,7 @@
   
 <div class="site-section background-gris-0" id="intro">
     <div class="container">          
-      <h2 class="titulos-class text-center text-color-primary  mb-3">
+      <h2 class="titulos-class text-center text-color-primary font-secondary  mb-3">
        Estas son las herramientas... 
       </h2>    
       <p class="text-center text-color-primary m-0">            
