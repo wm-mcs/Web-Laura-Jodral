@@ -52,7 +52,7 @@ class Paginas_Controller extends Controller
 
         $Servicios = json_encode($Servicios);
 
-        dd($Servicios);
+        
         return view('paginas.paginas_personalizadas.laura_servicios', compact('Empresa','blogs','Servicios'));
     }
 
