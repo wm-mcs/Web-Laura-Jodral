@@ -42,18 +42,35 @@ Vue.component('servicio-ista' ,
 props:['servicio'], 
 data:function(){
     return {
-      
+      muestra:false
     }
 }, 
 
 methods:{
 
-
+mostrar:function(){
+  if(this.muestra == true)
+  {
+   this.muestra = false;
+  }
+  else
+  {
+   this.muestra =  true;
+  }
 
 },
 computed:{
 
+descripcion_corta:function(){
 
+  if(this.muestra == false)
+  {
+    return this.description.slice(0,60) + '...';
+  }
+
+  return this.descripcion
+  
+}
 
 
 },
@@ -65,9 +82,11 @@ template:'
       <h3 class="sub-titulos-class text-color-primary font-secondary mb-2">
          <b>@{{servicio.name}}</b>
       </h3>
-      <p class="color-text-gris">
+      <p class="color-text-gris mb-2">
         @{{servicio.descripcion}}
-      </p>                               
+      </p> 
+      <p v-if="muestra" v-on:click="descripcion_corta" class="py-3 servicio-mostrar-mas-o-menos">Mostrar más <i class="fas fa-chevron-down"></i></p>  
+      <p v-else v-on:click="descripcion_corta" class="py-3 servicio-mostrar-mas-o-menos">Mostrar menos <i class="fas fa-chevron-up"></i></p>                            
     </div>
   </div>
 </div>

@@ -62,6 +62,15 @@
     border-radius:100%;    
   }
 
+  .servicio-mostrar-mas-o-menos{
+    cursor:pointer;
+    color:$color-3;
+  }
+  .servicio-mostrar-mas-o-menos:hover{    
+    color:$color-3-primary_hover;
+  }
+
+
 
 
 
