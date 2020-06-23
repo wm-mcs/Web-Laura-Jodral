@@ -66,7 +66,7 @@ descripcion:function(){
 
   if(this.muestra == false)
   {
-    return this.servicio.descripcion.slice(0,60) + '...';
+    return this.servicio.descripcion.slice(0,150) + '...';
   }
 
   return this.servicio.descripcion;
