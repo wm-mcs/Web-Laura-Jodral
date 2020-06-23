@@ -84,10 +84,10 @@ template:'
          <b>@{{servicio.name}}</b>
       </h3>
       <p class="color-text-gris mb-2">
-        @{{servicio.descripcion}}
+        @{{servicio.descripcion_corta}}
       </p> 
-      <p v-if="muestra" v-on:click="descripcion_corta" class="py-3 servicio-mostrar-mas-o-menos">Mostrar más <i class="fas fa-chevron-down"></i></p>  
-      <p v-else v-on:click="descripcion_corta" class="py-3 servicio-mostrar-mas-o-menos">Mostrar menos <i class="fas fa-chevron-up"></i></p>                            
+      <p v-if="muestra" v-on:click="mostrar" class="py-3 servicio-mostrar-mas-o-menos">Mostrar más <i class="fas fa-chevron-down"></i></p>  
+      <p v-else v-on:click="mostrar" class="py-3 servicio-mostrar-mas-o-menos">Mostrar menos <i class="fas fa-chevron-up"></i></p>                            
     </div>
   </div>
 </div>
