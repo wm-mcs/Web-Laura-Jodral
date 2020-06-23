@@ -86,7 +86,7 @@ template:'
       <p class="color-text-gris mb-2">
         @{{descripcion}}
       </p> 
-      <p v-if="muestra" v-on:click="mostrar" class="py-3 servicio-mostrar-mas-o-menos">Mostrar más <i class="fas fa-chevron-down"></i></p>  
+      <p v-if="!muestra" v-on:click="mostrar" class="py-3 servicio-mostrar-mas-o-menos">Mostrar más <i class="fas fa-chevron-down"></i></p>  
       <p v-else v-on:click="mostrar" class="py-3 servicio-mostrar-mas-o-menos">Mostrar menos <i class="fas fa-chevron-up"></i></p>                            
     </div>
   </div>
