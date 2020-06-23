@@ -52,18 +52,17 @@ class Paginas_Controller extends Controller
                          'name'        => 'Coaching',
                          'descripcion' => 'El Coaching para resultados , acompañamiento mediante  la conversación basada en la confianza y el   compromiso focalizada en preguntas potenciadoras para el alcance del objetivo deseado. El coaching requiere de planes de acción  que cada persona se compromete a poner en marcha y realizar en un plazo determinado para alcanzar dicho objetivo respetando sus propios ritmos. ‘Me lo contaron y lo olvidé, lo vi y lo entendí,lo hice y lo aprendí’ Confucio
 .',
-                         'img'         => url().'/imagenes/Servicios/gestalt.jpg'
+                         'img'         => url().'/imagenes/Servicios/coaching.jpg'
                         ],
                         [
                          'name'        => 'PNL',
-                         'descripcion' => 'La PNL  ( Programación Neuro Lingüística) es una metodología de acompañamiento al cambio, basada en el modelaje de programas ya aprendidos a través del lenguaje y los sentidos. Gracias a ciertas habilidades y técnicas se consigue pensar y actuar de forma efectiva  incrementando las opciones y mejorando la calidad de vida.‘Tus creencias no están hechas de realidades, sino más bien es la realidad la que está hecha de tus creencias‘ Richard Bandler
-.',
-                         'img'         => url().'/imagenes/Servicios/gestalt.jpg'
+                         'descripcion' => 'La PNL  ( Programación Neuro Lingüística) es una metodología de acompañamiento al cambio, basada en el modelaje de programas ya aprendidos a través del lenguaje y los sentidos. Gracias a ciertas habilidades y técnicas se consigue pensar y actuar de forma efectiva  incrementando las opciones y mejorando la calidad de vida.‘Tus creencias no están hechas de realidades, sino más bien es la realidad la que está hecha de tus creencias‘ Richard Bandler.',
+                         'img'         => url().'/imagenes/Servicios/pnl.jpg'
                         ],
                         [
                          'name'        => 'Astrología Humanista',
                          'descripcion' => 'Es una herramienta de autoconocimiento la cual representa la psique humana a través de un mapa simbólico,llamado Carta Natal dada por la fecha, hora y lugar de nacimiento de la persona. Su interpretación nos permite ver los potenciales, recursos, dificultades, bloqueos, talentos, conflictos... del individuo, entre otras muchas cosas. Es una poderosa herramienta de autodesarrollo personal gracias a la toma de conciencia ,lo que conduce a entender y sanar el mundo emocional.‘Conócete a ti mismo y conocerás el Universo’ Sócrates .',
-                         'img'         => url().'/imagenes/Servicios/gestalt.jpg'
+                         'img'         => url().'/imagenes/Servicios/astrologia-humanista.jpg'
                         ],
                      ];  
 
