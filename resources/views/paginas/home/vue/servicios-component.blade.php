@@ -48,16 +48,17 @@ data:function(){
 
 methods:{
 
-mostrar:function(){
-  if(this.muestra == true)
+  mostrar:function()
   {
-   this.muestra = false;
+    if(this.muestra == true)
+    {
+     this.muestra = false;
+    }
+    else
+    {
+     this.muestra =  true;
+    }
   }
-  else
-  {
-   this.muestra =  true;
-  }
-
 },
 computed:{
 
