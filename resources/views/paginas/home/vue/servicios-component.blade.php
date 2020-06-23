@@ -3,7 +3,7 @@ Vue.component('servicios-component' ,
  
 data:function(){
     return {
-      servicios: {!! json_encode($Servicios) !!}
+      servicios: {!! $Servicios !!}
     }
 }, 
 
