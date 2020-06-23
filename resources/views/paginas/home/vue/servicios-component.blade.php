@@ -62,7 +62,7 @@ methods:{
 },
 computed:{
 
-descripcion_corta:function(){
+descripcion:function(){
 
   if(this.muestra == false)
   {
@@ -84,7 +84,7 @@ template:'
          <b>@{{servicio.name}}</b>
       </h3>
       <p class="color-text-gris mb-2">
-        @{{servicio.descripcion_corta}}
+        @{{descripcion}}
       </p> 
       <p v-if="muestra" v-on:click="mostrar" class="py-3 servicio-mostrar-mas-o-menos">Mostrar más <i class="fas fa-chevron-down"></i></p>  
       <p v-else v-on:click="mostrar" class="py-3 servicio-mostrar-mas-o-menos">Mostrar menos <i class="fas fa-chevron-up"></i></p>                            
