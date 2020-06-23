@@ -68,7 +68,7 @@ descripcion_corta:function(){
     return this.description.slice(0,60) + '...';
   }
 
-  return this.descripcion
+  return this.descripcion;
   
 }
 
