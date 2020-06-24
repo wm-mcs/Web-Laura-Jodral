@@ -13,19 +13,19 @@
 
       <p class="col-12 text-bold -text-primary mb-4">¿Qué tema quieres tratar?</p>
 
-      <div class="row d-flex align-items-start  col-12 mb-2">
+      <div class="row d-flex align-items-center  col-12 mb-2">
         <input class="m-0 mr-2" type="checkbox" name="" value="Quiero aprender a controlar mis emociones" v-model="data_mensaje.que_necesitas">
         <p class="color-text-gris m-0">Quiero aprender a controlar mis emociones</p>
       </div>
-      <div class="row d-flex align-items-start  col-12 mb-2">
+      <div class="row d-flex align-items-center  col-12 mb-2">
         <input class="m-0 mr-2" type="checkbox" name="" value="Quiero encontrar mi propósito en esta vida" v-model="data_mensaje.que_necesitas">
         <p class="color-text-gris m-0">Quiero encontrar mi propósito en esta vida</p>
       </div>
-       <div class="row d-flex align-items-start  col-12 mb-2">
+       <div class="row d-flex align-items-center  col-12 mb-2">
         <input class="m-0 mr-2" type="checkbox" name="" value="Quiero trabajar mi autoestima" v-model="data_mensaje.que_necesitas">
         <p class="color-text-gris m-0">Quiero trabajar mi autoestima</p>
       </div>
-      <div class="row d-flex align-items-start  col-12 mb-2">
+      <div class="row d-flex align-items-center  col-12 mb-2">
         <input class="m-0 mr-2" type="checkbox" name="" value="Quiero trabajar mi inseguridad" v-model="data_mensaje.que_necesitas">
         <p class="color-text-gris m-0">Quiero trabajar mi inseguridad</p>
       </div>
