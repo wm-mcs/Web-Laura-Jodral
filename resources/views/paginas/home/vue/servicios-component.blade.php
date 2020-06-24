@@ -26,7 +26,8 @@ template:'
        <servicio-ista :servicio="servicios_mostrar" v-for="servicios_mostrar in servicios" :key="servicios_mostrar.name"></servicio-ista>
 
        <p class="col-11 col-lg-8">
-         <a  class="Boton-Fuente-Chico Boton-Primario-Sin-Relleno" href="{{route('get_pagina_contacto','servicios')}}">Coordinar una charla con Laura ahora mismo <i class="fas fa-chevron-right"></i></a>
+         <a  class="Boton-Fuente-Chico Boton-Primario-Sin-Relleno" href="{{route('get_pagina_contacto','servicios')}}">Coordinar una charla con Laura ahora mismo <i class="fas fa-chevron-right"></i>
+         </a>
        </p>
        
         
