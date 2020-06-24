@@ -14,13 +14,13 @@
       <p class="col-12 text-bold -text-primary mb-4">¿De qué quieres que hablemos?</p>
 
 
-      {{dd($Servicios)}}
+     
 
       @foreach($Servicios as $Servicio)
 
       <div class="row d-flex align-items-center  col-12 mb-2">
-        <input class="m-0 mr-2" type="checkbox" name="" value="{{$Servicio->name}}" v-model="data_mensaje.que_necesitas">
-        <p class="color-text-gris m-0">{{$Servicio->name}}</p>
+        <input class="m-0 mr-2" type="checkbox" name="" value="{{$Servicio['name']}}" v-model="data_mensaje.que_necesitas">
+        <p class="color-text-gris m-0">{{$Servicio['name']}}</p>
       </div>
       
       @endforeach
