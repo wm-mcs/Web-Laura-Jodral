@@ -3,7 +3,7 @@ Vue.component('servicios-component' ,
  
 data:function(){
     return {
-      servicios: {!! $Servicios !!}
+      servicios: {!! json_encode($Servicios) !!}
     }
 }, 
 
@@ -21,9 +21,14 @@ computed:{
 template:'
 <div class="site-section background-gris-1" id="intro">
     <div class="container">          
-      <div class="row">
+      <div class="row justify-content-center">
        
        <servicio-ista :servicio="servicios_mostrar" v-for="servicios_mostrar in servicios" :key="servicios_mostrar.name"></servicio-ista>
+
+       <p class="col-11 col-lg-8">
+         <a  class="Boton-Fuente-Chico Boton-Primario-Sin-Relleno" href="{{route('get_pagina_contacto','servicios')}}">Coordinar una charla con Laura ahora mismo <i class="fas fa-chevron-right"></i></a>
+       </p>
+       
         
       </div> 
       
