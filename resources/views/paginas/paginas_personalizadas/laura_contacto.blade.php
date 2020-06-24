@@ -97,13 +97,18 @@
         <div class="row justify-content-center">
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row">
-              <div class="col-6 col-lg-6 p-2 p-lg-5 background-primary" >
+              <div class="col-6 col-lg-6 p-2 p-lg-5 background-primary-transparent" >
                 @if($tipo == '-con-laura-jodral')
                   <h1  class="titulos-class text-white font-secondary">Estoy para ayudarte</h1>
                   <p class="parrafo-class text-white"> 
                    Para hablar directamente conmigo rellenar el formulario de aquí abajo <i class="fas fa-hand-point-down"></i> 
                   </p>               
                 @elseif($tipo == '-para-coordinar-llamada')
+                  <h1  class="titulos-class text-white font-secondary">Coordinar video llamada</h1>
+                  <p class="parrafo-class text-white"> 
+                   Para coordinar una video llamada gratuita rellenar el formulario de aquí abajo <i class="fas fa-hand-point-down"></i> 
+                  </p> 
+                @elseif($tipo == '-por-los-servicios-de-laura')
                   <h1  class="titulos-class text-white font-secondary">Coordinar video llamada</h1>
                   <p class="parrafo-class text-white"> 
                    Para coordinar una video llamada gratuita rellenar el formulario de aquí abajo <i class="fas fa-hand-point-down"></i> 
@@ -137,6 +142,8 @@
                 Para contactarte rellenar el formulario de aquí abajo <i class="fas fa-hand-point-down"></i>. Hay una gurú de la atención comercial lista para atenderte.                
               @elseif($tipo == '-para-coordinar-llamada')
                 Para coordinar una llamada gratuita rellenar el formulario de aquí abajo <i class="fas fa-hand-point-down"></i>. Hay una gurú de la atención comercial lista para atenderte.  
+              @elseif($tipo == '-por-los-servicios-de-laura')  
+                Para coordinar una llamada gratuita rellenar el formulario de aquí abajo <i class="fas fa-hand-point-down"></i>. Hay una gurú de la atención comercial lista para atenderte.  
               @else
                 Para contactarte rellenar el formulario de aquí abajo <i class="fas fa-hand-point-down"></i>. Hay una gurú de la atención comercial lista para atenderte.
               @endif                
@@ -148,6 +155,8 @@
                    @include('paginas.home.vue.Contacto.Contacto_comun')              
                   @elseif($tipo == '-para-coordinar-llamada')
                     @include('paginas.home.vue.Contacto.Contacto_llamada') 
+                  @elseif($tipo == '-por-los-servicios-de-laura')  
+                    @include('paginas.home.vue.Contacto.Contacto_servicios') 
                   @else
                     @include('paginas.home.vue.Contacto.Contacto_comun')
                   @endif                 

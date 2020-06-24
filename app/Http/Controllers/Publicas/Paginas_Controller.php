@@ -36,11 +36,13 @@ class Paginas_Controller extends Controller
         $blogs     = $this->NoticiasRepo->getUltimosBlogs();
         $Empresa   = $this->EmpresaRepo->getEmpresaDatos();
         $Servicios = '';
-        
-        if($tipo == 'servicios')
+
+        if($tipo == '-por-los-servicios-de-laura')
         {
             $Servicios = HelpersServicios::get_servicios();
         }
+
+       
         return view('paginas.paginas_personalizadas.laura_contacto', compact('Empresa','blogs','tipo','Servicios'));
     }
 
