@@ -2,7 +2,7 @@
       <div class="container">
         <div class="row align-items-center border border-primary p-5 mb-4">
 
-          <h2 class="col-12 titulos-class  text-center text-color-primary mb-3 font-secondary">¿Quién es Laura Jodral Garcia?</h2>
+          <h2 class="col-12 titulos-class  text-center text-color-primary mb-3 font-secondary">¿Quién es Laura?</h2>
           <h3 class="col-12 sub-titulos-class text-center text-color-primary text-uppercase mb-5">Gestalt. Coaching. PNL. ASTROLOGÍA.</h3>
 
           <div class="row align-items-center ">
@@ -10,10 +10,13 @@
               
 
             <p class="parrafo-class mb-5">
-             <strong> Laura Jodral García es terapeuta Gestalt y tiene un Master en PNL</strong>. Se ha formado en Astrología Humanista y hoy en día se dedica a enseñar a las personas <strong>como tomar las riendas de su vida</strong>. Ha conseguido desarrollar herramientas que estan demostrando ser altamente eficaces en el ámbito del desarrollo personal como en el profesioanal.                
+             <strong> Laura Jodral García es terapeuta Gestalt y tiene un Master en PNL</strong>. Se ha formado en Astrología Humanista y hoy en día se dedica a acompañar a personas  que desean optimizar y tomar las riendas de su vida a conseguir aquello que desean ejecutando las acciones apropiadas y adecuadas para que puedan llevar la vida que desean. Su incansable búsqueda sobre el sentido de la Vida la han llevado a centrarse en el crecimiento personal y siente que ha encontrado su misión en esta vida.                
             </p>
-            <p class="parrafo-class mb-5">
-              Hoy imparte cursos personalizados y siente que ha encontrado su misión en esta vida.....
+            <p class="parrafo-class mb-5 font-primary">
+               "Me lo contaron y lo olvidé, lo vi y lo entendí, lo hice y lo aprendí".
+            </p>
+            <p>
+              <cite>Confucio</cite>
             </p>
            
                 

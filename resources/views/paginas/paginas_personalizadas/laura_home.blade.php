@@ -101,14 +101,14 @@
         <div class="row justify-content-center">
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row">
-              <div class="col-6 col-lg-6 p-4 background-black-transparent" >
-                <h1  class="titulos-class text-white font-secondary">Toma las riendas de tu vida</h1>
+              <div class="col-8 col-lg-6 p-4 background-black-transparent" >
+                <h1  class="titulos-class text-white font-secondary">Di si! a la vida</h1>
                 
-                <p class="parrafo-class text-white"> Mejora tus conflictos emocionales, miedos, autoestima e inseguridad.</p>
+                <p class="parrafo-class text-white">Toma las riendas y prepara tu vida.</p>
                
                 
            
-                <p><a href="#sobre-mi" class="scroll-to Boton-Fuente-Chico Boton-Blanco"> Aprende como ahora mismo <i class="fas fa-chevron-right"></i> </a></p>
+                <p><a href="#sobre-mi" class="scroll-to Boton-Fuente-Chico Boton-Blanco"> Te acompaño! <i class="fas fa-chevron-right"></i> </a></p>
               </div>
             </div>
           </div>
@@ -153,7 +153,7 @@
           </p>   
 
           <p class="parrafo-class mb-3">
-             Con el pasar de los años desarrollé la metodología que te conseguirá que tengas el control de tu vida. Este proceso combina todo lo que he aprendido de: 
+             Gracias a mi búsqueda sobre el sentido de la vida sumado a las experiencias vividas encontré las herramientas para el desarrollo del potencial humano. Este proceso combina todo lo que he aprendido de: 
           </p> 
 
           <ul class="mb-3">
@@ -164,7 +164,7 @@
           </ul>
 
           <a href="{{route('get_pagina_servicios')}}" class="Boton-Primario-Sin-Relleno Boton-Fuente-Chico"> 
-          Explora las herramientas que cambiarán tu vida 
+          LLeva tu vida al siguiente nivel 
           <i class="fas fa-chevron-right"></i>
           </a>
 
