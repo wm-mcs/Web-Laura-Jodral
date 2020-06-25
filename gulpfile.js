@@ -64,8 +64,8 @@ elixir(function(mix) {
        /* 'credo_js/popper.min.js',*/
         'credo_js/bootstrap.min.js',
       /*  'credo_js/owl.carousel.min.js',*/
-       /* 'credo_js/jquery.easing.1.3.js',
-        'credo_js/aos.js',
+        'credo_js/jquery.easing.1.3.js',
+        /*'credo_js/aos.js',
         'credo_js/jquery.fancybox.min.js',*/
         'credo_js/jquery.sticky.js',
         'credo_js/main.js', 
