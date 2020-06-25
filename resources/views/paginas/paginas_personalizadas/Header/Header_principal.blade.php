@@ -40,7 +40,7 @@
 
             <div class="d-inline-block d-lg-none" style="position: relative; top: 3px;">
               <a href="#" class="site-menu-toggle js-menu-toggle float-right">
-               <i class="fas fa-bars"></i>
+               <i class="fas fa-bars h3"></i>
               </a>
             </div>
             
