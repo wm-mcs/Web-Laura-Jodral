@@ -60,7 +60,7 @@ elixir(function(mix) {
      mix.scripts([
         
         'credo_js/jquery-3.3.1.min.js',
-        'credo_js/jquery-ui.js',
+        /*'credo_js/jquery-ui.js',*/
        /* 'credo_js/popper.min.js',*/
         'credo_js/bootstrap.min.js',
       /*  'credo_js/owl.carousel.min.js',*/
@@ -69,7 +69,7 @@ elixir(function(mix) {
         'credo_js/jquery.fancybox.min.js',*/
         'credo_js/jquery.sticky.js',
         'credo_js/main.js', 
-         'Plugins/Plug-lazyLoadXT.js',  
+        'Plugins/Plug-lazyLoadXT.js',  
         'Plugins/Plug-Notify.js'
        
 
