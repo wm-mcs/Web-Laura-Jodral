@@ -144,7 +144,7 @@
   
    {{-- Contenido del blog --}}
    <div class="contenedor-blog" id="contenido-noticia"> 
-       {{html_entity_decode($Noticia->contenido_render)}}
+       {!! $Noticia->contenido_render !!}
    </div>
 
    {{-- Sobre el autor --}}
