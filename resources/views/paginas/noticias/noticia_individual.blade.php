@@ -117,7 +117,7 @@
 
 @section('contenido')
 
-{{dd($Noticia)}}
+
 
 <div  class="{{-- masthead --}} get_width_100 "  >
   
