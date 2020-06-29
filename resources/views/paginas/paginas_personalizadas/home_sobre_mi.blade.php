@@ -23,8 +23,7 @@
              
            </div>
            <div class="col-lg-6 order-3 pl-lg-5 order-lg-1">
-            <img  v-if="mostrar_para_celuar" class="img-fluid mb-4" data-src="{{url()}}/imagenes/Servicios/Sobre_laura_que_haré_por_ti_vertical_chica.jpg" alt="Laura Jodral">
-            <img  v-else class="img-fluid mb-4" data-src="{{url()}}/imagenes/Servicios/Sobre_laura_que_haré_por_ti_vertical.jpg" alt="Laura Jodral">
+            <img class="img-fluid mb-4" data-src="{{url()}}/imagenes/Home/laura_jodral_es.jpg" alt="Laura Jodral">
            </div>
             
           </div>         
