@@ -182,7 +182,7 @@
        <div class="site-section background-gris-1">
         <div class="container">          
           <h3 class="sub-titulos-class text-center m-0 text-color-primary font-italic mb-3">
-             <p class="sub-titulos-class mb-3 font-primary">
+             <p class="titulos-class  mb-3 font-primary">
                "Me lo contaron y lo olvidé, lo vi y lo entendí, lo hice y lo aprendí"
             </p>
             <p>
