@@ -118,27 +118,15 @@
 @section('contenido')
 
 
-
-<div  class="{{-- masthead --}} get_width_100 "  >
-  
-<div id="carouselExampleIndicators" class="carousel slide auto" data-ride="carousel" data-interval="5000">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="post-img-slider-size Slider_cabecer_img" data-src="{{$Noticia->url_img_portada}}"> 
-     
-    </div>
-   
-  </div>
+<div class="site-blocks-cover overlay bg-light" id="home-section">      
+   <img v-if="mostrar_para_celuar" class="imagen-portada-altura-100vh" style="position: absolute;top: 0;" src="{{$Noticia->url_img_portada_chica}}" alt="Laura Jodral portada."> 
+   <img v-else class="imagen-portada-altura-100vh" style="position: absolute;top: 0;" src="{{$Noticia->url_img_portada}}" alt="Laura Jodral portada.">        
+</div>  
 
 
-     
 
-</div>
-</div>
+
+
 
   
 
