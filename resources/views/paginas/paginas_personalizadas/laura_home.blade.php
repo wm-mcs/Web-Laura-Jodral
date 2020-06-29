@@ -133,17 +133,10 @@
 
   
       <div class="site-section background-gris-1">
-        <div class="container">
-          
+        <div class="container">          
           <h3 class="sub-titulos-class text-center text-color-primary font-italic mb-3">
             "Sumérgete en el mundo del autodescubrimiento  para llegar a ser la mejor versión de ti mismo".
-          </h3>    
-
-
-          <p class="text-center text-color-primary m-0">            
-            Confío en cada uno <strong>puede llegar a ser la mejor versión de sí mismo</strong>. Estoy aquí para enseñarte a tomar las riendas de tu vida. 
-          </p>   
-          
+          </h3> 
         </div>
       </div>
       
@@ -189,7 +182,12 @@
        <div class="site-section background-gris-1">
         <div class="container">          
           <h3 class="sub-titulos-class text-center m-0 text-color-primary font-italic mb-3">
-            "La vida es un 10% lo que te pasa y un 90% cómo reaccionas ante eso".
+             <p class="sub-titulos-class mb-3 font-primary">
+               "Me lo contaron y lo olvidé, lo vi y lo entendí, lo hice y lo aprendí"
+            </p>
+            <p>
+              <cite>Confucio</cite>
+            </p>
           </h3>    
         </div>
        </div>
