@@ -5,7 +5,9 @@ $Color-Azul-1:#23c6cf;
 $Color-Azul-2:#09c9de;
 $Color-Azul-3:#1cc7c9;
 
-$color-3:$Color-Azul-3;  /* institucional PRINCIPAL */
+$Color-Rosa-1:#d10099;
+
+$color-3:$Color-Rosa-1;  /* institucional PRINCIPAL */
 $color-3-primary_hover: lighten( $color-3, 5% );
 $color-2:darken( $color-3, 10% );
 
