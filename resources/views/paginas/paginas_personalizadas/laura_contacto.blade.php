@@ -99,9 +99,9 @@
             <div class="row">
               <div class="col-6 col-lg-6 p-2 p-lg-5 background-primary-transparent" >
                 @if($tipo == '-con-laura-jodral')
-                  <h1  class="titulos-class text-white font-secondary">Estoy para ayudarte</h1>
+                  <h1  class="titulos-class text-white font-secondary">Te acompaño!</h1>
                   <p class="parrafo-class text-white"> 
-                   Para hablar directamente conmigo rellenar el formulario de aquí abajo <i class="fas fa-hand-point-down"></i> 
+                   Para contactarme solicita una entrevista gratuita y sin compromiso para contarme tu situación y ver si te puedo acompañar.     <i class="fas fa-hand-point-down"></i> 
                   </p>               
                 @elseif($tipo == '-para-coordinar-llamada')
                   <h1  class="titulos-class text-white font-secondary">Coordinar video llamada</h1>
@@ -139,13 +139,13 @@
           <div class="col-8 col-lg-5  mb-5">
             <p class="text-center color-text-gris">
               @if($tipo == '-con-laura-jodral')
-                Para contactarte rellenar el formulario de aquí abajo <i class="fas fa-hand-point-down"></i>. Hay una gurú de la atención comercial lista para atenderte.                
+               Para contactarme solicita una entrevista gratuita y sin compromiso para contarme tu situación y ver si te puedo acompañar.                
               @elseif($tipo == '-para-coordinar-llamada')
-                Para coordinar una llamada gratuita rellenar el formulario de aquí abajo <i class="fas fa-hand-point-down"></i>. Hay una gurú de la atención comercial lista para atenderte.  
+                Para contactarme solicita una entrevista gratuita y sin compromiso para contarme tu situación y ver si te puedo acompañar. 
               @elseif($tipo == '-por-los-servicios-de-laura')  
-                Para coordinar una llamada gratuita rellenar el formulario de aquí abajo <i class="fas fa-hand-point-down"></i>. Hay una gurú de la atención comercial lista para atenderte.  
+                Para contactarme solicita una entrevista gratuita y sin compromiso para contarme tu situación y ver si te puedo acompañar.  
               @else
-                Para contactarte rellenar el formulario de aquí abajo <i class="fas fa-hand-point-down"></i>. Hay una gurú de la atención comercial lista para atenderte.
+                Para contactarme solicita una entrevista gratuita y sin compromiso para contarme tu situación y ver si te puedo acompañar. 
               @endif                
             </p>
           </div>
