@@ -2,7 +2,7 @@
       <div class="container">
         <div class="row align-items-center border border-primary p-5 mb-4">
 
-          <h2 class="col-12 titulos-class  text-center text-color-primary mb-5 font-secondary">¿Quién es Laura?</h2>
+          <h2 class="col-12 titulos-class  text-center text-color-primary mb-5 font-primary">¿Quién es Laura?</h2>
          
 
           <div class="row align-items-center ">
