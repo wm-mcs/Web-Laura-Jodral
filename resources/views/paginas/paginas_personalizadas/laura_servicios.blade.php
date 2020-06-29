@@ -106,9 +106,9 @@
                 
                   <h1  class="titulos-class text-white font-secondary">Servicios</h1>
                   <p class="parrafo-class text-white"> 
-                   Imagina ser capaz de lograr todo lo que te propones y conocer cómo funciona tu mente y emociones.
+                   Descubre tus habilidades y destrezas, desarrolla tus capacidades y potencialas aprendiendo a utilizar tus propias herramientas y recursos para conseguir alcanzar tus sueños, metas y propósitos de vida.
                   </p>     
-                  <p><a href="#intro" class="scroll-to Boton-Fuente-Chico Boton-Blanco"> Explora las herramientas que te lo permitirán <i class="fas fa-chevron-right"></i> </a></p>          
+                  {{-- <p><a href="#intro" class="scroll-to Boton-Fuente-Chico Boton-Blanco"> Explora las herramientas que te lo permitirán <i class="fas fa-chevron-right"></i> </a></p>      --}}     
                
               </div>
             </div>
@@ -135,10 +135,10 @@
        Estas son las herramientas... 
       </h2>    
       <p class="text-center text-color-primary m-2">            
-        que cambiarán tu vida. Aprenderás a tomar el control de tus emociones y a concerte a tí mismo. 
+       que te ayudarán a conseguirlo. Adéntrate en el mundo del autoconocimiento y explora tu interior para llegar a ser la mejor versión de ti mismo. 
       </p>   
       <p class="text-center text-color-primary">
-        Si estás atravesando momentos difíciles; si deseas cambiar hábitos y actitudes; si deseas autodesarrollarte y crecer como persona; y si quieres lograr objetivos y no sabes cómo; estás herrameintas son para tí.  <i class="fas fa-hand-point-down"></i> 
+        Si estás atravesando momentos difíciles; si deseas cambiar hábitos y actitudes; si deseas crecer y seguir evolucionando personalmente; y si quieres lograr objetivos y no sabes cómo; estas herramientas son para tí.  
       </p>
       
     </div>
