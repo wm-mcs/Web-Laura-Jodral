@@ -17,7 +17,7 @@
   <meta property="og:type"               content="website" />
   <meta property="og:title"              content="{{ $Noticia->name}} | {{$Empresa->name}}" />
   <meta property="og:description"        content="
-   {{$Noticia->sub_name}} | {{$Empresa->name}}." />
+   {{$Noticia->descripcion_breve}} | {{$Empresa->name}}." />
    <meta property="og:image"               content="{{$Noticia->url_img_portada}}" />
    <meta property="og:image:secure_url"  content="{{$Noticia->url_img_portada}}" /> 
 
