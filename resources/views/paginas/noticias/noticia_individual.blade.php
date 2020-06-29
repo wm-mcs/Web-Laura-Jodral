@@ -117,6 +117,8 @@
 
 @section('contenido')
 
+{{dd($Noticia)}}
+
 <div  class="{{-- masthead --}} get_width_100 "  >
   
 <div id="carouselExampleIndicators" class="carousel slide auto" data-ride="carousel" data-interval="5000">

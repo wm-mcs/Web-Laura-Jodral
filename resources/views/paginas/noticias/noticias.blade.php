@@ -1,8 +1,5 @@
 @extends('layouts.paginasPersonalizadas.layout')
 
-
-
-
 {{--*/ $ImagenPortada         = url() . '/imagenes/Portadas/laura-jodral-home-imagen-principal.jpg'/*--}}
 {{--*/ $ImagenParaTaG         = url() . '/imagenes/Contacto/Laura-Jodral-contacto-terapias-foto-chica.jpg'/*--}}
 {{--*/ $Titulo                = 'Blog de Laura Jodral Garcia' /*--}}
