@@ -103,7 +103,7 @@
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row">
               <div class="col-8 col-lg-6 p-4 background-black-transparent" >
-                <h1  class="titulos-class text-white font-secondary mb-3">Di si! a la vida</h1>
+                <h1  class="titulos-class text-white font-primary mb-3">Di si! a la vida</h1>
                 {{-- <h2 class="sub-titulos-class mb-3 text-white font-primary">Sumérgete en el mundo del autodescubrimiento  para llegar a ser la mejor versión de ti mismo</h2> --}}
                 
                 <p class="parrafo-class text-white mb-3">Toma las riendas y prepara tu vida.</p>
@@ -182,7 +182,7 @@
        <div class="site-section background-gris-1">
         <div class="container">          
           <h3 class="sub-titulos-class text-center m-0 text-color-primary font-italic mb-3">
-             <p class="titulos-class  mb-3 font-primary">
+             <p class="titulos-class   mb-3 font-primary">
                "Me lo contaron y lo olvidé, lo vi y lo entendí, lo hice y lo aprendí"
             </p>
             <p>
