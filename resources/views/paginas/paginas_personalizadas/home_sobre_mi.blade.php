@@ -2,8 +2,8 @@
       <div class="container">
         <div class="row align-items-center border border-primary p-5 mb-4">
 
-          <h2 class="col-12 titulos-class  text-center text-color-primary mb-3 font-secondary">¿Quién es Laura?</h2>
-          <h3 class="col-12 sub-titulos-class text-center text-color-primary text-uppercase mb-5">Gestalt. Coaching. PNL. ASTROLOGÍA.</h3>
+          <h2 class="col-12 titulos-class  text-center text-color-primary mb-5 font-secondary">¿Quién es Laura?</h2>
+         
 
           <div class="row align-items-center ">
            <div class="col-lg-6 order-2 order-lg-2 flex-column p-4">          
