@@ -55,7 +55,7 @@
 
 
 @section('MetaContent')
- {{$Noticia->sub_name}} |  {{$Empresa->name}} 
+ {{$Noticia->descripcion_breve}} |  {{$Empresa->name}} 
 @stop
 
 @section('MetaRobot')
