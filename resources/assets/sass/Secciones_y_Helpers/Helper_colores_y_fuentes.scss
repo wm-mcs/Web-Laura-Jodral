@@ -1,4 +1,4 @@
-$Color-fuxia-oscuro:#952464 ;
+$Color-fuxia-oscuro:#b53e82 ;
 $Color-Propuesto-por-Laura:#00d4e1; /*Segerencia #10777d  b53e82*/
 
 $Color-Azul-1:#23c6cf;
@@ -7,7 +7,7 @@ $Color-Azul-3:#1cc7c9;
 
 $Color-Rosa-1:#d10099;
 
-$color-3:$Color-Rosa-1;  /* institucional PRINCIPAL */
+$color-3:$Color-fuxia-oscuro;  /* institucional PRINCIPAL */
 $color-3-primary_hover: lighten( $color-3, 5% );
 $color-2:darken( $color-3, 10% );
 
