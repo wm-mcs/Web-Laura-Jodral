@@ -28,7 +28,7 @@ class HelpersServicios
                 ],
                 [
                  'name'        => 'Astrología Humanista',
-                 'descripcion' => 'Es una herramienta de autoconocimiento la cual representa la psique humana a través de un mapa simbólico,llamado Carta Natal dada por la fecha, hora y lugar de nacimiento de la persona. Su interpretación nos permite ver los potenciales, recursos, dificultades, bloqueos, talentos, conflictos... del individuo, entre otras muchas cosas. Es una poderosa herramienta de autodesarrollo personal gracias a la toma de conciencia ,lo que conduce a entender y sanar el mundo emocional.  .',
+                 'descripcion' => 'Es una herramienta de autoconocimiento la cual representa la psique humana a través de un mapa simbólico,llamado Carta Natal dada por la fecha, hora y lugar de nacimiento de la persona. Su interpretación nos permite ver los potenciales, recursos, dificultades, bloqueos, talentos, conflictos... del individuo, entre otras muchas cosas. Es una poderosa herramienta de autodesarrollo personal gracias a la toma de conciencia ,lo que conduce a entender y sanar el mundo emocional.',
                  'img'         => url().'/imagenes/Servicios/astrologia-humanista.jpg',
                  'frase'       => '‘Conócete a ti mismo y conocerás el Universo‘',
                  'cita'        => 'Sócrates'
