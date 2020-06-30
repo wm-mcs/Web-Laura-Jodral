@@ -23,7 +23,7 @@ class HelpersServicios
                  'name'        => 'Coaching y PNL',
                  'descripcion' => 'El Coaching para resultados , acompañamiento mediante  la conversación basada en la confianza y el   compromiso focalizada en preguntas potenciadoras para el alcance del objetivo deseado. El coaching requiere de planes de acción  que cada persona se compromete a poner en marcha y realizar en un plazo determinado para alcanzar dicho objetivo respetando sus propios ritmos. La PNL  ( Programación Neuro Lingüística) es una metodología de acompañamiento al cambio, basada en el modelaje de programas ya aprendidos a través del lenguaje y los sentidos. Gracias a ciertas habilidades y técnicas se consigue pensar y actuar de forma efectiva  incrementando las opciones y mejorando la calidad de vida.',
                  'frase'       => '‘Tus creencias no están hechas de realidades, sino más bien es la realidad la que está hecha de tus creencias‘',
-                 'cita'        => 'Richard Bandler'
+                 'cita'        => 'Richard Bandler',
                  'img'         => url().'/imagenes/Servicios/pnl-y-coaching.jpg'
                 ],
                 [
