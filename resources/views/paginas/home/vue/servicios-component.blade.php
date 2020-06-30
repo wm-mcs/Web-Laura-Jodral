@@ -92,7 +92,7 @@ template:'
       <p class="color-text-gris mb-2">
         @{{descripcion}}
       </p> 
-      <p v-show="muestra" class="color-text-gris mb-2">
+      <p v-show="muestra" class="color-text-gris mb-2 font-primary">
         <b>
            <em>@{{servicio.frase}}</em>
         </b>
