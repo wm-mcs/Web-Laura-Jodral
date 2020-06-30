@@ -92,6 +92,16 @@ template:'
       <p class="color-text-gris mb-2">
         @{{descripcion}}
       </p> 
+      <p v-show="muestra" class="color-text-gris mb-2">
+        <b>
+           <em>@{{servicio.frase}}</em>
+        </b>
+      </p>
+      <p>
+        <cite class="color-text-gris m-0" v-show="muestra">@{{servicio.cita}}</cite>
+      </p>
+      
+
       <p v-if="!muestra" v-on:click="mostrar" class="py-3 servicio-mostrar-mas-o-menos">Mostrar más <i class="fas fa-chevron-down"></i></p>  
       <p v-else v-on:click="mostrar" class="py-3 servicio-mostrar-mas-o-menos">Mostrar menos <i class="fas fa-chevron-up"></i></p>                            
     </div>
