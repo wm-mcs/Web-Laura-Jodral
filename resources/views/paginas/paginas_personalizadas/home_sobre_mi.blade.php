@@ -27,4 +27,4 @@
          <a href="{{route('get_pagina_quien_es')}}" class="Boton-Fuente-Chica Boton-Primario-Relleno "> Conoce la historia de Laura Jodral <i class="fas fa-heart"></i></i>
              </a>
       </div>
-    </div>
+</div>
