@@ -146,11 +146,20 @@
         <h2 class="text-color-primary titulos-class mb-4">Trayectoría</h2>
         <ul class="timeline mt-2 mb-4">          
           <li>
-            <span class="color-text-gris sub-titulos-class mb-2">
-              <b>
-                
-              </b>
-            </span>
+              <p class="pb-2">
+                2012-2015
+              </p>
+              <p class="mb-2">
+                <b>Terapeuta Gestalt.</b> Gestalt Mediterráneo, Palma de Mallorca.
+              </p>            
+          </li>
+          <li>
+              <p class="pb-2">
+                2017-2018
+              </p>
+              <p class="mb-2">
+                <b>Terapeuta Gestalt.</b> Gestalt Mediterráneo, Palma de Mallorca.
+              </p>            
           </li>
         </ul>         
           
