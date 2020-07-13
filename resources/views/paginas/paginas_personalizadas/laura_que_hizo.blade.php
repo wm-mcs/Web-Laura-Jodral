@@ -155,10 +155,34 @@
           </li>
           <li>
               <p class="pb-2">
+                2015
+              </p>
+              <p class="mb-2">
+                <b>Fundamentos Teóricos de la BioNeuroEmoción.</b> Instituto Español de BNE, Barcelona. 
+              </p>            
+          </li>
+           <li>
+              <p class="pb-2">
                 2017-2018
               </p>
               <p class="mb-2">
-                <b>Terapeuta Gestalt.</b> Gestalt Mediterráneo, Palma de Mallorca.
+                <b>Clown Gestalt.</b> Arte y Presencia, Palma de Mallorca. 
+              </p>            
+          </li>
+          <li>
+              <p class="pb-2">
+                2017
+              </p>
+              <p class="mb-2">
+                <b>Coach Profesional.</b> Título avalado por la ICF. Lider-haz-go, Madrid. 
+              </p>            
+          </li>
+           <li>
+              <p class="pb-2">
+                2017
+              </p>
+              <p class="mb-2">
+                <b>Master en PNL.</b> Institut Gestalt , Barcelona. 
               </p>            
           </li>
         </ul>         
