@@ -6,7 +6,7 @@
 {{--*/ $ImagenPortada         = url() . '/imagenes/Portadas/laura-jodral-home-imagen-principal.jpg'/*--}}
 {{--*/ $ImagenPortadaChica    = url() . '/imagenes/Portadas/laura-jodral-home-imagen-principal-chica.jpg'/*--}}
 {{--*/ $ImagenParaTaG         = url() . '/imagenes/PaginasPersonalizadas/Socios/easy-socio-el-software-para-administrar-gimnasios-academias-de-baile-institutos-de-ingles-y-mucho-más.jpg'/*--}}
-{{--*/ $Titulo                = 'Laura Jodral' /*--}}
+{{--*/ $Titulo                = 'Trayectoría de Laura Jodral' /*--}}
 {{--*/ $DescriptionEtiqueta   = '' /*--}}
 {{--*/ $PalabrasClaves        = '' /*--}}
 {{--*/ $UrlDeLaPagina         = route('get_home') /*--}}
@@ -110,7 +110,7 @@
                
                 
            
-                <p><a href="#sobre-mi" class="scroll-to Boton-Fuente-Chico Boton-Blanco"> Ver la carrera de Laura <i class="fas fa-chevron-right"></i> </a></p>
+                <p><a href="#trayectoria" class="scroll-to Boton-Fuente-Chico Boton-Blanco"> Ver la carrera de Laura <i class="fas fa-chevron-right"></i> </a></p>
               </div>
             </div>
           </div>
@@ -141,7 +141,7 @@
       </div>
       
 
-    <div  class="site-section " id="">
+    <div  class="site-section " id="trayectoria">
       <div class="container ">
         <h2 class="text-color-primary titulos-class mb-4">Trayectoría</h2>
         <ul class="timeline mt-2 mb-4">          
