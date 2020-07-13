@@ -1,4 +1,4 @@
-<footer class="site-section background-gris-2 ">
+<footer class="site-section background-gris-1 ">
       <div class="container">
 
 
@@ -106,7 +106,7 @@
        
       </div>
     </footer>
-     <div class="p-5 background-gris-3">
+     <div class="p-5 background-gris-4">
       <p class="m-0 text-center color-text-white parrafo-class"> 
         <small>
          <span class="color-text-white">Todos los derechos reservados <b class="text-color-primary">@{{empresa.name}}</b> © 2020</span> 
