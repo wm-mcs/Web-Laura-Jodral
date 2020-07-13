@@ -64,6 +64,14 @@ class Paginas_Controller extends Controller
         return view('paginas.paginas_personalizadas.laura_quien_es', compact('Empresa','blogs'));
     }
 
+    // T r a y e c t o r í a 
+    public function get_que_hizo_laura()
+    {
+        $blogs          = $this->NoticiasRepo->getUltimosBlogs();
+        $Empresa        = $this->EmpresaRepo->getEmpresaDatos();
+        return view('paginas.paginas_personalizadas.laura_que_hizo', compact('Empresa','blogs'));
+    }
+
 
 
     // B l o g   L i s t a d o 

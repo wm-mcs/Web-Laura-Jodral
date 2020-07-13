@@ -40,6 +40,12 @@ Route::get('/Quién-es-Laura-Jodral-Garcia' , [
   'as'   => 'get_pagina_quien_es']
 );
 
+// T r a y e c t o r í a
+Route::get('/trayectoría' , [                    
+  'uses' => 'Publicas\Paginas_Controller@get_que_hizo_laura',
+  'as'   => 'get_que_hizo_laura']
+);
+
 
 
 // B l o g
