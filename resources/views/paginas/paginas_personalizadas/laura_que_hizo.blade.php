@@ -146,43 +146,171 @@
         <h2 class="text-color-primary titulos-class mb-4">Trayectoría</h2>
         <ul class="timeline mt-2 mb-4">          
           <li>
-              <p class="pb-2">
+              <p class="mb-1">
                 2012-2015
               </p>
-              <p class="mb-2">
+              <p class="mb-3">
                 <b>Terapeuta Gestalt.</b> Gestalt Mediterráneo, Palma de Mallorca.
               </p>            
           </li>
           <li>
-              <p class="pb-2">
+              <p class="mb-1">
                 2015
               </p>
-              <p class="mb-2">
+              <p class="mb-3">
                 <b>Fundamentos Teóricos de la BioNeuroEmoción.</b> Instituto Español de BNE, Barcelona. 
               </p>            
           </li>
            <li>
-              <p class="pb-2">
+              <p class="mb-1">
                 2017-2018
               </p>
-              <p class="mb-2">
+              <p class="mb-3">
                 <b>Clown Gestalt.</b> Arte y Presencia, Palma de Mallorca. 
               </p>            
           </li>
           <li>
-              <p class="pb-2">
+              <p class="mb-1">
                 2017
               </p>
-              <p class="mb-2">
+              <p class="mb-3">
                 <b>Coach Profesional.</b> Título avalado por la ICF. Lider-haz-go, Madrid. 
               </p>            
           </li>
-           <li>
-              <p class="pb-2">
+          <li>
+              <p class="mb-1">
                 2017
               </p>
-              <p class="mb-2">
+              <p class="mb-3">
                 <b>Master en PNL.</b> Institut Gestalt , Barcelona. 
+              </p>            
+          </li>
+          <li>
+              <p class="mb-1">
+                2017-2020
+              </p>
+              <p class="mb-3">
+                <b>Astroanamnesis.</b> Eliseo Gallardo, Astrólogo.
+              </p>            
+          </li>
+          <li>
+              <p class="mb-1">
+                2019- 2020
+              </p>
+              <p class="mb-3">
+                <b>Astrologia Psicologica y terapeutica.</b> Astroterapeutica. Pablo Flores.
+              </p>            
+          </li>
+          <li>
+              <p class="mb-1">
+                2019
+              </p>
+              <p class="mb-3">
+                <b>Técnicas para la comprensión de los sueños.</b> CTBA. Virginia Gawel.
+              </p>            
+          </li>
+          <li>
+              <p class="mb-1">
+                2019
+              </p>
+              <p class="mb-3">
+                <b>Prácticas para liberar lo condicionado.</b> CTBA. Virginia Gawel.
+              </p>            
+          </li>
+          <li>
+              <p class="mb-1">
+                2019
+              </p>
+              <p class="mb-3">
+                <b>Astrología Vivencial.</b> COSMOLIVE.Cosmograma. Barcelona
+              </p>            
+          </li>
+          <li>
+              <p class="mb-1">
+                2019
+              </p>
+              <p class="mb-3">
+                <b>Astrología Evolutiva.</b> Escuela de psicología Evolutiva. Barcelona.
+              </p>            
+          </li>
+          <li>
+              <p class="mb-1">
+                2019
+              </p>
+              <p class="mb-3">
+                <b>Quirologia Evolutiva.</b> Escuela de psicología Evolutiva. Barcelona
+              </p>            
+          </li>
+          <li>
+              <p class="mb-1">
+                2020
+              </p>
+              <p class="mb-3">
+                <b>Coaching de Vida.</b> David Bejarano, Coach estratégico. Udemy.
+              </p>            
+          </li>
+          <li>
+              <p class="mb-1">
+                2020
+              </p>
+              <p class="mb-3">
+                <b>Psicoterapia Analítica Funcional.</b>  <a href="http://terapiascontextuales.Com">Terapiascontextuales.com.</a> 
+              </p>            
+          </li>
+          <li>
+              <p class="mb-1">
+                2020
+              </p>
+              <p class="mb-3">
+                <b>Intervención Contextual en Apego,Intimidad,Dependencia y Evitación. </b>  <a href="http://terapiascontextuales.Com">Terapiascontextuales.com.</a> 
+              </p>            
+          </li>
+          <li>
+              <p class="mb-1">
+                2020
+              </p>
+              <p class="mb-3">
+                <b>Estrategia Profesional y Marca Personal. </b>  Andrés Pérez Ortega. Estratega Personal. Udemy 
+              </p>            
+          </li>
+          <li>
+              <p class="mb-1">
+                2020
+              </p>
+              <p class="mb-3">
+                <b>Design Thinking. </b> Iván Pinar Domínguez. Ingeniero TELECO. Udemy.
+              </p>            
+          </li>
+          <li>
+              <p class="mb-1">
+                2020
+              </p>
+              <p class="mb-3">
+                <b>Habilidades Comunicativas.  </b> Antonio Santos. Periodista y comunicador audiovisual. Udemy
+              </p>            
+          </li>
+          <li>
+              <p class="mb-1">
+                2020
+              </p>
+              <p class="mb-3">
+                <b>Registros Akáshicos I y II.  </b> Escuela del Amor Interior. Zipora Seguí Fiol.
+              </p>            
+          </li>
+          <li>
+              <p class="mb-1">
+                2020
+              </p>
+              <p class="mb-3">
+                <b>Eneagrama.</b> Borja Vilaseca.
+              </p>            
+          </li>
+          <li>
+              <p class="mb-1">
+                2020
+              </p>
+              <p class="mb-3">
+                <b>Estudiante Grado Psicología.</b> UNED.
               </p>            
           </li>
         </ul>         
