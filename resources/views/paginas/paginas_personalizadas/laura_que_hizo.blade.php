@@ -9,7 +9,7 @@
 {{--*/ $Titulo                = 'Trayectoría de Laura Jodral' /*--}}
 {{--*/ $DescriptionEtiqueta   = '' /*--}}
 {{--*/ $PalabrasClaves        = '' /*--}}
-{{--*/ $UrlDeLaPagina         = route('get_home') /*--}}
+{{--*/ $UrlDeLaPagina         = route('get_que_hizo_laura') /*--}}
 
 
 @section('favicon')
@@ -102,8 +102,8 @@
         <div class="row justify-content-center">
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row">
-              <div class="col-8 col-lg-6 p-4 background-black-transparent" >
-                <h1  class="titulos-class text-white font-primary mb-3">Mi trayectoria</h1>
+              <div class="col-8 col-lg-6 p-4 " >
+                <h1  class="titulos-class text-white font-primary mb-3">Mi trayectoría</h1>
                 {{-- <h2 class="sub-titulos-class mb-3 text-white font-primary">Sumérgete en el mundo del autodescubrimiento  para llegar a ser la mejor versión de ti mismo</h2> --}}
                 
                 
@@ -117,8 +117,8 @@
         </div>
       </div>
       
-       <img v-if="mostrar_para_celuar" class="imagen-portada-altura-100vh" style="position: absolute;top: 0;" src="{{$ImagenPortadaChica}}" alt="Laura Jodral portada."> 
-       <img v-else class="imagen-portada-altura-100vh" style="position: absolute;top: 0;" src="{{$ImagenPortada}}" alt="Laura Jodral portada."> 
+       <img v-if="mostrar_para_celuar" class="imagen-portada-altura-100vh" style="position: absolute;top: 0;" data-src="{{$ImagenPortadaChica}}" alt="Laura Jodral portada."> 
+       <img v-else class="imagen-portada-altura-100vh" style="position: absolute;top: 0;" data-src="{{$ImagenPortada}}" alt="Laura Jodral portada."> 
 
        {{-- <img class="logo-float-easy-socio-portada" :src="empresa.logo_easy_blanco" alt="Easysocio ptograma de gestion de gimasios y academias simple de usar."> --}}
        
@@ -132,13 +132,6 @@
 @section('contenido')
 
   
-      <div class="site-section background-gris-1">
-        <div class="container">          
-          <h3 class="sub-titulos-class text-center text-color-primary font-italic mb-3">
-            Todo
-          </h3> 
-        </div>
-      </div>
       
 
     <div  class="site-section " id="trayectoria">

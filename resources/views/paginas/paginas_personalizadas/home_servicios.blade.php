@@ -24,7 +24,7 @@
 
           </div>
           <div class="col-lg-6 order-3 pl-lg-5 order-lg-1">
-            <img class="img-fluid mb-4" src="{{url()}}/imagenes/Home/laura_jodral_es.jpg" alt="Laura Jodral">
+            <img class="img-fluid mb-4" data-src="{{url()}}/imagenes/Home/laura_jodral_es.jpg" alt="Laura Jodral">
           </div>
         </div>
       </div>

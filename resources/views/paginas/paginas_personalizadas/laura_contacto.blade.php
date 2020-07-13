@@ -124,7 +124,7 @@
           </div>
         </div>
       </div>
-      <img class="imagen-portada-altura-100vh" style="position: absolute;top: 0;" src="{{$ImagenPortada}}" alt="Laura Jodral portada.">
+      <img class="imagen-portada-altura-100vh" style="position: absolute;top: 0;" data-src="{{$ImagenPortada}}" alt="Laura Jodral portada.">
     </div>
 @stop
 
@@ -133,7 +133,7 @@
       <div class="container">
         <div class="d-flex  flex-column align-items-center justify-content-center">         
           <div class="col-6 col-lg-3 p-5 mb-3">
-            <img src="{{url()}}/imagenes/Contacto/Laura-Jodral-contacto-terapias-foto-chica.jpg" 
+            <img data-src="{{url()}}/imagenes/Contacto/Laura-Jodral-contacto-terapias-foto-chica.jpg" 
                class="img-fluid p5 rounded-circle">
           </div>
           <div class="col-8 col-lg-5  mb-5">
