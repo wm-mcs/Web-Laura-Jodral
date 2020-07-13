@@ -119,8 +119,8 @@
 
 
 <div class="site-blocks-cover overlay bg-light" id="home-section">      
-   <img v-if="mostrar_para_celuar" class="imagen-portada-altura-100vh" style="position: absolute;top: 0;" src="{{$Noticia->url_img_portada_chica}}" alt="Laura Jodral portada."> 
-   <img v-else class="imagen-portada-altura-100vh" style="position: absolute;top: 0;" src="{{$Noticia->url_img_portada}}" alt="Laura Jodral portada.">        
+   <img v-if="mostrar_para_celuar" class="imagen-portada-altura-100vh" style="position: absolute;top: 0;" data-src="{{$Noticia->url_img_portada_chica}}" alt="Laura Jodral portada."> 
+   <img v-else class="imagen-portada-altura-100vh" style="position: absolute;top: 0;" data-src="{{$Noticia->url_img_portada}}" alt="Laura Jodral portada.">        
 </div>  
 
 
