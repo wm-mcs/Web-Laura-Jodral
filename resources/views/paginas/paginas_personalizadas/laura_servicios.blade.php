@@ -102,7 +102,7 @@
         <div class="row justify-content-center">
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row justify-content-center">
-              <div class="col-6 col-lg-6 p-2 p-lg-3 background-primary-transparent" >
+              <div class="col-6 col-lg-6 p-2 p-lg-3 background-primary-transparent text-center" >
                 
                   <h1  class="titulos-class text-white font-secondary">Servicios</h1>
                   <p class="parrafo-class text-white"> 
