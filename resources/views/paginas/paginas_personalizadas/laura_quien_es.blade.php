@@ -159,13 +159,13 @@
         
         <div class="col-12 p-4 border border-primary mb-3 ">
           <p class=" parrafo-class mb-3">            
-            El poder usar  la <b>Gestalt, el Coaching, la Astrología y la PNL  </b> como herramientas de trabajo para el acompañamiento terapéutico me ayudan a percibir y orientar a las persona desde una comprensión mucho más amplia. Esto, sumado a mi grado de sensibilidad me dotan de una empatía necesaria para el acompañamiento terapéutico.
+            El poder usar  la <b>Gestalt, el Coaching, la Astrología y la PNL  </b> como herramientas de trabajo para el acompañamiento terapéutico me ayudan a percibir y orientar a las personas desde una comprensión mucho más amplia. Esto, sumado a mi grado de sensibilidad me dotan de una empatía necesaria para el acompañamiento terapéutico.
           </p>  
           <p class=" parrafo-class mb-3">            
             Con 18 años y recién terminado el Bachillerato, sin tener la menor idea de qué hacer con mi vida decidí irme a Inglaterra a trabajar durante 6 meses , de ahí continúe rumbo a  Alemania luego  a Escocia, de vuelta a Alemania, andaba sin rumbo fijo, perdida, como en busca de algo o huyendo de algo que en esos momentos ni tan siquiera era consciente de para qué hacia lo que hacía o que me llevaba a hacer lo que estaba haciendo. Ante esa búsqueda, también buscaba experiencias límite lo que me llevó a saltar de un avión a 4000 metros del suelo( salto tándem) y a realizar caída libre a 60 metros del suelo(puenting)unas de las mejores experiencias de mi vida. En el año 2012, a mis 28 años, decidí formarme como Terapeuta Gestalt en la escuela Gestalt Mediterráneo en Palma de Mallorca, fue aquí donde encontré mi pasión y me comenzaron a asaltar preguntas existenciales entre ellas, por qué somos como somos y para qué hacemos lo que hacemos.
           </p>  
           <p class=" parrafo-class mb-3">            
-            Esta serie de preguntas que revoloteaban continuamente sobre mi cabeza hizo que me adentrase en el fascinante mundo de la mente humana y todo lo relacionado con el desarrollo y comprensión del ser Humano y hasta el dia de hoy sigo investigando sobre este  increíble mundo de la mente y conciencia humana.
+            Esta serie de preguntas que revoloteaban continuamente sobre mi cabeza hizo que me adentrase en el fascinante mundo de la mente humana y todo lo relacionado con el desarrollo y comprensión del Ser Humano y hasta el dia de hoy sigo investigando sobre este  increíble mundo de la mente y conciencia humana.
           </p> 
           <p class=" parrafo-class mb-3">            
             Mi mundo interno cambió por completo y continué formándome como Coach Profesional, realicé el Master en PNL (Programación Neurolingüística) y lo siguiente que me esperaba era el apasionante mundo de la Astrología Humanista, el cual me ayudó a formar una comprensión del ser más holística. Fue la guinda del pastel.
