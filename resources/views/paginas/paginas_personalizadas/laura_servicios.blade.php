@@ -4,7 +4,7 @@
 
 
 {{--*/ $ImagenPortada         = url() . '/imagenes/Servicios/laura-joidral-servicios.jpg'/*--}}
-{{--*/ $ImagenParaTaG         = url() . '/imagenes/Contacto/Laura-Jodral-contacto-terapias-foto-chica.jpg'/*--}}
+{{--*/ $ImagenParaTaG         = url() . '/imagenes/PaginasPersonalizadas/Empresa/Laura-img-tag-social.jpg'/*--}}
 {{--*/ $Titulo                = 'Servicios | Laura Jodral' /*--}}
 {{--*/ $DescriptionEtiqueta   = '' /*--}}
 {{--*/ $PalabrasClaves        = '' /*--}}

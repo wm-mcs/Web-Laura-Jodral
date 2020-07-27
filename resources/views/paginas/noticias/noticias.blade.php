@@ -1,7 +1,7 @@
 @extends('layouts.paginasPersonalizadas.layout')
 
 {{--*/ $ImagenPortada         = url() . '/imagenes/Portadas/laura-jodral-home-imagen-principal.jpg'/*--}}
-{{--*/ $ImagenParaTaG         = url() . '/imagenes/Contacto/Laura-Jodral-contacto-terapias-foto-chica.jpg'/*--}}
+{{--*/ $ImagenParaTaG         = url() . '/imagenes/PaginasPersonalizadas/Empresa/Laura-img-tag-social.jpg'/*--}}
 {{--*/ $Titulo                = 'Blog de Laura Jodral Garcia' /*--}}
 {{--*/ $DescriptionEtiqueta   = 'Estos son mis artículos relacionados con el Coaching, Astrología Humanitaria y PNL.' /*--}}
 {{--*/ $PalabrasClaves        = '' /*--}}

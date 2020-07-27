@@ -5,7 +5,7 @@
 
 {{--*/ $ImagenPortada         = url() . '/imagenes/Trayectoria/Trayectoria-laura.jpg'/*--}}
 {{--*/ $ImagenPortadaChica    = url() . '/imagenes/Portadas/laura-jodral-home-imagen-principal-chica.jpg'/*--}}
-{{--*/ $ImagenParaTaG         = url() . '/imagenes/PaginasPersonalizadas/Socios/easy-socio-el-software-para-administrar-gimnasios-academias-de-baile-institutos-de-ingles-y-mucho-más.jpg'/*--}}
+{{--*/ $ImagenParaTaG         = url() . '/imagenes/PaginasPersonalizadas/Empresa/Laura-img-tag-social.jpg'/*--}}
 {{--*/ $Titulo                = 'Trayectoría de Laura Jodral' /*--}}
 {{--*/ $DescriptionEtiqueta   = '' /*--}}
 {{--*/ $PalabrasClaves        = '' /*--}}
