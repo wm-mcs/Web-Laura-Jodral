@@ -39,7 +39,7 @@ class Envio_Formularios_Controller extends Controller
       $email              = $Request->get('email');
       $mensaje            = $Request->get('mensaje');
       $Email_al_que_envia = $this->EmpresaRepo->getEmpresaDatos()->email;
-      $Titulo_de_email    = 'Contacto por Webs o Easy';
+      $Titulo_de_email    = 'Solicitud de contacto por web';
       $manager            = new envio_contacto_manager( null, $Request->all());
 
 
