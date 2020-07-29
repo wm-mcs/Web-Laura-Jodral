@@ -140,6 +140,14 @@
          
        </div>
        <div class="col-6 col-lg-4 text-center p-3 p-lg-5 background-gris-1">
+         <h2 class="sub-titulos-class text-white font-secondary mb-3 p-4 background-primary rounded">Lectura Carta Natal</h2>
+         <p class="mb-2"> <b>1 sesion</b> </p>
+         <p class="mb-2"> <i class="fas fa-hourglass-start"></i> Duración 1h 30 </p>
+         <p class="m-0">
+           Inversión: € 80 
+         </p>
+       </div>
+       <div class="col-6 col-lg-4 text-center p-3 p-lg-5 background-gris-2">
          <h2 class="sub-titulos-class text-white font-secondary mb-3 p-4 background-primary rounded">Coaching con PNL</h2>
          <p class="mb-2"> <b>Bono de 4 sesiones</b> </p>
          <p class="mb-2"> <i class="fas fa-hourglass-start"></i> Duración 60 minutos c/u</p>
@@ -150,10 +158,10 @@
           <small >Ahorro de € 60 </small> 
          </p>
          <p class="m-0 color-text-gris">
-          <small style=" text-decoration:line-through;"> Antes €280  </small> 
+          <small style=" text-decoration:line-through;"> Si las comprás de a una sería €280  </small> 
          </p>
        </div>
-        <div class="col-6 col-lg-4 text-center p-3 p-lg-5 background-gris-1">
+        <div class="col-6 col-lg-4 text-center p-3 p-lg-5 background-gris-2">
          <h2 class="sub-titulos-class text-white font-secondary mb-3 p-4 background-primary rounded">Coaching con PNL</h2>
          <p class="mb-2"> <b>Bono de 8 sesiones</b> </p>
          <p class="mb-2"> <i class="fas fa-hourglass-start"></i> Duración 60 minutos c/u</p>
@@ -164,18 +172,11 @@
           <small>Ahorro de € 161 </small> 
          </p>
          <p class="m-0 color-text-gris">
-          <small style=" text-decoration:line-through;"> Antes €560 </small> 
+          <small style=" text-decoration:line-through;"> Si las comprás de a una sería €560 </small> 
          </p>
        </div>
-       <div class="col-6 col-lg-4 text-center p-3 p-lg-5 background-gris-1">
-         <h2 class="sub-titulos-class text-white font-secondary mb-3 p-4 background-primary rounded">Lectura Carta Natal</h2>
-         <p class="mb-2"> <b>1 sesion</b> </p>
-         <p class="mb-2"> <i class="fas fa-hourglass-start"></i> Duración 1h 30 </p>
-         <p class="m-0">
-           Inversión: € 80 
-         </p>
-       </div>
-       <div class="col-6 col-lg-4 text-center p-3 p-lg-5 background-gris-1">
+       
+       <div class="col-6 col-lg-4 text-center p-3 p-lg-5 background-gris-3">
          <h2 class="sub-titulos-class text-white font-secondary mb-3 p-4 background-primary rounded">Primera sesión gratuita</h2>
          <p class="mb-2"> <b>1 sesion</b> </p>
          <p class="mb-2"> <i class="fas fa-hourglass-start"></i> Duración 45 minutos </p>
@@ -191,7 +192,7 @@
        <div class="col-11 col-lg-6 my-5">
         <a href="{{route('get_pagina_contacto','-para-coordinar-llamada')}}" class="Boton-Primario-Sin-Relleno Boton-Fuente-Chico">Coordinar ahora mismo <i class="fas fa-chevron-right"></i></a>  
 
-        <p>
+        <p class="text-center mt-3">
           <small>También puedes escribirme por  <a  :href="empresa.link_whatsapp_send">Whatsapp</a> </small>
         </p>     
        </div>
