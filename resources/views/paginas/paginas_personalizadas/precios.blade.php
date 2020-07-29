@@ -176,15 +176,15 @@
          </p>
        </div>
        
-       <div class="col-6 col-lg-4 text-center p-3 p-lg-5 background-gris-3">
+       <div class="col-6 col-lg-4 text-center p-3 p-lg-5 background-gris-0">
          <h2 class="sub-titulos-class text-white font-secondary mb-3 p-4 background-primary rounded">Primera sesión gratuita</h2>
          <p class="mb-2"> <b>1 sesion</b> </p>
          <p class="mb-2"> <i class="fas fa-hourglass-start"></i> Duración 45 minutos </p>
          <p class="m-1">
            Inversión: € 0
          </p>
-         <p class="m-0 color-text-gris">
-           Es gratis
+         <p class="m-0 color-text-success">
+           Es gratis <i class="fas fa-smile-wink"></i>
          </p>
        </div>
        
