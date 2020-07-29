@@ -46,6 +46,12 @@ Route::get('/trayectoría' , [
   'as'   => 'get_que_hizo_laura']
 );
 
+// P r e c i o s
+Route::get('/precios' , [                    
+  'uses' => 'Publicas\Paginas_Controller@get_precios',
+  'as'   => 'get_precios']
+);
+
 
 
 // B l o g
