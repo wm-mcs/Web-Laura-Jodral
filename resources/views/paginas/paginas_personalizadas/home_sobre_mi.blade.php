@@ -1,4 +1,4 @@
-<div  class="site-section" id="sobre-mi">
+a<div  class="site-section" id="sobre-mi">
       <div class="container">
         <div class="row align-items-center border border-primary p-5 mb-4">
 
@@ -10,7 +10,7 @@
               
 
             <p class="parrafo-class mb-0">
-             <strong> Laura Jodral García es Terapeuta Gestalt, Coach Profesional y tiene un Master en PNL</strong>. Se ha formado en Astrología Humanista y hoy en día se dedica a acompañar a personas  que desean optimizar y tomar las riendas de su vida a conseguir aquello que desean ejecutando las acciones apropiadas y adecuadas para que puedan llevar la vida que desean. Su incansable búsqueda sobre el sentido de la Vida la han llevado a centrarse en el crecimiento personal y siente que ha encontrado su misión en esta vida.                
+             <strong> Laura Jodral García es Terapeuta Gestalt, Coach Profesional y tiene un Master en PNL</strong>. Se ha formado en Astrología Humanista y hoy en día se dedica a acompañar a personas  que desean optimizar y tomar las riendas de su vida a conseguir aquello que desean ejecutando las acciones apropiadas para que logren sus objetivos. Su incansable búsqueda sobre el sentido de la Vida la han llevado a centrarse en el crecimiento personal y siente que ha encontrado su misión en esta vida.                
             </p>
            
            
