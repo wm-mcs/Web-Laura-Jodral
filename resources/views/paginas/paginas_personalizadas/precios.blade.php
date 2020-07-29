@@ -122,11 +122,11 @@
 <div class="site-section background-gris-0" id="intro">
     <div class="container">  
      <div class="row">
-       <div class="col-6 col-lg-4 text-center p-3 p-lg-5 background-gris-0">
-         <h2 class="sub-titulos-class  font-secondary mb-3">Terapia gestalt</h2>
+       <div class="col-6 col-lg-4 text-center p-3 p-lg-5 background-gris-1">
+         <h2 class="sub-titulos-class text-white font-secondary mb-3 p-4 background-primary">Terapia gestalt</h2>
          <p class="mb-2"> <b>1 sesion</b> </p>
          <p class="mb-2"> <i class="fas fa-hourglass-start"></i> Duración 75 minutos </p>
-         <p>
+         <p class="m-0">
            Precios: € 45 
          </p>
        </div>
