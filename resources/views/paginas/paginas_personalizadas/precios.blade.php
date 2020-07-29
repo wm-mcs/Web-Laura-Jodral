@@ -101,9 +101,13 @@
                <img data-src="{{url()}}/imagenes/Contacto/Laura-Jodral-contacto-terapias-foto-chica.jpg" 
                  class="img-fluid p5 rounded-circle">
              </div>
-             <p class="parrafo-class text-white"> 
-              Estas son mis tarifas...
-             </p>   
+
+             <p class="m-0">
+              <a href="#trayectoria" class="scroll-to Boton-Fuente-Chico Boton-Blanco"> 
+                Ver los precios <i class="fas fa-chevron-right"></i> 
+              </a>
+             </p>
+                
           </div>
         </div>
       </div>
