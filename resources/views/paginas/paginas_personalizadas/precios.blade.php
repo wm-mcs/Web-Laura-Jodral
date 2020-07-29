@@ -137,6 +137,7 @@
          <p class="m-0">
            Inversión: € 70 
          </p>
+         
        </div>
        <div class="col-6 col-lg-4 text-center p-3 p-lg-5 background-gris-1">
          <h2 class="sub-titulos-class text-white font-secondary mb-3 p-4 background-primary rounded">Coaching con PNL</h2>
@@ -145,8 +146,11 @@
          <p class="m-1">
            Inversión: € 220 
          </p>
-         <p class="m-0 color-text-success">
-          <small>Ahorro de € 60 </small> 
+         <p class="m-1 color-text-success">
+          <small >Ahorro de € 60 </small> 
+         </p>
+         <p class="m-0 color-text-gris">
+          <small style=" text-decoration:line-through;"> Antes €280  </small> 
          </p>
        </div>
         <div class="col-6 col-lg-4 text-center p-3 p-lg-5 background-gris-1">
@@ -156,8 +160,11 @@
          <p class="m-1">
            Inversión: € 399 
          </p>
-         <p class="m-0 color-text-success">
+         <p class="m-1 color-text-success">
           <small>Ahorro de € 161 </small> 
+         </p>
+         <p class="m-0 color-text-gris">
+          <small style=" text-decoration:line-through;"> Antes €560 </small> 
          </p>
        </div>
        <div class="col-6 col-lg-4 text-center p-3 p-lg-5 background-gris-1">
