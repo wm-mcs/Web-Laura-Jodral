@@ -96,8 +96,8 @@
       <div class="col-12">
         <div style="height: 100vh;" class="row align-items-center justify-content-center">
           <div class="col-10 col-lg-6 p-2 p-lg-5 d-flex flex-column align-items-center  text-center" >
-             <h1  class="titulos-class text-white font-secondary mb-4">Precios</h1>
-             <div class="w-75 p-5 mb-3">                  
+             <h1  class="titulos-class text-white font-secondary mb-2">Precios</h1>
+             <div class="w-75 p-5 mb-2">                  
                <img data-src="{{url()}}/imagenes/Contacto/Laura-Jodral-contacto-terapias-foto-chica.jpg" 
                  class="img-fluid p5 rounded-circle">
              </div>
@@ -119,9 +119,9 @@
     <div class="container">  
      <div class="row">
        <div class="col-6 col-lg-4 text-center p-3 p-lg-5 background-gris-0">
-         <h2 class="titulos-class  font-secondary mb-3">Terapia gestalt</h2>
+         <h2 class="sub-titulos-class  font-secondary mb-3">Terapia gestalt</h2>
          <p class="mb-2"> <b>1 sesion</b> </p>
-         <p> <i class="fas fa-hourglass-start"></i> Duración 75 minutos </p>
+         <p class="mb-2"> <i class="fas fa-hourglass-start"></i> Duración 75 minutos </p>
          <p>
            Precios: € 45 
          </p>
