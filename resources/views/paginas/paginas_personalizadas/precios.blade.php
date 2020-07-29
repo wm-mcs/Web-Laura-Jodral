@@ -123,11 +123,49 @@
     <div class="container">  
      <div class="row">
        <div class="col-6 col-lg-4 text-center p-3 p-lg-5 background-gris-1">
-         <h2 class="sub-titulos-class text-white font-secondary mb-3 p-4 background-primary">Terapia gestalt</h2>
+         <h2 class="sub-titulos-class text-white font-secondary mb-3 p-4 background-primary rounded">Terapia gestalt</h2>
          <p class="mb-2"> <b>1 sesion</b> </p>
          <p class="mb-2"> <i class="fas fa-hourglass-start"></i> Duración 75 minutos </p>
          <p class="m-0">
-           Precios: € 45 
+           Inversión: € 45 
+         </p>
+       </div>
+       <div class="col-6 col-lg-4 text-center p-3 p-lg-5 background-gris-1">
+         <h2 class="sub-titulos-class text-white font-secondary mb-3 p-4 background-primary rounded">Coaching Sesión</h2>
+         <p class="mb-2"> <b>1 sesion</b> </p>
+         <p class="mb-2"> <i class="fas fa-hourglass-start"></i> Duración 60 minutos </p>
+         <p class="m-0">
+           Inversión: € 70 
+         </p>
+       </div>
+       <div class="col-6 col-lg-4 text-center p-3 p-lg-5 background-gris-1">
+         <h2 class="sub-titulos-class text-white font-secondary mb-3 p-4 background-primary rounded">Coaching con PNL</h2>
+         <p class="mb-2"> <b>Bono de 4 sesiones</b> </p>
+         <p class="mb-2"> <i class="fas fa-hourglass-start"></i> Duración 60 minutos c/u</p>
+         <p class="m-1">
+           Inversión: € 220 
+         </p>
+         <p class="m-0 color-text-success">
+          <small>Ahorro de € 60 </small> 
+         </p>
+       </div>
+        <div class="col-6 col-lg-4 text-center p-3 p-lg-5 background-gris-1">
+         <h2 class="sub-titulos-class text-white font-secondary mb-3 p-4 background-primary rounded">Coaching con PNL</h2>
+         <p class="mb-2"> <b>Bono de 8 sesiones</b> </p>
+         <p class="mb-2"> <i class="fas fa-hourglass-start"></i> Duración 60 minutos c/u</p>
+         <p class="m-1">
+           Inversión: € 399 
+         </p>
+         <p class="m-0 color-text-success">
+          <small>Ahorro de € 161 </small> 
+         </p>
+       </div>
+       <div class="col-6 col-lg-4 text-center p-3 p-lg-5 background-gris-1">
+         <h2 class="sub-titulos-class text-white font-secondary mb-3 p-4 background-primary rounded">Lectura Carta Natal</h2>
+         <p class="mb-2"> <b>1 sesion</b> </p>
+         <p class="mb-2"> <i class="fas fa-hourglass-start"></i> Duración 1h 30 </p>
+         <p class="m-0">
+           Inversión: € 80 
          </p>
        </div>
        
