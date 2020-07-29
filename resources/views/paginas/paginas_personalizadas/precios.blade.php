@@ -121,7 +121,7 @@
   
 <div class="site-section background-gris-0" id="intro">
     <div class="container">  
-     <div class="row">
+     <div class="row justify-content-center">
        <div class="col-6 col-lg-4 text-center p-3 p-lg-5 background-gris-1">
          <h2 class="sub-titulos-class text-white font-secondary mb-3 p-4 background-primary rounded">Terapia gestalt</h2>
          <p class="mb-2"> <b>1 sesion</b> </p>
@@ -175,8 +175,30 @@
            Inversión: € 80 
          </p>
        </div>
+       <div class="col-6 col-lg-4 text-center p-3 p-lg-5 background-gris-1">
+         <h2 class="sub-titulos-class text-white font-secondary mb-3 p-4 background-primary rounded">Primera sesión gratuita</h2>
+         <p class="mb-2"> <b>1 sesion</b> </p>
+         <p class="mb-2"> <i class="fas fa-hourglass-start"></i> Duración 45 minutos </p>
+         <p class="m-1">
+           Inversión: € 0
+         </p>
+         <p class="m-0 color-text-gris">
+           Es gratis
+         </p>
+       </div>
        
+       <div class="mt-5"></div>
+       <div class="col-11 col-lg-6 my-5">
+        <a href="{{route('get_contacto','-para-coordinar-llamada')}}" class="Boton-Primario-Sin-Relleno Boton-Fuente-Chico">Coordinar ahora mismo <i class="fas fa-chevron-right"></i></a>  
+
+        <p>
+          <small>También puedes escribirme por  <a  :href="empresa.link_whatsapp_send">Whatsapp</a> </small>
+        </p>     
+       </div>
      </div>
+
+
+
     </div>
 </div>
 
