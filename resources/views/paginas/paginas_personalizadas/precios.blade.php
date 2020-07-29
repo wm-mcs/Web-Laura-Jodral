@@ -189,7 +189,7 @@
        
        <div class="mt-5"></div>
        <div class="col-11 col-lg-6 my-5">
-        <a href="{{route('get_contacto','-para-coordinar-llamada')}}" class="Boton-Primario-Sin-Relleno Boton-Fuente-Chico">Coordinar ahora mismo <i class="fas fa-chevron-right"></i></a>  
+        <a href="{{route('get_pagina_contacto','-para-coordinar-llamada')}}" class="Boton-Primario-Sin-Relleno Boton-Fuente-Chico">Coordinar ahora mismo <i class="fas fa-chevron-right"></i></a>  
 
         <p>
           <small>También puedes escribirme por  <a  :href="empresa.link_whatsapp_send">Whatsapp</a> </small>
