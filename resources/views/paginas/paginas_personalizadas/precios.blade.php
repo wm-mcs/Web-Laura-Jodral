@@ -97,7 +97,7 @@
         <div style="height: 100vh;" class="row align-items-center justify-content-center">
           <div class="col-10 col-lg-6 p-2 p-lg-5 d-flex flex-column align-items-center  text-center" >
              <h1  class="titulos-class text-white font-secondary mb-4">Precios</h1>
-             <div class="col-6 col-lg-3 p-5 mb-3">                  
+             <div class="w-75 p-5 mb-3">                  
                <img data-src="{{url()}}/imagenes/Contacto/Laura-Jodral-contacto-terapias-foto-chica.jpg" 
                  class="img-fluid p5 rounded-circle">
              </div>
