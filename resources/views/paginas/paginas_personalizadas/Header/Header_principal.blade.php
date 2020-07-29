@@ -30,6 +30,8 @@
 
                 <li><a href="{{route('get_pagina_servicios')}}" class="text-uppercase">Servicios</a></li>
                 <li><a href="{{route('get_que_hizo_laura')}}" class="text-uppercase">Trayectoría</a></li>
+                 <li><a href="{{route('get_precios')}}" class="text-uppercase">Precios</a></li>
+
                 <li><a :href="empresa.route_contacto_comun" class="text-uppercase">Contacto</a></li>
                 @if(!Auth::guest())
                   <li><a href="{{route('get_datos_corporativos')}}" class="text-uppercase">Administrar</a></li>
